@@ -7,12 +7,4 @@ listing:
     - holyoke.qmd
   fields: [title]
 ---
-
-# - text: Course Work
-#        icon: clipboard2-data # https://icons.getbootstrap.com/icons/clipboard2-data/
-#        menu:
-#          - text: Track and Field Project
-#            href: track.qmd
-#          - text: Holyoke History
-#            href: holyoke.qmd
             

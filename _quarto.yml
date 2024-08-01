@@ -17,7 +17,7 @@ website:
       
 format:
   html:
-    theme: lumen # journal, minty, pulse, sketchy, superhero, united, yeti
-    highlight-style: breeze # tango, gruvbox, tango, dracula (dark), oblivion
+    theme: pulse # lumin, minty, pulse, sketchy, superhero, united, yeti
+    highlight-style: breeze # breeze, gruvbox, tango, dracula (dark), oblivion
     css: styles.css
     toc: true
