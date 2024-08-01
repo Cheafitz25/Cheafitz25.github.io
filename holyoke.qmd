@@ -1,0 +1,11 @@
+---
+title: "History of Holyoke Project"
+---
+
+This is my final project in a statistics course from Spring 2022. My report analyzed an old resister for a paper company in the 1860s. I spent countless hours transcribing the text to form a database that I could then make inferences on. 
+
+## Github Link 
+
+Click the [here](https://github.com/Cheafitz25/Holyoke-project-Heafitz) to access the Github Repository. 
+
+

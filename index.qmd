@@ -1,11 +1,18 @@
 ---
-title: "Github_folder"
+title: "Course Work"
+listing:
+  type: grid
+  contents:
+    - track.qmd
+    - holyoke.qmd
+  fields: [title]
 ---
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
-```
+# - text: Course Work
+#        icon: clipboard2-data # https://icons.getbootstrap.com/icons/clipboard2-data/
+#        menu:
+#          - text: Track and Field Project
+#            href: track.qmd
+#          - text: Holyoke History
+#            href: holyoke.qmd
+            

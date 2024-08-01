@@ -1,20 +1,23 @@
 project:
   type: website
-  output-dir: docs
+  output-dir: docs # required for launching site on github
   
 website:
-  title: "Github_folder"
+  title: "Camden J. Heafitz"
   navbar:
     left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
-
+      - text: Home
+        href: index.qmd
+        icon: house-door # https://icons.getbootstrap.com/icons/house-door/
+    right: 
+      - text: Contact Information
+        href: about.qmd
+        icon: telephone # https://icons.getbootstrap.com/icons/telephone/
+      
+      
 format:
   html:
-    theme: cosmo
+    theme: lumen # journal, minty, pulse, sketchy, superhero, united, yeti
+    highlight-style: breeze # tango, gruvbox, tango, dracula (dark), oblivion
     css: styles.css
     toc: true
-
-
-
