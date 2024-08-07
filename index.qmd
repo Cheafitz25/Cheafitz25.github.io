@@ -7,4 +7,4 @@ listing:
     - holyoke.qmd
   fields: [title]
 ---
-            
+Hello! Welcome to my portfolio compiling my final projects in previous Statistics and Data Science courses at Amherst College. I am most passionate about my Track and Field project where I analyzed over 10 years worth of collegiate track and field data to give an interesting perspective on my conference's history.           

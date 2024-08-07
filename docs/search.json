@@ -18,14 +18,14 @@
     "href": "index.html",
     "title": "Course Work",
     "section": "",
-    "text": "History of Holyoke Project\n\n\n\n\n\n\n\n\n\n\nTrack and Field Data Science Project\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Hello! Welcome to my portfolio compiling my final projects in previous Statistics and Data Science courses at Amherst College. I am most passionate about my Track and Field project where I analyzed over 10 years worth of collegiate track and field data to give an interesting perspective on my conference’s history.\n\n\n\n\n\n\n\n\n\n\n\nHistory of Holyoke Project\n\n\n\n\n\n\n\n\n\n\nTrack and Field Data Science Project\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "track.html",
     "href": "track.html",
     "title": "Track and Field Data Science Project",
     "section": "",
-    "text": "This is my final project in my data science course from Fall 2023. My Shiny App analyzes the last 14 years of the Division III New England Region Track and Field Championships. Click the link below to access the Github Repository."
+    "text": "This is my final project in my data science course from Fall 2023. My Shiny App analyzes the last 14 years of the Division III New England Region Track and Field Championships. See which events have been dominated by which schools, and how significant the margins of improvement are from year to year. Click the link below to access the Github Repository."
   },
   {
     "objectID": "track.html#github-link",
