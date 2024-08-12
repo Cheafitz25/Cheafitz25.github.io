@@ -1,0 +1,9 @@
+---
+title: "The History of Holyoke Parsons Paper Company"
+---
+
+This was my final project in a statistics course from Spring 2022. My report analyzed an old register for the Parsons Paper Company of Holyoke, Ma in the 1860s. The register was found in an attic in Holyoke and brought to the attention of my professor, who then tasked my class with curating a report that analyzes the register in an interesting way. I spent countless hours transcribing the names on each page to form a database that I could then use R to make inferences on. My final report is below.
+
+## Final Report
+
+<embed src="report.pdf" width="100%" height="800px">

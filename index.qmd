@@ -1,10 +1,14 @@
 ---
-title: "Course Work"
+title: "Portfolio"
 listing:
   type: grid
   contents:
-    - track.qmd
-    - holyoke.qmd
+    - aatrack.qmd
+    - bbholyoke.qmd
   fields: [title]
 ---
-Hello! Welcome to my portfolio compiling my final projects in previous Statistics and Data Science courses at Amherst College. I am most passionate about my Track and Field project where I analyzed over 10 years worth of collegiate track and field data to give an interesting perspective on my conference's history.           
+## About Me
+
+Hello, I am Camden Heafitz from Marblehead, MA, a rising senior at Amherst College. I am double majoring in statistics and psychology and one of the captains of the Men’s Track and Field team. In my spare time, I am writing a psychology honors thesis about the effects of stress and caffeine on performance and persistence. In addition, I practice guitar, piano and vocals in a band on campus. My true interests lie in data science, sports, and music. 
+
+Welcome to my portfolio compiling my final projects in previous Statistics and Data Science courses at Amherst College. I am most passionate about my Track and Field project where I analyzed over 10 years worth of collegiate track and field data to give an interesting perspective on my conference's history.           

@@ -1,44 +1,51 @@
 [
   {
-    "objectID": "holyoke.html",
-    "href": "holyoke.html",
-    "title": "History of Holyoke Project",
-    "section": "",
-    "text": "This is my final project in a statistics course from Spring 2022. My report analyzed an old resister for a paper company in the 1860s. I spent countless hours transcribing the text to form a database that I could then make inferences on."
-  },
-  {
-    "objectID": "holyoke.html#github-link",
-    "href": "holyoke.html#github-link",
-    "title": "History of Holyoke Project",
-    "section": "Github Link",
-    "text": "Github Link\nClick the here to access the Github Repository."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Course Work",
-    "section": "",
-    "text": "Hello! Welcome to my portfolio compiling my final projects in previous Statistics and Data Science courses at Amherst College. I am most passionate about my Track and Field project where I analyzed over 10 years worth of collegiate track and field data to give an interesting perspective on my conference’s history.\n\n\n\n\n\n\n\n\n\n\n\nHistory of Holyoke Project\n\n\n\n\n\n\n\n\n\n\nTrack and Field Data Science Project\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "track.html",
-    "href": "track.html",
-    "title": "Track and Field Data Science Project",
-    "section": "",
-    "text": "This is my final project in my data science course from Fall 2023. My Shiny App analyzes the last 14 years of the Division III New England Region Track and Field Championships. See which events have been dominated by which schools, and how significant the margins of improvement are from year to year. Click the link below to access the Github Repository."
-  },
-  {
-    "objectID": "track.html#github-link",
-    "href": "track.html#github-link",
-    "title": "Track and Field Data Science Project",
-    "section": "Github Link",
-    "text": "Github Link\nClick the here to access the Github Repository."
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "Contact Information",
     "section": "",
     "text": "Phone Number: 781-513-6789\nPersonal Email: Camdenj43@gmail.com\nLinkedIn: LinkedIn"
+  },
+  {
+    "objectID": "aatrack.html",
+    "href": "aatrack.html",
+    "title": "Collegiate Track and Field Data Science Insights",
+    "section": "",
+    "text": "This was my final project in my data science course from Fall 2023. The project involved finding an enticing data set and making fascinating insights and visual displays. I analyzed the last 14 years of the Division III New England Region Track and Field Championships, Amherst’s Indoor championship meet. Below is my shiny app interface. See which events have been dominated by which schools, and how significant the margins of improvement are from year to year."
+  },
+  {
+    "objectID": "aatrack.html#shiny-app",
+    "href": "aatrack.html#shiny-app",
+    "title": "Collegiate Track and Field Data Science Insights",
+    "section": "Shiny App",
+    "text": "Shiny App"
+  },
+  {
+    "objectID": "bbholyoke.html",
+    "href": "bbholyoke.html",
+    "title": "The History of Holyoke Parsons Paper Company",
+    "section": "",
+    "text": "This was my final project in a statistics course from Spring 2022. My report analyzed an old register for the Parsons Paper Company of Holyoke, Ma in the 1860s. The register was found in an attic in Holyoke and brought to the attention of my professor, who then tasked my class with curating a report that analyzes the register in an interesting way. I spent countless hours transcribing the names on each page to form a database that I could then use R to make inferences on. My final report is below."
+  },
+  {
+    "objectID": "bbholyoke.html#final-report",
+    "href": "bbholyoke.html#final-report",
+    "title": "The History of Holyoke Parsons Paper Company",
+    "section": "Final Report",
+    "text": "Final Report"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Portfolio",
+    "section": "",
+    "text": "Hello, I am Camden Heafitz from Marblehead, MA, a rising senior at Amherst College. I am double majoring in statistics and psychology and one of the captains of the Men’s Track and Field team. In my spare time, I am writing a psychology honors thesis about the effects of stress and caffeine on performance and persistence. In addition, I practice guitar, piano and vocals in a band on campus. My true interests lie in data science, sports, and music.\nWelcome to my portfolio compiling my final projects in previous Statistics and Data Science courses at Amherst College. I am most passionate about my Track and Field project where I analyzed over 10 years worth of collegiate track and field data to give an interesting perspective on my conference’s history."
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Portfolio",
+    "section": "",
+    "text": "Hello, I am Camden Heafitz from Marblehead, MA, a rising senior at Amherst College. I am double majoring in statistics and psychology and one of the captains of the Men’s Track and Field team. In my spare time, I am writing a psychology honors thesis about the effects of stress and caffeine on performance and persistence. In addition, I practice guitar, piano and vocals in a band on campus. My true interests lie in data science, sports, and music.\nWelcome to my portfolio compiling my final projects in previous Statistics and Data Science courses at Amherst College. I am most passionate about my Track and Field project where I analyzed over 10 years worth of collegiate track and field data to give an interesting perspective on my conference’s history."
   }
 ]
