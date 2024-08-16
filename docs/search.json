@@ -1,10 +1,17 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Contact Information",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Portfolio",
     "section": "",
-    "text": "Phone Number: 781-513-6789\nPersonal Email: Camdenj43@gmail.com\nLinkedIn: LinkedIn"
+    "text": "Profile Photo\n\n\nHello, I am Camden Heafitz from Marblehead, MA, a rising senior at Amherst College. I am double majoring in statistics and psychology and one of the captains of the Men’s Track and Field team. In my spare time, I am writing a psychology honors thesis about the effects of stress and caffeine on performance and persistence. In addition, I practice guitar, piano and vocals in a band on campus. My true interests lie in data science, sports, and music.\nWelcome to my portfolio compiling my final projects in previous Statistics and Data Science courses at Amherst College. I am most passionate about my Track and Field project where I analyzed over 10 years worth of collegiate track and field data to give an interesting perspective on my conference’s history."
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Portfolio",
+    "section": "",
+    "text": "Profile Photo\n\n\nHello, I am Camden Heafitz from Marblehead, MA, a rising senior at Amherst College. I am double majoring in statistics and psychology and one of the captains of the Men’s Track and Field team. In my spare time, I am writing a psychology honors thesis about the effects of stress and caffeine on performance and persistence. In addition, I practice guitar, piano and vocals in a band on campus. My true interests lie in data science, sports, and music.\nWelcome to my portfolio compiling my final projects in previous Statistics and Data Science courses at Amherst College. I am most passionate about my Track and Field project where I analyzed over 10 years worth of collegiate track and field data to give an interesting perspective on my conference’s history."
   },
   {
     "objectID": "aatrack.html",
@@ -35,17 +42,38 @@
     "text": "Final Report"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Portfolio",
+    "objectID": "ddbailey.html",
+    "href": "ddbailey.html",
+    "title": "Data Preparation for Randomized Cluster Trials",
     "section": "",
-    "text": "Hello, I am Camden Heafitz from Marblehead, MA, a rising senior at Amherst College. I am double majoring in statistics and psychology and one of the captains of the Men’s Track and Field team. In my spare time, I am writing a psychology honors thesis about the effects of stress and caffeine on performance and persistence. In addition, I practice guitar, piano and vocals in a band on campus. My true interests lie in data science, sports, and music.\nWelcome to my portfolio compiling my final projects in previous Statistics and Data Science courses at Amherst College. I am most passionate about my Track and Field project where I analyzed over 10 years worth of collegiate track and field data to give an interesting perspective on my conference’s history."
+    "text": "In my most recent position with Professor Bailey of the Statistics Department at Amherst College, I was tasked with cleaning data from randomized cluster trials. Professor Bailey’s research focused on theoretically simulating the results of a type of clinical study, randomized cluster trials when there is missing data. Since there are relatively few randomized cluster trials with public data files, my task was to find and prepare the data for my professor’s research. This process consisted of conducting exploratory data analysis (EDA) for continuous variable outcomes, summarizing study parameters (such as the number of clusters, number of clusters per treatment, etc.), and finally, creating correlation matrices for the outcome variables. Overall, this process helped fine-tune my EDA and data-wrangling skills. It was a pleasure to assist Professor with her research, and I hope to tackle more projects soon. Look through the code below to see the data preparation process for one study’s data."
   },
   {
-    "objectID": "index.html#about-me",
-    "href": "index.html#about-me",
-    "title": "Portfolio",
+    "objectID": "ddbailey.html#data-preparation",
+    "href": "ddbailey.html#data-preparation",
+    "title": "Data Preparation for Randomized Cluster Trials",
+    "section": "Data Preparation",
+    "text": "Data Preparation"
+  },
+  {
+    "objectID": "ccopioids.html",
+    "href": "ccopioids.html",
+    "title": "Opioids vs. Non-Opioids: A Sleep Study",
     "section": "",
-    "text": "Hello, I am Camden Heafitz from Marblehead, MA, a rising senior at Amherst College. I am double majoring in statistics and psychology and one of the captains of the Men’s Track and Field team. In my spare time, I am writing a psychology honors thesis about the effects of stress and caffeine on performance and persistence. In addition, I practice guitar, piano and vocals in a band on campus. My true interests lie in data science, sports, and music.\nWelcome to my portfolio compiling my final projects in previous Statistics and Data Science courses at Amherst College. I am most passionate about my Track and Field project where I analyzed over 10 years worth of collegiate track and field data to give an interesting perspective on my conference’s history."
+    "text": "During my internship with Professor Matheson of the Statistics Department at Amherst College, I spent time comparing the effectiveness of opioids and non-opioids (Tylenol, Ibuprofen, Advil, etc.) among patients who recently had wisdom teeth surgery. Patients were given an ActiGraph that measured their periods of sleep after their surgery for 72 hours and an electric pill bottle that recorded when the bottle was opened and how many pills were removed from the bottle. The sleep data was reviewed by a board-certified sleep physician.\nWhat my professor noticed is that some patients had little blips in their actigraphy records in the middle of the night. The sleep physician originally dismissed these recordings as the patient simply tossing and turning, not in a fully awake state. However, if we lined up the time stamps on the pill bottles to the actigraphy data, we saw that those little blips were the patients getting up in the middle of the night to take more pills. The question was, were the patients waking up in the night to take more pills prescribed opioids or non-opioids? It was my task to provide evidence that the opioid patients were exhibiting worse sleep, more pain, and taking more pills than non-opioid patients, suggesting that non-opioid medication is not inferior to opioid medication.\nI spent a great deal of time developing a graphic called a lasagna plot. This specific plot can be used to layer time course data for multiple observations. Below, you can see the code used to read the data, clean and join it together, and then arrange it into the lasagna plot. I interned with Professor Matheson before I had taken any data science courses, so this was one of the first major projects I worked on. Overall, the experience was incredibly rewarding and educational. I got to learn the basics of SAS, but the bulk of my work was in R. Additionally, I was using data from the pilot study, which only had 41 participants. Currently, there are over 1,800 participants.\nThe black lines represent a pill bottle being opened. What you can see is that patients prescribed opioids were waking up in the night more often and taking more pills than non-opioid patients. With the help of Professor Matheson, this graphic was able to better inform the study’s conclusions."
+  },
+  {
+    "objectID": "ccopioids.html#lasagna-plot",
+    "href": "ccopioids.html#lasagna-plot",
+    "title": "Opioids vs. Non-Opioids: A Sleep Study",
+    "section": "Lasagna Plot",
+    "text": "Lasagna Plot"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Contact Information",
+    "section": "",
+    "text": "Email: Camdenj43@gmail.com\nLinkedIn"
   }
 ]

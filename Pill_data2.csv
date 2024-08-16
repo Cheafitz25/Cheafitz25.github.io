@@ -1,0 +1,1178 @@
+alias,patient_id,study_id,unique_id,redcap_event_name,redcap_repeat_instrument,identifier,smrxt_bottle_datetime,smrxt_timezone,smrxt_bottle_pills,uncorrected_amount,smrxt_is_corrected,smrxt_correction_annotate,nomi_tracking_data_complete,redcap_project_name
+ACY-F-001,481,6,event:52153,study_subject_even_arm_1,nomi_tracking_data,XDVFL,2020-06-19 16:39:01,America/New_York,20,20,0,,2,OARS EDC Pilot
+ACY-F-001,481,6,event:52154,study_subject_even_arm_1,nomi_tracking_data,HCCNW,2020-06-19 16:39:56,America/New_York,20,20,0,,2,OARS EDC Pilot
+ACY-F-001,481,6,event:52324,study_subject_even_arm_1,nomi_tracking_data,XDVFL,2020-07-06 14:26:26,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-F-001,481,6,event:52325,study_subject_even_arm_1,nomi_tracking_data,HCCNW,2020-07-06 14:34:17,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-M-001,486,8,event:52332,study_subject_even_arm_1,nomi_tracking_data,WHJGV,2020-07-06 17:08:31,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-M-001,486,8,event:52333,study_subject_even_arm_1,nomi_tracking_data,TXPSJ,2020-07-06 17:08:38,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-F-001,481,6,event:52335,study_subject_even_arm_1,nomi_tracking_data,XDVFL,2020-07-06 18:26:41,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-F-001,481,6,event:52342,study_subject_even_arm_1,nomi_tracking_data,HCCNW,2020-07-07 04:48:38,America/New_York,-2,-2,0,,2,OARS EDC Pilot
+ACY-F-001,481,6,event:52345,study_subject_even_arm_1,nomi_tracking_data,XDVFL,2020-07-07 11:11:42,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-F-001,481,6,event:52373,study_subject_even_arm_1,nomi_tracking_data,XDVFL,2020-07-07 16:46:32,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-F-001,481,6,event:52374,study_subject_even_arm_1,nomi_tracking_data,HCCNW,2020-07-07 16:46:36,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-M-001,486,8,event:52377,study_subject_even_arm_1,nomi_tracking_data,WHJGV,2020-07-07 20:45:06,America/New_York,-2,-2,0,,2,OARS EDC Pilot
+ACY-M-001,486,8,event:52378,study_subject_even_arm_1,nomi_tracking_data,TXPSJ,2020-07-07 20:45:17,America/New_York,-2,-2,0,,2,OARS EDC Pilot
+ACY-F-001,481,6,event:52380,study_subject_even_arm_1,nomi_tracking_data,XDVFL,2020-07-07 21:07:46,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-F-001,481,6,event:52379,study_subject_even_arm_1,nomi_tracking_data,HCCNW,2020-07-07 21:07:47,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-F-001,481,6,event:52381,study_subject_even_arm_1,nomi_tracking_data,HCCNW,2020-07-07 21:08:35,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-F-001,481,6,event:52404,study_subject_even_arm_1,nomi_tracking_data,XDVFL,2020-07-08 03:03:13,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-F-001,481,6,correction:1441,study_subject_even_arm_1,nomi_tracking_data,XDVFL,2020-07-08 09:03:00,America/New_York,-1,0,1,"Due to a very poor signal, Nomi was unable to process this message. Upon further investigation, enough weight was removed around the given time to count as a capsule taken.",2,OARS EDC Pilot
+ACY-F-001,481,6,event:52387,study_subject_even_arm_1,nomi_tracking_data,HCCNW,2020-07-08 09:04:17,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-M-001,486,8,event:52399,study_subject_even_arm_1,nomi_tracking_data,WHJGV,2020-07-08 11:14:04,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-M-001,486,8,event:52401,study_subject_even_arm_1,nomi_tracking_data,WHJGV,2020-07-08 11:17:48,America/New_York,1,1,0,,2,OARS EDC Pilot
+ACY-M-001,486,8,event:52402,study_subject_even_arm_1,nomi_tracking_data,TXPSJ,2020-07-08 11:21:45,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-M-001,486,8,event:52403,study_subject_even_arm_1,nomi_tracking_data,TXPSJ,2020-07-08 11:26:41,America/New_York,1,0,1,"About the same amount of weight added back to the bottle, but due to being a close threshold, was originally counted as not a capsule being added back.",2,OARS EDC Pilot
+ACY-F-001,481,6,event:52405,study_subject_even_arm_1,nomi_tracking_data,XDVFL,2020-07-08 13:11:23,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-F-001,481,6,event:52406,study_subject_even_arm_1,nomi_tracking_data,HCCNW,2020-07-08 13:12:29,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-F-001,481,6,event:52409,study_subject_even_arm_1,nomi_tracking_data,XDVFL,2020-07-08 16:26:04,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-F-001,481,6,event:52408,study_subject_even_arm_1,nomi_tracking_data,HCCNW,2020-07-08 16:26:04,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-M-001,486,8,event:52449,study_subject_even_arm_1,nomi_tracking_data,WHJGV,2020-07-13 23:20:37,America/New_York,-3,-3,0,,2,OARS EDC Pilot
+ACY-M-001,486,8,event:52450,study_subject_even_arm_1,nomi_tracking_data,TXPSJ,2020-07-13 23:21:00,America/New_York,-3,-3,0,,2,OARS EDC Pilot
+ACY-F-001,481,6,event:52455,study_subject_even_arm_1,nomi_tracking_data,XDVFL,2020-07-14 09:42:26,America/New_York,1,1,0,,2,OARS EDC Pilot
+ACY-F-001,481,6,event:52457,study_subject_even_arm_1,nomi_tracking_data,XDVFL,2020-07-14 09:43:26,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-M-001,486,8,event:52934,study_subject_even_arm_1,nomi_tracking_data,TXPSJ,2020-08-14 13:17:23,America/New_York,-14,-14,0,,2,OARS EDC Pilot
+ACY-M-001,486,8,event:52935,study_subject_even_arm_1,nomi_tracking_data,WHJGV,2020-08-14 13:19:01,America/New_York,-14,-14,0,,2,OARS EDC Pilot
+ACY-F-001,481,6,event:52951,study_subject_even_arm_1,nomi_tracking_data,XDVFL,2020-08-14 15:28:47,America/New_York,-11,-11,0,,2,OARS EDC Pilot
+ACY-F-001,481,6,event:52952,study_subject_even_arm_1,nomi_tracking_data,HCCNW,2020-08-14 15:30:00,America/New_York,-11,-11,0,,2,OARS EDC Pilot
+ACY-F-001,481,6,event:53123,study_subject_even_arm_1,nomi_tracking_data,HCCNW,2020-08-26 14:24:21,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-F-001,481,6,event:53124,study_subject_even_arm_1,nomi_tracking_data,HCCNW,2020-08-26 14:25:17,America/New_York,1,1,0,,2,OARS EDC Pilot
+ACY-F-001,481,6,event:53126,study_subject_even_arm_1,nomi_tracking_data,XDVFL,2020-08-26 14:59:40,America/New_York,-10,-10,0,,2,OARS EDC Pilot
+ACY-F-001,481,6,event:53127,study_subject_even_arm_1,nomi_tracking_data,XDVFL,2020-08-26 15:00:59,America/New_York,10,10,0,,2,OARS EDC Pilot
+ACY-F-001,481,6,event:53238,study_subject_even_arm_1,nomi_tracking_data,XDVFL,2020-09-01 10:39:02,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-F-001,481,6,event:53239,study_subject_even_arm_1,nomi_tracking_data,XDVFL,2020-09-01 10:41:10,America/New_York,1,1,0,,2,OARS EDC Pilot
+ACY-F-002,482,10,event:52171,study_subject_even_arm_1,nomi_tracking_data,FVGZC,2020-06-22 15:12:04,America/New_York,19,19,0,,2,OARS EDC Pilot
+ACY-F-002,482,10,event:52172,study_subject_even_arm_1,nomi_tracking_data,WXJCK,2020-06-22 15:13:24,America/New_York,20,20,0,,2,OARS EDC Pilot
+ACY-F-002,482,10,event:52506,study_subject_even_arm_1,nomi_tracking_data,WXJCK,2020-07-17 15:54:48,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-F-002,482,10,event:52507,study_subject_even_arm_1,nomi_tracking_data,FVGZC,2020-07-17 17:39:48,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-F-002,482,10,event:52510,study_subject_even_arm_1,nomi_tracking_data,WXJCK,2020-07-17 22:51:03,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-F-002,482,10,event:52511,study_subject_even_arm_1,nomi_tracking_data,FVGZC,2020-07-17 22:51:14,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-F-002,482,10,event:52512,study_subject_even_arm_1,nomi_tracking_data,WXJCK,2020-07-18 06:35:05,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-F-002,482,10,event:52513,study_subject_even_arm_1,nomi_tracking_data,FVGZC,2020-07-18 06:35:18,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-F-002,482,10,event:52519,study_subject_even_arm_1,nomi_tracking_data,WXJCK,2020-07-18 19:18:48,America/New_York,-2,-2,0,,2,OARS EDC Pilot
+ACY-F-002,482,10,event:52520,study_subject_even_arm_1,nomi_tracking_data,FVGZC,2020-07-18 19:19:04,America/New_York,-2,-2,0,,2,OARS EDC Pilot
+ACY-F-002,482,10,event:52522,study_subject_even_arm_1,nomi_tracking_data,FVGZC,2020-07-19 00:56:40,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-F-002,482,10,event:52523,study_subject_even_arm_1,nomi_tracking_data,WXJCK,2020-07-19 00:56:52,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-F-002,482,10,event:52525,study_subject_even_arm_1,nomi_tracking_data,WXJCK,2020-07-19 09:25:50,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-F-002,482,10,event:52526,study_subject_even_arm_1,nomi_tracking_data,FVGZC,2020-07-19 09:26:06,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-F-002,482,10,event:52530,study_subject_even_arm_1,nomi_tracking_data,WXJCK,2020-07-19 19:29:34,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-F-002,482,10,event:52533,study_subject_even_arm_1,nomi_tracking_data,FVGZC,2020-07-20 02:27:07,America/New_York,-2,-2,0,,2,OARS EDC Pilot
+ACY-F-002,482,10,event:52532,study_subject_even_arm_1,nomi_tracking_data,WXJCK,2020-07-20 02:27:08,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-F-002,482,10,event:52551,study_subject_even_arm_1,nomi_tracking_data,FVGZC,2020-07-20 16:42:50,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-F-002,482,10,event:52552,study_subject_even_arm_1,nomi_tracking_data,WXJCK,2020-07-20 16:43:22,America/New_York,-2,-2,0,,2,OARS EDC Pilot
+ACY-F-002,482,10,event:52558,study_subject_even_arm_1,nomi_tracking_data,WXJCK,2020-07-21 02:14:13,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-F-002,482,10,event:52557,study_subject_even_arm_1,nomi_tracking_data,FVGZC,2020-07-21 02:14:14,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-F-002,482,10,event:52568,study_subject_even_arm_1,nomi_tracking_data,WXJCK,2020-07-21 22:31:32,America/New_York,-2,-2,0,,2,OARS EDC Pilot
+ACY-F-002,482,10,event:52569,study_subject_even_arm_1,nomi_tracking_data,FVGZC,2020-07-21 22:31:47,America/New_York,-2,-2,0,,2,OARS EDC Pilot
+ACY-F-002,482,10,event:52949,study_subject_even_arm_1,nomi_tracking_data,FVGZC,2020-08-14 15:21:56,America/New_York,-7,-7,0,,2,OARS EDC Pilot
+ACY-F-002,482,10,event:52950,study_subject_even_arm_1,nomi_tracking_data,WXJCK,2020-08-14 15:23:19,America/New_York,-6,-6,0,,2,OARS EDC Pilot
+ACY-M-002,485,12,event:52178,study_subject_even_arm_1,nomi_tracking_data,PHLKZ,2020-06-22 15:53:23,America/New_York,0,-16,1,No units removed or added after dispense.,2,OARS EDC Pilot
+ACY-M-002,485,12,event:52179,study_subject_even_arm_1,nomi_tracking_data,PHLKZ,2020-06-22 15:54:13,America/New_York,0,16,1,No units removed or added after dispense.,2,OARS EDC Pilot
+ACY-M-002,485,12,event:52614,study_subject_even_arm_1,nomi_tracking_data,JCFFT,2020-07-27 11:14:42,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-M-002,485,12,event:52615,study_subject_even_arm_1,nomi_tracking_data,PHLKZ,2020-07-27 11:14:54,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-M-002,485,12,event:52627,study_subject_even_arm_1,nomi_tracking_data,JCFFT,2020-07-27 17:37:55,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-M-002,485,12,event:52628,study_subject_even_arm_1,nomi_tracking_data,PHLKZ,2020-07-27 17:38:08,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-M-002,485,12,event:52630,study_subject_even_arm_1,nomi_tracking_data,PHLKZ,2020-07-27 23:17:17,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-M-002,485,12,event:52631,study_subject_even_arm_1,nomi_tracking_data,JCFFT,2020-07-27 23:17:58,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-M-002,485,12,event:52634,study_subject_even_arm_1,nomi_tracking_data,PHLKZ,2020-07-28 08:40:05,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-M-002,485,12,event:52635,study_subject_even_arm_1,nomi_tracking_data,JCFFT,2020-07-28 08:40:16,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-M-002,485,12,event:52651,study_subject_even_arm_1,nomi_tracking_data,JCFFT,2020-07-28 14:15:11,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-M-002,485,12,event:52652,study_subject_even_arm_1,nomi_tracking_data,PHLKZ,2020-07-28 14:15:29,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-M-002,485,12,event:52663,study_subject_even_arm_1,nomi_tracking_data,JCFFT,2020-07-29 00:16:34,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-M-002,485,12,event:52664,study_subject_even_arm_1,nomi_tracking_data,PHLKZ,2020-07-29 00:16:51,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-M-002,485,12,event:52666,study_subject_even_arm_1,nomi_tracking_data,JCFFT,2020-07-29 08:51:02,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-M-002,485,12,event:52667,study_subject_even_arm_1,nomi_tracking_data,PHLKZ,2020-07-29 08:51:23,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-M-002,485,12,event:52674,study_subject_even_arm_1,nomi_tracking_data,PHLKZ,2020-07-29 17:03:40,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-M-002,485,12,event:52675,study_subject_even_arm_1,nomi_tracking_data,JCFFT,2020-07-29 17:03:54,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-M-002,485,12,event:52677,study_subject_even_arm_1,nomi_tracking_data,JCFFT,2020-07-29 23:50:23,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-M-002,485,12,event:52678,study_subject_even_arm_1,nomi_tracking_data,PHLKZ,2020-07-29 23:50:55,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-M-002,485,12,event:52681,study_subject_even_arm_1,nomi_tracking_data,JCFFT,2020-07-30 09:19:05,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-M-002,485,12,event:52682,study_subject_even_arm_1,nomi_tracking_data,PHLKZ,2020-07-30 09:19:19,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-M-002,485,12,event:52685,study_subject_even_arm_1,nomi_tracking_data,JCFFT,2020-07-30 19:03:29,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-M-002,485,12,event:52686,study_subject_even_arm_1,nomi_tracking_data,PHLKZ,2020-07-30 19:03:39,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-M-002,485,12,event:52687,study_subject_even_arm_1,nomi_tracking_data,JCFFT,2020-07-30 23:17:24,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-M-002,485,12,event:52688,study_subject_even_arm_1,nomi_tracking_data,PHLKZ,2020-07-30 23:17:52,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-M-002,485,12,event:52693,study_subject_even_arm_1,nomi_tracking_data,PHLKZ,2020-07-31 08:48:22,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-M-002,485,12,event:52694,study_subject_even_arm_1,nomi_tracking_data,JCFFT,2020-07-31 08:48:34,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-M-002,485,12,event:52705,study_subject_even_arm_1,nomi_tracking_data,PHLKZ,2020-07-31 23:27:54,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-M-002,485,12,event:52706,study_subject_even_arm_1,nomi_tracking_data,JCFFT,2020-07-31 23:28:07,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-M-002,485,12,event:52716,study_subject_even_arm_1,nomi_tracking_data,JCFFT,2020-08-02 00:37:49,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-M-002,485,12,event:52717,study_subject_even_arm_1,nomi_tracking_data,PHLKZ,2020-08-02 00:38:06,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-M-002,485,12,event:53139,study_subject_even_arm_1,nomi_tracking_data,PHLKZ,2020-08-27 19:48:43,America/New_York,-5,-5,0,,2,OARS EDC Pilot
+ACY-F-003,483,14,event:52173,study_subject_even_arm_1,nomi_tracking_data,CCLRP,2020-06-22 15:26:14,America/New_York,20,20,0,,2,OARS EDC Pilot
+ACY-F-003,483,14,event:52174,study_subject_even_arm_1,nomi_tracking_data,DMCHP,2020-06-22 15:27:20,America/New_York,20,20,0,,2,OARS EDC Pilot
+ACY-M-003,487,13,event:52181,study_subject_even_arm_1,nomi_tracking_data,WLDZT,2020-06-22 16:14:05,America/New_York,20,20,0,,2,OARS EDC Pilot
+ACY-M-003,487,13,event:52182,study_subject_even_arm_1,nomi_tracking_data,HVFBH,2020-06-22 16:14:45,America/New_York,20,20,0,,2,OARS EDC Pilot
+ACY-M-003,487,13,event:52704,study_subject_even_arm_1,nomi_tracking_data,HVFBH,2020-07-31 18:00:27,America/New_York,-2,-2,0,,2,OARS EDC Pilot
+ACY-M-003,487,13,event:52707,study_subject_even_arm_1,nomi_tracking_data,WLDZT,2020-08-01 00:34:03,America/New_York,-3,-3,0,,2,OARS EDC Pilot
+ACY-M-003,487,13,event:52709,study_subject_even_arm_1,nomi_tracking_data,WLDZT,2020-08-01 08:51:23,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-M-003,487,13,event:52713,study_subject_even_arm_1,nomi_tracking_data,HVFBH,2020-08-01 13:30:55,America/New_York,-2,-2,0,,2,OARS EDC Pilot
+ACY-M-003,487,13,event:52714,study_subject_even_arm_1,nomi_tracking_data,HVFBH,2020-08-01 19:32:26,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-M-003,487,13,event:52722,study_subject_even_arm_1,nomi_tracking_data,HVFBH,2020-08-02 10:27:04,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-M-003,487,13,event:52721,study_subject_even_arm_1,nomi_tracking_data,WLDZT,2020-08-02 10:27:22,America/New_York,-2,-2,0,,2,OARS EDC Pilot
+ACY-M-003,487,13,event:52723,study_subject_even_arm_1,nomi_tracking_data,HVFBH,2020-08-02 15:02:05,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-M-003,487,13,event:52724,study_subject_even_arm_1,nomi_tracking_data,WLDZT,2020-08-02 15:02:15,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-F-003,483,14,event:52733,study_subject_even_arm_1,nomi_tracking_data,CCLRP,2020-08-03 10:01:28,America/New_York,0,2,1,Weight shift likely caused by transport.,2,OARS EDC Pilot
+ACY-F-003,483,14,event:52734,study_subject_even_arm_1,nomi_tracking_data,DMCHP,2020-08-03 10:02:01,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-F-003,483,14,event:52735,study_subject_even_arm_1,nomi_tracking_data,CCLRP,2020-08-03 10:02:13,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-M-003,487,13,event:52736,study_subject_even_arm_1,nomi_tracking_data,HVFBH,2020-08-03 11:01:21,America/New_York,-3,-3,0,,2,OARS EDC Pilot
+ACY-F-003,483,14,event:52750,study_subject_even_arm_1,nomi_tracking_data,DMCHP,2020-08-03 13:09:07,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-F-003,483,14,event:52751,study_subject_even_arm_1,nomi_tracking_data,CCLRP,2020-08-03 13:09:10,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-F-003,483,14,event:52778,study_subject_even_arm_1,nomi_tracking_data,DMCHP,2020-08-03 16:28:48,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-F-003,483,14,event:52777,study_subject_even_arm_1,nomi_tracking_data,CCLRP,2020-08-03 16:28:48,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-M-003,487,13,event:52784,study_subject_even_arm_1,nomi_tracking_data,HVFBH,2020-08-05 02:20:27,America/New_York,-3,-3,0,,2,OARS EDC Pilot
+ACY-M-003,487,13,event:52937,study_subject_even_arm_1,nomi_tracking_data,WLDZT,2020-08-14 13:23:53,America/New_York,-13,-13,0,,2,OARS EDC Pilot
+ACY-M-003,487,13,event:52938,study_subject_even_arm_1,nomi_tracking_data,HVFBH,2020-08-14 13:23:54,America/New_York,-7,-7,0,,2,OARS EDC Pilot
+ACY-F-003,483,14,event:52947,study_subject_even_arm_1,nomi_tracking_data,CCLRP,2020-08-14 15:14:48,America/New_York,-17,-17,0,,2,OARS EDC Pilot
+ACY-F-003,483,14,event:52948,study_subject_even_arm_1,nomi_tracking_data,DMCHP,2020-08-14 15:16:08,America/New_York,-17,-17,0,,2,OARS EDC Pilot
+ACY-M-004,488,16,event:52183,study_subject_even_arm_1,nomi_tracking_data,DGKHZ,2020-06-22 16:21:09,America/New_York,20,20,0,,2,OARS EDC Pilot
+ACY-M-004,488,16,event:52184,study_subject_even_arm_1,nomi_tracking_data,ZVCCZ,2020-06-22 16:21:43,America/New_York,20,20,0,,2,OARS EDC Pilot
+ACY-M-004,488,16,event:52790,study_subject_even_arm_1,nomi_tracking_data,DGKHZ,2020-08-05 14:01:43,America/New_York,0,-4,1,Charger weight change event,2,OARS EDC Pilot
+ACY-M-004,488,16,event:52792,study_subject_even_arm_1,nomi_tracking_data,DGKHZ,2020-08-05 14:03:12,America/New_York,0,4,1,Charger weight change event,2,OARS EDC Pilot
+ACY-M-004,488,16,event:52929,study_subject_even_arm_1,nomi_tracking_data,ZVCCZ,2020-08-14 11:53:03,America/New_York,-20,-20,0,,2,OARS EDC Pilot
+ACY-M-004,488,16,event:52931,study_subject_even_arm_1,nomi_tracking_data,ZVCCZ,2020-08-14 11:55:09,America/New_York,20,20,0,,2,OARS EDC Pilot
+ACY-M-004,488,16,event:52930,study_subject_even_arm_1,nomi_tracking_data,DGKHZ,2020-08-14 11:55:09,America/New_York,-20,-20,0,,2,OARS EDC Pilot
+ACY-M-004,488,16,event:52932,study_subject_even_arm_1,nomi_tracking_data,ZVCCZ,2020-08-14 12:11:37,America/New_York,-20,-20,0,,2,OARS EDC Pilot
+ACY-F-004,484,18,event:52175,study_subject_even_arm_1,nomi_tracking_data,CKJBB,2020-06-22 15:36:55,America/New_York,20,20,0,,2,OARS EDC Pilot
+ACY-F-004,484,18,event:52177,study_subject_even_arm_1,nomi_tracking_data,RDJDC,2020-06-22 15:37:46,America/New_York,20,20,0,,2,OARS EDC Pilot
+ACY-F-004,484,18,event:52176,study_subject_even_arm_1,nomi_tracking_data,CKJBB,2020-06-22 15:38:16,America/New_York,0,-4,1,No capsules removed or added after dispense.,2,OARS EDC Pilot
+ACY-F-004,484,18,event:52180,study_subject_even_arm_1,nomi_tracking_data,CKJBB,2020-06-22 16:02:37,America/New_York,0,3,1,No capsules removed or added after dispense.,2,OARS EDC Pilot
+ACY-F-004,484,18,event:52191,study_subject_even_arm_1,nomi_tracking_data,RDJDC,2020-06-23 13:36:15,America/New_York,1,1,0,,2,OARS EDC Pilot
+ACY-F-004,484,18,event:52226,study_subject_even_arm_1,nomi_tracking_data,RDJDC,2020-06-25 14:12:18,America/New_York,0,-1,1,Weight settling correction,2,OARS EDC Pilot
+ACY-F-004,484,18,event:52850,study_subject_even_arm_1,nomi_tracking_data,CKJBB,2020-08-10 20:08:03,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-F-004,484,18,event:52851,study_subject_even_arm_1,nomi_tracking_data,RDJDC,2020-08-10 20:08:17,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-F-004,484,18,event:52855,study_subject_even_arm_1,nomi_tracking_data,CKJBB,2020-08-11 06:50:14,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-F-004,484,18,event:52856,study_subject_even_arm_1,nomi_tracking_data,RDJDC,2020-08-11 06:50:27,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-F-004,484,18,event:52865,study_subject_even_arm_1,nomi_tracking_data,CKJBB,2020-08-12 00:34:56,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-F-004,484,18,event:52866,study_subject_even_arm_1,nomi_tracking_data,RDJDC,2020-08-12 00:35:24,America/New_York,-2,-2,0,,2,OARS EDC Pilot
+ACY-F-004,484,18,event:52871,study_subject_even_arm_1,nomi_tracking_data,RDJDC,2020-08-12 12:39:18,America/New_York,1,1,0,,2,OARS EDC Pilot
+ACY-F-004,484,18,event:52875,study_subject_even_arm_1,nomi_tracking_data,CKJBB,2020-08-13 00:02:09,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-F-004,484,18,event:52876,study_subject_even_arm_1,nomi_tracking_data,RDJDC,2020-08-13 00:03:22,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-F-004,484,18,event:52909,study_subject_even_arm_1,nomi_tracking_data,CKJBB,2020-08-13 19:05:33,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-F-004,484,18,event:52910,study_subject_even_arm_1,nomi_tracking_data,RDJDC,2020-08-13 19:05:48,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-F-004,484,18,event:52945,study_subject_even_arm_1,nomi_tracking_data,RDJDC,2020-08-14 15:07:49,America/New_York,0,-15,1,End date adjustment for handling at site after the device was returned,2,OARS EDC Pilot
+ACY-M-008,496,22,event:52749,study_subject_even_arm_1,nomi_tracking_data,FGXHH,2020-08-03 12:44:44,America/New_York,20,20,0,,2,OARS EDC Pilot
+ACY-M-008,496,22,event:52754,study_subject_even_arm_1,nomi_tracking_data,BRVTW,2020-08-03 14:00:11,America/New_York,0,-2,1,Cabinet activity.,2,OARS EDC Pilot
+ACY-M-008,496,22,event:52826,study_subject_even_arm_1,nomi_tracking_data,BRVTW,2020-08-07 12:20:01,America/New_York,0,2,1,Cabinet activity.,2,OARS EDC Pilot
+ACY-M-008,496,22,event:52884,study_subject_even_arm_1,nomi_tracking_data,FGXHH,2020-08-13 08:59:35,America/New_York,2,2,0,,2,OARS EDC Pilot
+ACY-M-008,496,22,event:52886,study_subject_even_arm_1,nomi_tracking_data,FGXHH,2020-08-13 09:03:39,America/New_York,-2,-2,0,,2,OARS EDC Pilot
+ACY-M-008,496,22,event:52895,study_subject_even_arm_1,nomi_tracking_data,FGXHH,2020-08-13 11:37:25,America/New_York,1,1,0,,2,OARS EDC Pilot
+ACY-M-008,496,22,event:52896,study_subject_even_arm_1,nomi_tracking_data,FGXHH,2020-08-13 11:49:00,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-M-008,496,22,event:52898,study_subject_even_arm_1,nomi_tracking_data,FGXHH,2020-08-13 14:05:18,America/New_York,-9,-9,0,,2,OARS EDC Pilot
+ACY-M-008,496,22,event:52899,study_subject_even_arm_1,nomi_tracking_data,FGXHH,2020-08-13 14:07:01,America/New_York,9,9,0,,2,OARS EDC Pilot
+ACY-M-008,496,22,event:52902,study_subject_even_arm_1,nomi_tracking_data,BRVTW,2020-08-13 14:14:11,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-M-008,496,22,event:52903,study_subject_even_arm_1,nomi_tracking_data,FGXHH,2020-08-13 14:14:40,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-M-008,496,22,event:52904,study_subject_even_arm_1,nomi_tracking_data,FGXHH,2020-08-13 17:57:15,America/New_York,-2,-2,0,,2,OARS EDC Pilot
+ACY-M-008,496,22,event:52906,study_subject_even_arm_1,nomi_tracking_data,FGXHH,2020-08-13 17:58:11,America/New_York,2,2,0,,2,OARS EDC Pilot
+ACY-M-008,496,22,event:52908,study_subject_even_arm_1,nomi_tracking_data,FGXHH,2020-08-13 18:17:24,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-M-008,496,22,event:52907,study_subject_even_arm_1,nomi_tracking_data,BRVTW,2020-08-13 18:17:24,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-M-008,496,22,event:52911,study_subject_even_arm_1,nomi_tracking_data,FGXHH,2020-08-13 22:15:32,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-M-008,496,22,event:52912,study_subject_even_arm_1,nomi_tracking_data,BRVTW,2020-08-13 22:17:00,America/New_York,-1,-7,1,"After review of all events, a permanent weight shift occurred at this time.",2,OARS EDC Pilot
+ACY-M-008,496,22,event:52914,study_subject_even_arm_1,nomi_tracking_data,FGXHH,2020-08-14 02:18:22,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-M-008,496,22,event:52915,study_subject_even_arm_1,nomi_tracking_data,BRVTW,2020-08-14 02:18:47,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-M-008,496,22,event:52917,study_subject_even_arm_1,nomi_tracking_data,BRVTW,2020-08-14 06:19:05,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-M-008,496,22,event:52918,study_subject_even_arm_1,nomi_tracking_data,FGXHH,2020-08-14 06:19:29,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-M-008,496,22,event:52925,study_subject_even_arm_1,nomi_tracking_data,BRVTW,2020-08-14 10:16:01,America/New_York,1,1,0,,2,OARS EDC Pilot
+ACY-M-008,496,22,event:52926,study_subject_even_arm_1,nomi_tracking_data,FGXHH,2020-08-14 10:16:12,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-M-008,496,22,event:52927,study_subject_even_arm_1,nomi_tracking_data,BRVTW,2020-08-14 10:17:03,America/New_York,-2,-2,0,,2,OARS EDC Pilot
+ACY-M-008,496,22,event:52943,study_subject_even_arm_1,nomi_tracking_data,FGXHH,2020-08-14 14:28:03,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-M-008,496,22,event:52944,study_subject_even_arm_1,nomi_tracking_data,BRVTW,2020-08-14 14:28:12,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-M-008,496,22,event:52955,study_subject_even_arm_1,nomi_tracking_data,BRVTW,2020-08-14 18:19:28,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-M-008,496,22,event:52956,study_subject_even_arm_1,nomi_tracking_data,FGXHH,2020-08-14 18:19:52,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-M-008,496,22,event:52958,study_subject_even_arm_1,nomi_tracking_data,FGXHH,2020-08-14 23:28:22,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-M-008,496,22,event:52962,study_subject_even_arm_1,nomi_tracking_data,BRVTW,2020-08-15 02:21:33,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-M-008,496,22,event:52966,study_subject_even_arm_1,nomi_tracking_data,BRVTW,2020-08-15 10:18:56,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-M-008,496,22,event:52965,study_subject_even_arm_1,nomi_tracking_data,FGXHH,2020-08-15 10:19:14,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-M-008,496,22,event:52968,study_subject_even_arm_1,nomi_tracking_data,BRVTW,2020-08-15 14:16:18,America/New_York,-1,-8,1,Weight removed/added. Difference in weight shows 1 tablet removed.,2,OARS EDC Pilot
+ACY-M-008,496,22,event:52969,study_subject_even_arm_1,nomi_tracking_data,FGXHH,2020-08-15 14:17:17,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-M-008,496,22,event:52970,study_subject_even_arm_1,nomi_tracking_data,BRVTW,2020-08-15 14:17:18,America/New_York,0,6,1,Weight removed/added. Difference in weight shows 1 tablet removed.,2,OARS EDC Pilot
+ACY-M-008,496,22,event:52971,study_subject_even_arm_1,nomi_tracking_data,FGXHH,2020-08-15 18:16:25,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-M-008,496,22,event:52972,study_subject_even_arm_1,nomi_tracking_data,BRVTW,2020-08-15 18:17:10,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-M-008,496,22,event:52973,study_subject_even_arm_1,nomi_tracking_data,BRVTW,2020-08-15 22:17:47,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-M-008,496,22,event:52974,study_subject_even_arm_1,nomi_tracking_data,FGXHH,2020-08-15 22:18:05,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-M-008,496,22,event:52975,study_subject_even_arm_1,nomi_tracking_data,FGXHH,2020-08-16 02:18:15,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-M-008,496,22,event:52976,study_subject_even_arm_1,nomi_tracking_data,BRVTW,2020-08-16 02:18:30,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-M-008,496,22,event:52977,study_subject_even_arm_1,nomi_tracking_data,BRVTW,2020-08-16 06:35:11,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-M-008,496,22,event:52978,study_subject_even_arm_1,nomi_tracking_data,FGXHH,2020-08-16 06:35:27,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-M-008,496,22,event:52979,study_subject_even_arm_1,nomi_tracking_data,FGXHH,2020-08-16 10:18:39,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-M-008,496,22,event:52980,study_subject_even_arm_1,nomi_tracking_data,BRVTW,2020-08-16 10:19:13,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-M-008,496,22,event:52984,study_subject_even_arm_1,nomi_tracking_data,FGXHH,2020-08-16 14:16:25,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-M-008,496,22,event:52985,study_subject_even_arm_1,nomi_tracking_data,BRVTW,2020-08-16 14:16:51,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-M-008,496,22,event:52986,study_subject_even_arm_1,nomi_tracking_data,BRVTW,2020-08-16 18:14:08,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-M-008,496,22,event:52987,study_subject_even_arm_1,nomi_tracking_data,FGXHH,2020-08-16 18:15:02,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-M-008,496,22,event:52988,study_subject_even_arm_1,nomi_tracking_data,FGXHH,2020-08-16 22:15:52,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-M-008,496,22,event:52989,study_subject_even_arm_1,nomi_tracking_data,BRVTW,2020-08-16 22:16:05,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-M-008,496,22,event:52991,study_subject_even_arm_1,nomi_tracking_data,BRVTW,2020-08-17 02:17:45,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-M-008,496,22,event:52992,study_subject_even_arm_1,nomi_tracking_data,FGXHH,2020-08-17 02:19:41,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-F-007,491,15,event:52740,study_subject_even_arm_1,nomi_tracking_data,KSXRL,2020-08-03 12:04:07,America/New_York,22,22,0,,2,OARS EDC Pilot
+ACY-F-007,491,15,event:52741,study_subject_even_arm_1,nomi_tracking_data,MSHVT,2020-08-03 12:04:56,America/New_York,20,20,0,,2,OARS EDC Pilot
+ACY-F-007,491,15,event:53002,study_subject_even_arm_1,nomi_tracking_data,MSHVT,2020-08-17 17:49:35,America/New_York,-2,-2,0,,2,OARS EDC Pilot
+ACY-F-007,491,15,event:53000,study_subject_even_arm_1,nomi_tracking_data,KSXRL,2020-08-17 17:49:53,America/New_York,-2,-2,0,,2,OARS EDC Pilot
+ACY-F-007,491,15,event:53004,study_subject_even_arm_1,nomi_tracking_data,KSXRL,2020-08-17 22:52:03,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-F-007,491,15,event:53003,study_subject_even_arm_1,nomi_tracking_data,MSHVT,2020-08-17 22:52:16,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-F-007,491,15,event:53005,study_subject_even_arm_1,nomi_tracking_data,KSXRL,2020-08-18 04:02:11,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-F-007,491,15,event:53006,study_subject_even_arm_1,nomi_tracking_data,MSHVT,2020-08-18 04:02:24,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-F-007,491,15,event:53012,study_subject_even_arm_1,nomi_tracking_data,KSXRL,2020-08-18 09:13:59,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-F-007,491,15,event:53019,study_subject_even_arm_1,nomi_tracking_data,MSHVT,2020-08-18 09:14:07,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-F-007,491,15,event:53013,study_subject_even_arm_1,nomi_tracking_data,KSXRL,2020-08-18 14:32:21,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-F-007,491,15,event:53022,study_subject_even_arm_1,nomi_tracking_data,MSHVT,2020-08-18 14:32:39,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-F-007,491,15,event:53014,study_subject_even_arm_1,nomi_tracking_data,KSXRL,2020-08-18 19:17:41,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-F-007,491,15,event:53024,study_subject_even_arm_1,nomi_tracking_data,MSHVT,2020-08-18 19:17:53,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-F-007,491,15,event:53017,study_subject_even_arm_1,nomi_tracking_data,KSXRL,2020-08-19 00:00:56,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-F-007,491,15,event:53020,study_subject_even_arm_1,nomi_tracking_data,MSHVT,2020-08-19 00:01:11,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-F-007,491,15,event:53018,study_subject_even_arm_1,nomi_tracking_data,KSXRL,2020-08-19 06:03:07,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-F-007,491,15,event:53021,study_subject_even_arm_1,nomi_tracking_data,MSHVT,2020-08-19 06:03:23,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-F-007,491,15,event:53030,study_subject_even_arm_1,nomi_tracking_data,KSXRL,2020-08-19 11:40:34,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-F-007,491,15,event:53031,study_subject_even_arm_1,nomi_tracking_data,MSHVT,2020-08-19 11:40:46,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-F-007,491,15,event:53032,study_subject_even_arm_1,nomi_tracking_data,KSXRL,2020-08-19 17:05:06,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-F-007,491,15,event:53033,study_subject_even_arm_1,nomi_tracking_data,MSHVT,2020-08-19 17:05:16,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-F-007,491,15,event:53034,study_subject_even_arm_1,nomi_tracking_data,MSHVT,2020-08-19 22:51:15,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-F-007,491,15,event:53035,study_subject_even_arm_1,nomi_tracking_data,KSXRL,2020-08-19 22:51:31,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-F-007,491,15,event:53042,study_subject_even_arm_1,nomi_tracking_data,MSHVT,2020-08-20 10:18:54,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-F-007,491,15,event:53043,study_subject_even_arm_1,nomi_tracking_data,KSXRL,2020-08-20 10:19:02,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-F-007,491,15,event:53044,study_subject_even_arm_1,nomi_tracking_data,MSHVT,2020-08-20 15:50:32,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-F-007,491,15,event:53045,study_subject_even_arm_1,nomi_tracking_data,KSXRL,2020-08-20 15:50:39,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-F-007,491,15,event:53058,study_subject_even_arm_1,nomi_tracking_data,MSHVT,2020-08-20 22:30:26,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-F-007,491,15,event:53047,study_subject_even_arm_1,nomi_tracking_data,KSXRL,2020-08-20 22:31:31,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-F-007,491,15,event:53049,study_subject_even_arm_1,nomi_tracking_data,KSXRL,2020-08-21 04:01:57,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-F-007,491,15,event:53060,study_subject_even_arm_1,nomi_tracking_data,MSHVT,2020-08-21 04:02:13,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-F-007,491,15,event:53059,study_subject_even_arm_1,nomi_tracking_data,KSXRL,2020-08-21 11:23:23,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-F-007,491,15,event:53061,study_subject_even_arm_1,nomi_tracking_data,MSHVT,2020-08-21 11:23:23,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-F-007,491,15,event:53062,study_subject_even_arm_1,nomi_tracking_data,KSXRL,2020-08-21 22:01:19,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-F-007,491,15,event:53068,study_subject_even_arm_1,nomi_tracking_data,MSHVT,2020-08-21 22:01:36,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-F-007,491,15,event:53076,study_subject_even_arm_1,nomi_tracking_data,KSXRL,2020-08-22 18:31:16,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-F-007,491,15,event:53071,study_subject_even_arm_1,nomi_tracking_data,MSHVT,2020-08-22 18:31:19,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-F-007,491,15,event:53081,study_subject_even_arm_1,nomi_tracking_data,MSHVT,2020-08-23 21:36:00,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-F-007,491,15,event:53079,study_subject_even_arm_1,nomi_tracking_data,KSXRL,2020-08-23 21:36:07,America/New_York,-1,-1,0,,2,OARS EDC Pilot
+ACY-F-009,498,94-6,event:54915,study_subject_even_arm_1,nomi_tracking_data,DVPGP,2020-12-03 15:05:33,America/New_York,-4,-4,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-009,498,94-6,event:54918,study_subject_even_arm_1,nomi_tracking_data,DVPGP,2020-12-03 15:11:12,America/New_York,4,4,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-009,498,94-6,event:54929,study_subject_even_arm_1,nomi_tracking_data,BFSVK,2020-12-03 15:59:58,America/New_York,-19,-19,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-009,498,94-6,event:54930,study_subject_even_arm_1,nomi_tracking_data,BFSVK,2020-12-03 16:02:28,America/New_York,19,19,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-009,498,94-6,event:54933,study_subject_even_arm_1,nomi_tracking_data,BFSVK,2020-12-03 16:03:35,America/New_York,-19,-19,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-009,498,94-6,event:54931,study_subject_even_arm_1,nomi_tracking_data,DVPGP,2020-12-03 16:03:54,America/New_York,-16,-16,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-009,498,94-6,event:54932,study_subject_even_arm_1,nomi_tracking_data,DVPGP,2020-12-03 16:04:51,America/New_York,16,16,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-009,498,94-6,event:54934,study_subject_even_arm_1,nomi_tracking_data,DVPGP,2020-12-03 16:07:21,America/New_York,-20,-20,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-005,489,94-2,event:52737,study_subject_even_arm_1,nomi_tracking_data,FJWPN,2020-08-03 11:18:26,America/New_York,26,26,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-006,490,94-3,event:52738,study_subject_even_arm_1,nomi_tracking_data,HQQHH,2020-08-03 11:52:30,America/New_York,20,20,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-006,490,94-3,event:52739,study_subject_even_arm_1,nomi_tracking_data,TWJJQ,2020-08-03 11:54:26,America/New_York,20,20,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-008,492,94-4,event:52742,study_subject_even_arm_1,nomi_tracking_data,TJMPP,2020-08-03 12:13:13,America/New_York,20,20,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-008,492,94-4,event:52743,study_subject_even_arm_1,nomi_tracking_data,ZHQJW,2020-08-03 12:14:18,America/New_York,20,20,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-008,492,94-4,event:52744,study_subject_even_arm_1,nomi_tracking_data,TJMPP,2020-08-03 12:14:47,America/New_York,0,3,1,Fill event,2,OARS EDC - Multi-Site Pilot
+ACY-F-008,492,94-4,event:52757,study_subject_even_arm_1,nomi_tracking_data,TJMPP,2020-08-03 14:01:54,America/New_York,0,-3,1,Fill event,2,OARS EDC - Multi-Site Pilot
+ACY-F-008,492,94-4,event:53146,study_subject_even_arm_1,nomi_tracking_data,TJMPP,2020-08-28 13:39:07,America/New_York,0,-2,1,Cabinet activity.,2,OARS EDC - Multi-Site Pilot
+ACY-F-008,492,94-4,event:53147,study_subject_even_arm_1,nomi_tracking_data,ZHQJW,2020-08-28 13:39:08,America/New_York,0,-1,1,Cabinet activity.,2,OARS EDC - Multi-Site Pilot
+ACY-F-008,492,94-4,event:53148,study_subject_even_arm_1,nomi_tracking_data,ZHQJW,2020-08-28 13:40:20,America/New_York,0,1,1,Cabinet activity.,2,OARS EDC - Multi-Site Pilot
+ACY-F-008,492,94-4,event:53149,study_subject_even_arm_1,nomi_tracking_data,TJMPP,2020-08-28 14:04:54,America/New_York,0,2,1,Cabinet activity.,2,OARS EDC - Multi-Site Pilot
+ACY-F-005,489,94-2,event:53195,study_subject_even_arm_1,nomi_tracking_data,RLBFF,2020-08-31 11:46:02,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-005,489,94-2,event:53196,study_subject_even_arm_1,nomi_tracking_data,FJWPN,2020-08-31 11:46:16,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-006,490,94-3,event:53203,study_subject_even_arm_1,nomi_tracking_data,TWJJQ,2020-08-31 14:42:38,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-006,490,94-3,event:53202,study_subject_even_arm_1,nomi_tracking_data,HQQHH,2020-08-31 14:42:39,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-005,489,94-2,event:53207,study_subject_even_arm_1,nomi_tracking_data,RLBFF,2020-08-31 15:45:57,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-005,489,94-2,event:53208,study_subject_even_arm_1,nomi_tracking_data,FJWPN,2020-08-31 15:51:00,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-008,492,94-4,event:53211,study_subject_even_arm_1,nomi_tracking_data,ZHQJW,2020-08-31 16:44:57,America/New_York,-4,-4,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-008,492,94-4,event:53212,study_subject_even_arm_1,nomi_tracking_data,TJMPP,2020-08-31 16:45:18,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-006,490,94-3,event:53264,study_subject_even_arm_1,nomi_tracking_data,HQQHH,2020-08-31 16:59:38,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-006,490,94-3,event:53250,study_subject_even_arm_1,nomi_tracking_data,TWJJQ,2020-08-31 17:00:06,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-008,492,94-4,event:53213,study_subject_even_arm_1,nomi_tracking_data,ZHQJW,2020-08-31 20:44:59,America/New_York,2,2,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-008,492,94-4,event:53214,study_subject_even_arm_1,nomi_tracking_data,TJMPP,2020-08-31 20:45:42,America/New_York,-2,-2,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-005,489,94-2,event:53217,study_subject_even_arm_1,nomi_tracking_data,FJWPN,2020-08-31 20:48:39,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-005,489,94-2,event:53216,study_subject_even_arm_1,nomi_tracking_data,RLBFF,2020-08-31 20:48:39,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-006,490,94-3,event:53234,study_subject_even_arm_1,nomi_tracking_data,HQQHH,2020-08-31 21:47:07,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-008,492,94-4,event:53218,study_subject_even_arm_1,nomi_tracking_data,ZHQJW,2020-08-31 22:22:09,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-008,492,94-4,event:53220,study_subject_even_arm_1,nomi_tracking_data,TJMPP,2020-09-01 04:53:26,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-008,492,94-4,event:53221,study_subject_even_arm_1,nomi_tracking_data,ZHQJW,2020-09-01 04:53:28,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-005,489,94-2,event:53223,study_subject_even_arm_1,nomi_tracking_data,RLBFF,2020-09-01 05:41:06,America/New_York,-5,-5,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-005,489,94-2,event:53224,study_subject_even_arm_1,nomi_tracking_data,FJWPN,2020-09-01 05:41:23,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-005,489,94-2,event:53226,study_subject_even_arm_1,nomi_tracking_data,RLBFF,2020-09-01 05:42:19,America/New_York,4,4,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-006,490,94-3,event:53251,study_subject_even_arm_1,nomi_tracking_data,TWJJQ,2020-09-01 08:21:02,America/New_York,-2,-2,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-008,492,94-4,event:53240,study_subject_even_arm_1,nomi_tracking_data,TJMPP,2020-09-01 11:29:21,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-008,492,94-4,event:53241,study_subject_even_arm_1,nomi_tracking_data,ZHQJW,2020-09-01 11:29:50,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-005,489,94-2,event:53242,study_subject_even_arm_1,nomi_tracking_data,FJWPN,2020-09-01 12:39:34,America/New_York,-2,-2,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-005,489,94-2,event:53243,study_subject_even_arm_1,nomi_tracking_data,RLBFF,2020-09-01 12:39:40,America/New_York,1,1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-005,489,94-2,event:53244,study_subject_even_arm_1,nomi_tracking_data,FJWPN,2020-09-01 12:40:15,America/New_York,1,1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-006,490,94-3,event:53265,study_subject_even_arm_1,nomi_tracking_data,HQQHH,2020-09-01 12:48:10,America/New_York,-2,-2,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-005,489,94-2,event:53247,study_subject_even_arm_1,nomi_tracking_data,RLBFF,2020-09-01 18:20:19,America/New_York,-3,-3,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-005,489,94-2,event:53248,study_subject_even_arm_1,nomi_tracking_data,FJWPN,2020-09-01 18:20:48,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-008,492,94-4,event:53253,study_subject_even_arm_1,nomi_tracking_data,TJMPP,2020-09-01 19:09:25,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-008,492,94-4,event:53256,study_subject_even_arm_1,nomi_tracking_data,ZHQJW,2020-09-01 19:09:47,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-006,490,94-3,event:53255,study_subject_even_arm_1,nomi_tracking_data,TWJJQ,2020-09-01 20:11:36,America/New_York,-2,-2,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-006,490,94-3,event:53266,study_subject_even_arm_1,nomi_tracking_data,HQQHH,2020-09-01 20:11:37,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-005,489,94-2,event:53261,study_subject_even_arm_1,nomi_tracking_data,RLBFF,2020-09-02 00:08:54,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-005,489,94-2,event:53260,study_subject_even_arm_1,nomi_tracking_data,FJWPN,2020-09-02 00:08:54,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-008,492,94-4,event:53262,study_subject_even_arm_1,nomi_tracking_data,TJMPP,2020-09-02 00:41:50,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-008,492,94-4,event:53263,study_subject_even_arm_1,nomi_tracking_data,ZHQJW,2020-09-02 00:41:56,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-006,490,94-3,event:53267,study_subject_even_arm_1,nomi_tracking_data,TWJJQ,2020-09-02 06:23:12,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-008,492,94-4,event:53270,study_subject_even_arm_1,nomi_tracking_data,TJMPP,2020-09-02 06:37:40,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-008,492,94-4,event:53271,study_subject_even_arm_1,nomi_tracking_data,ZHQJW,2020-09-02 06:37:47,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-005,489,94-2,event:53276,study_subject_even_arm_1,nomi_tracking_data,RLBFF,2020-09-02 09:01:33,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-005,489,94-2,event:53277,study_subject_even_arm_1,nomi_tracking_data,FJWPN,2020-09-02 09:01:34,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-006,490,94-3,event:53285,study_subject_even_arm_1,nomi_tracking_data,HQQHH,2020-09-02 09:26:57,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-006,490,94-3,event:53278,study_subject_even_arm_1,nomi_tracking_data,TWJJQ,2020-09-02 09:26:57,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-008,492,94-4,event:53282,study_subject_even_arm_1,nomi_tracking_data,TJMPP,2020-09-02 12:50:09,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-008,492,94-4,event:53283,study_subject_even_arm_1,nomi_tracking_data,ZHQJW,2020-09-02 12:50:11,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-006,490,94-3,event:53294,study_subject_even_arm_1,nomi_tracking_data,TWJJQ,2020-09-02 14:36:47,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-005,489,94-2,event:53288,study_subject_even_arm_1,nomi_tracking_data,FJWPN,2020-09-02 15:14:36,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-005,489,94-2,event:53287,study_subject_even_arm_1,nomi_tracking_data,RLBFF,2020-09-02 15:15:00,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-008,492,94-4,event:53295,study_subject_even_arm_1,nomi_tracking_data,ZHQJW,2020-09-02 18:32:17,America/New_York,-2,-2,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-005,489,94-2,event:53290,study_subject_even_arm_1,nomi_tracking_data,FJWPN,2020-09-02 20:07:44,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-005,489,94-2,event:53291,study_subject_even_arm_1,nomi_tracking_data,RLBFF,2020-09-02 20:10:37,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-006,490,94-3,event:53293,study_subject_even_arm_1,nomi_tracking_data,TWJJQ,2020-09-02 23:40:59,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-005,489,94-2,event:53296,study_subject_even_arm_1,nomi_tracking_data,FJWPN,2020-09-03 01:07:07,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-005,489,94-2,event:53297,study_subject_even_arm_1,nomi_tracking_data,RLBFF,2020-09-03 01:07:41,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-008,492,94-4,event:53298,study_subject_even_arm_1,nomi_tracking_data,TJMPP,2020-09-03 01:16:03,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-008,492,94-4,event:53299,study_subject_even_arm_1,nomi_tracking_data,ZHQJW,2020-09-03 01:16:05,America/New_York,1,1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-008,492,94-4,event:53300,study_subject_even_arm_1,nomi_tracking_data,ZHQJW,2020-09-03 01:17:41,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-008,492,94-4,event:53301,study_subject_even_arm_1,nomi_tracking_data,TJMPP,2020-09-03 01:18:08,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-005,489,94-2,event:53305,study_subject_even_arm_1,nomi_tracking_data,FJWPN,2020-09-03 08:14:12,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-005,489,94-2,event:53306,study_subject_even_arm_1,nomi_tracking_data,FJWPN,2020-09-03 08:14:53,America/New_York,1,1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-005,489,94-2,event:53336,study_subject_even_arm_1,nomi_tracking_data,RLBFF,2020-09-03 10:19:53,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-005,489,94-2,event:53337,study_subject_even_arm_1,nomi_tracking_data,FJWPN,2020-09-03 10:20:24,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-008,492,94-4,event:53338,study_subject_even_arm_1,nomi_tracking_data,TJMPP,2020-09-03 13:07:03,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-008,492,94-4,event:53339,study_subject_even_arm_1,nomi_tracking_data,ZHQJW,2020-09-03 13:07:08,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-008,492,94-4,event:53340,study_subject_even_arm_1,nomi_tracking_data,TJMPP,2020-09-03 19:13:43,America/New_York,-2,-2,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-008,492,94-4,event:53341,study_subject_even_arm_1,nomi_tracking_data,ZHQJW,2020-09-03 19:13:56,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-005,489,94-2,event:53342,study_subject_even_arm_1,nomi_tracking_data,FJWPN,2020-09-03 19:18:41,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-005,489,94-2,event:53344,study_subject_even_arm_1,nomi_tracking_data,RLBFF,2020-09-03 19:20:03,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-008,492,94-4,event:53348,study_subject_even_arm_1,nomi_tracking_data,TJMPP,2020-09-04 02:49:21,America/New_York,-2,-2,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-008,492,94-4,event:53349,study_subject_even_arm_1,nomi_tracking_data,ZHQJW,2020-09-04 02:49:28,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-008,492,94-4,event:53382,study_subject_even_arm_1,nomi_tracking_data,TJMPP,2020-09-04 18:12:39,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-008,492,94-4,event:53381,study_subject_even_arm_1,nomi_tracking_data,ZHQJW,2020-09-04 18:12:42,America/New_York,-6,-6,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-006,490,94-3,event:53396,study_subject_even_arm_1,nomi_tracking_data,TWJJQ,2020-09-05 10:42:39,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-006,490,94-3,event:53412,study_subject_even_arm_1,nomi_tracking_data,TWJJQ,2020-09-05 10:44:27,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-006,490,94-3,event:53415,study_subject_even_arm_1,nomi_tracking_data,TWJJQ,2020-09-05 18:58:50,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-006,490,94-3,event:53413,study_subject_even_arm_1,nomi_tracking_data,TWJJQ,2020-09-05 23:51:45,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-006,490,94-3,event:53414,study_subject_even_arm_1,nomi_tracking_data,TWJJQ,2020-09-06 12:15:12,America/New_York,-2,-2,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-008,492,94-4,event:53427,study_subject_even_arm_1,nomi_tracking_data,ZHQJW,2020-09-08 00:27:31,America/New_York,4,4,1,Corrected to original interpretation after refining end date adjustment definition,2,OARS EDC - Multi-Site Pilot
+ACY-F-006,490,94-3,event:53442,study_subject_even_arm_1,nomi_tracking_data,TWJJQ,2020-09-08 11:03:54,America/New_York,-4,-4,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-006,490,94-3,event:53443,study_subject_even_arm_1,nomi_tracking_data,TWJJQ,2020-09-08 11:43:14,America/New_York,4,3,1,"4 units taken, then weight added back on post-op date.",2,OARS EDC - Multi-Site Pilot
+ACY-F-005,489,94-2,event:53825,study_subject_even_arm_1,nomi_tracking_data,RLBFF,2020-10-06 11:59:58,America/New_York,-7,-7,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-005,489,94-2,event:53826,study_subject_even_arm_1,nomi_tracking_data,FJWPN,2020-10-06 12:00:47,America/New_York,-7,-7,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-008,492,94-4,event:53830,study_subject_even_arm_1,nomi_tracking_data,TJMPP,2020-10-06 12:19:24,America/New_York,-5,-5,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-008,492,94-4,event:53831,study_subject_even_arm_1,nomi_tracking_data,ZHQJW,2020-10-06 12:20:15,America/New_York,-6,-6,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-010,499,94-7,event:53370,study_subject_even_arm_1,nomi_tracking_data,PXCXV,2020-09-04 16:30:02,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-010,499,94-7,event:53372,study_subject_even_arm_1,nomi_tracking_data,MMPBJ,2020-09-04 16:31:32,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-010,499,94-7,event:53383,study_subject_even_arm_1,nomi_tracking_data,MMPBJ,2020-09-04 20:53:36,America/New_York,-6,-6,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-010,499,94-7,event:53384,study_subject_even_arm_1,nomi_tracking_data,MMPBJ,2020-09-04 20:54:26,America/New_York,5,5,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-010,499,94-7,event:53385,study_subject_even_arm_1,nomi_tracking_data,PXCXV,2020-09-04 20:55:12,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-010,499,94-7,event:53387,study_subject_even_arm_1,nomi_tracking_data,MMPBJ,2020-09-05 06:02:05,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-010,499,94-7,event:53388,study_subject_even_arm_1,nomi_tracking_data,PXCXV,2020-09-05 06:02:13,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-010,499,94-7,event:53394,study_subject_even_arm_1,nomi_tracking_data,MMPBJ,2020-09-05 10:34:40,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-010,499,94-7,event:53395,study_subject_even_arm_1,nomi_tracking_data,PXCXV,2020-09-05 10:36:56,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-010,499,94-7,event:53397,study_subject_even_arm_1,nomi_tracking_data,PXCXV,2020-09-05 15:22:41,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-010,499,94-7,event:53398,study_subject_even_arm_1,nomi_tracking_data,MMPBJ,2020-09-05 15:22:47,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-010,499,94-7,event:53400,study_subject_even_arm_1,nomi_tracking_data,MMPBJ,2020-09-05 16:45:09,America/New_York,0,-4,1,Weight removed/added cancelled out after review. ,2,OARS EDC - Multi-Site Pilot
+ACY-F-010,499,94-7,event:53401,study_subject_even_arm_1,nomi_tracking_data,MMPBJ,2020-09-05 17:33:44,America/New_York,0,3,1,Weight removed/added cancelled out after review. ,2,OARS EDC - Multi-Site Pilot
+ACY-F-010,499,94-7,event:53402,study_subject_even_arm_1,nomi_tracking_data,MMPBJ,2020-09-05 23:17:24,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-010,499,94-7,event:53403,study_subject_even_arm_1,nomi_tracking_data,PXCXV,2020-09-05 23:17:24,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-010,499,94-7,event:53411,study_subject_even_arm_1,nomi_tracking_data,MMPBJ,2020-09-06 11:23:06,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-010,499,94-7,event:53410,study_subject_even_arm_1,nomi_tracking_data,PXCXV,2020-09-06 11:23:52,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-010,499,94-7,event:53418,study_subject_even_arm_1,nomi_tracking_data,PXCXV,2020-09-07 01:28:20,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-010,499,94-7,event:53417,study_subject_even_arm_1,nomi_tracking_data,MMPBJ,2020-09-07 01:28:20,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-010,499,94-7,event:53424,study_subject_even_arm_1,nomi_tracking_data,PXCXV,2020-09-07 14:28:59,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-010,499,94-7,event:53425,study_subject_even_arm_1,nomi_tracking_data,MMPBJ,2020-09-07 14:29:20,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-010,499,94-7,event:53445,study_subject_even_arm_1,nomi_tracking_data,MMPBJ,2020-09-08 16:58:49,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-010,499,94-7,event:53446,study_subject_even_arm_1,nomi_tracking_data,PXCXV,2020-09-08 16:58:49,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-011,500,94-8,event:53471,study_subject_even_arm_1,nomi_tracking_data,WMJCM,2020-09-11 12:40:36,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-011,500,94-8,event:53473,study_subject_even_arm_1,nomi_tracking_data,DCQVQ,2020-09-11 12:40:36,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-011,500,94-8,event:53472,study_subject_even_arm_1,nomi_tracking_data,WMJCM,2020-09-11 16:03:47,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-011,500,94-8,event:53474,study_subject_even_arm_1,nomi_tracking_data,DCQVQ,2020-09-11 16:04:10,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-011,500,94-8,event:53476,study_subject_even_arm_1,nomi_tracking_data,DCQVQ,2020-09-11 22:40:04,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-011,500,94-8,event:53475,study_subject_even_arm_1,nomi_tracking_data,WMJCM,2020-09-11 22:40:28,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-011,500,94-8,event:53483,study_subject_even_arm_1,nomi_tracking_data,DCQVQ,2020-09-12 12:11:35,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-011,500,94-8,event:53481,study_subject_even_arm_1,nomi_tracking_data,WMJCM,2020-09-12 12:11:52,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-011,500,94-8,event:53484,study_subject_even_arm_1,nomi_tracking_data,WMJCM,2020-09-12 21:12:36,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-011,500,94-8,event:53485,study_subject_even_arm_1,nomi_tracking_data,DCQVQ,2020-09-12 21:12:47,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-011,500,94-8,event:53490,study_subject_even_arm_1,nomi_tracking_data,WMJCM,2020-09-13 13:25:59,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-011,500,94-8,event:53492,study_subject_even_arm_1,nomi_tracking_data,DCQVQ,2020-09-13 13:26:21,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-011,500,94-8,event:53494,study_subject_even_arm_1,nomi_tracking_data,WMJCM,2020-09-14 00:09:06,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-011,500,94-8,event:53493,study_subject_even_arm_1,nomi_tracking_data,DCQVQ,2020-09-14 00:09:24,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-011,500,94-8,event:53828,study_subject_even_arm_1,nomi_tracking_data,DCQVQ,2020-10-06 12:10:34,America/New_York,-13,-13,0,,2,OARS EDC - Multi-Site Pilot
+ACY-F-011,500,94-8,event:53829,study_subject_even_arm_1,nomi_tracking_data,WMJCM,2020-10-06 12:12:32,America/New_York,-13,-13,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-005,493,94-9,event:52745,study_subject_even_arm_1,nomi_tracking_data,PZDXH,2020-08-03 12:23:09,America/New_York,20,20,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-005,493,94-9,event:53525,study_subject_even_arm_1,nomi_tracking_data,XXRBR,2020-09-17 21:08:03,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-005,493,94-9,event:53526,study_subject_even_arm_1,nomi_tracking_data,PZDXH,2020-09-17 21:10:59,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-005,493,94-9,event:53527,study_subject_even_arm_1,nomi_tracking_data,XXRBR,2020-09-17 22:47:07,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-005,493,94-9,event:53534,study_subject_even_arm_1,nomi_tracking_data,PZDXH,2020-09-18 10:55:50,America/New_York,-2,-2,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-005,493,94-9,event:53535,study_subject_even_arm_1,nomi_tracking_data,XXRBR,2020-09-18 10:56:26,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-005,493,94-9,event:53549,study_subject_even_arm_1,nomi_tracking_data,PZDXH,2020-09-18 22:42:03,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-005,493,94-9,event:53626,study_subject_even_arm_1,nomi_tracking_data,PZDXH,2020-09-23 11:17:07,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-005,493,94-9,event:53641,study_subject_even_arm_1,nomi_tracking_data,PZDXH,2020-09-24 12:50:16,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-005,493,94-9,event:53642,study_subject_even_arm_1,nomi_tracking_data,PZDXH,2020-09-24 12:55:45,America/New_York,1,1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-005,493,94-9,event:53836,study_subject_even_arm_1,nomi_tracking_data,PZDXH,2020-10-06 12:56:33,America/New_York,-15,-15,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-007,495,94-10,event:52747,study_subject_even_arm_1,nomi_tracking_data,VJKCC,2020-08-03 12:36:52,America/New_York,20,20,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-007,495,94-10,event:52748,study_subject_even_arm_1,nomi_tracking_data,ZQPXP,2020-08-03 12:37:46,America/New_York,20,20,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-007,495,94-10,event:53538,study_subject_even_arm_1,nomi_tracking_data,ZQPXP,2020-09-18 13:51:32,America/New_York,0,-8,1,Cabinet activity.,2,OARS EDC - Multi-Site Pilot
+ACY-M-007,495,94-10,event:53539,study_subject_even_arm_1,nomi_tracking_data,ZQPXP,2020-09-18 14:00:15,America/New_York,0,7,1,Cabinet activity.,2,OARS EDC - Multi-Site Pilot
+ACY-M-007,495,94-10,event:53562,study_subject_even_arm_1,nomi_tracking_data,ZQPXP,2020-09-20 12:42:30,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-007,495,94-10,event:53563,study_subject_even_arm_1,nomi_tracking_data,VJKCC,2020-09-20 12:42:48,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-007,495,94-10,event:53564,study_subject_even_arm_1,nomi_tracking_data,ZQPXP,2020-09-20 12:43:15,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-007,495,94-10,event:53565,study_subject_even_arm_1,nomi_tracking_data,VJKCC,2020-09-20 14:02:24,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-007,495,94-10,event:53567,study_subject_even_arm_1,nomi_tracking_data,ZQPXP,2020-09-20 17:59:52,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-007,495,94-10,event:53566,study_subject_even_arm_1,nomi_tracking_data,VJKCC,2020-09-20 18:00:01,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-007,495,94-10,event:53569,study_subject_even_arm_1,nomi_tracking_data,VJKCC,2020-09-20 23:03:43,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-007,495,94-10,event:53570,study_subject_even_arm_1,nomi_tracking_data,ZQPXP,2020-09-20 23:06:26,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-007,495,94-10,event:53571,study_subject_even_arm_1,nomi_tracking_data,ZQPXP,2020-09-21 05:39:48,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-007,495,94-10,event:53572,study_subject_even_arm_1,nomi_tracking_data,VJKCC,2020-09-21 05:39:52,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-007,495,94-10,event:53583,study_subject_even_arm_1,nomi_tracking_data,VJKCC,2020-09-21 13:28:09,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-007,495,94-10,event:53584,study_subject_even_arm_1,nomi_tracking_data,ZQPXP,2020-09-21 13:28:21,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-007,495,94-10,event:53590,study_subject_even_arm_1,nomi_tracking_data,ZQPXP,2020-09-21 23:26:56,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-007,495,94-10,event:53591,study_subject_even_arm_1,nomi_tracking_data,VJKCC,2020-09-21 23:26:57,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-007,495,94-10,event:53607,study_subject_even_arm_1,nomi_tracking_data,VJKCC,2020-09-22 13:26:35,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-007,495,94-10,event:53606,study_subject_even_arm_1,nomi_tracking_data,ZQPXP,2020-09-22 13:26:44,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-007,495,94-10,event:53615,study_subject_even_arm_1,nomi_tracking_data,VJKCC,2020-09-23 01:18:25,America/New_York,1,1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-007,495,94-10,event:53616,study_subject_even_arm_1,nomi_tracking_data,ZQPXP,2020-09-23 01:18:38,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-007,495,94-10,event:53627,study_subject_even_arm_1,nomi_tracking_data,ZQPXP,2020-09-23 11:37:29,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-007,495,94-10,event:53628,study_subject_even_arm_1,nomi_tracking_data,VJKCC,2020-09-23 11:37:41,America/New_York,-3,-3,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-007,495,94-10,event:53636,study_subject_even_arm_1,nomi_tracking_data,VJKCC,2020-09-24 08:55:35,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-007,495,94-10,event:53637,study_subject_even_arm_1,nomi_tracking_data,ZQPXP,2020-09-24 08:55:45,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-007,495,94-10,event:53646,study_subject_even_arm_1,nomi_tracking_data,VJKCC,2020-09-24 21:49:28,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-007,495,94-10,event:53647,study_subject_even_arm_1,nomi_tracking_data,ZQPXP,2020-09-24 21:49:47,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-009,502,94-11,event:53577,study_subject_even_arm_1,nomi_tracking_data,CBWNP,2020-09-21 10:07:20,America/New_York,0,-1,1,Cabinet activity.,2,OARS EDC - Multi-Site Pilot
+ACY-M-009,502,94-11,event:53586,study_subject_even_arm_1,nomi_tracking_data,CBWNP,2020-09-21 15:26:01,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-009,502,94-11,event:53585,study_subject_even_arm_1,nomi_tracking_data,LDMRX,2020-09-21 15:26:03,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-009,502,94-11,event:53588,study_subject_even_arm_1,nomi_tracking_data,CBWNP,2020-09-21 20:03:04,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-009,502,94-11,event:53587,study_subject_even_arm_1,nomi_tracking_data,LDMRX,2020-09-21 20:03:12,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-009,502,94-11,event:53610,study_subject_even_arm_1,nomi_tracking_data,CBWNP,2020-09-22 17:05:19,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-009,502,94-11,event:53611,study_subject_even_arm_1,nomi_tracking_data,LDMRX,2020-09-22 17:06:01,America/New_York,-2,-2,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-009,502,94-11,event:53619,study_subject_even_arm_1,nomi_tracking_data,CBWNP,2020-09-23 08:00:31,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-009,502,94-11,event:53620,study_subject_even_arm_1,nomi_tracking_data,LDMRX,2020-09-23 08:00:31,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-009,502,94-11,event:53631,study_subject_even_arm_1,nomi_tracking_data,CBWNP,2020-09-23 20:11:53,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-009,502,94-11,event:53630,study_subject_even_arm_1,nomi_tracking_data,LDMRX,2020-09-23 20:12:07,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-009,502,94-11,event:53644,study_subject_even_arm_1,nomi_tracking_data,LDMRX,2020-09-24 13:37:43,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-009,502,94-11,event:53643,study_subject_even_arm_1,nomi_tracking_data,CBWNP,2020-09-24 13:38:01,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-009,502,94-11,event:53672,study_subject_even_arm_1,nomi_tracking_data,CBWNP,2020-09-26 21:01:07,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-009,502,94-11,event:53671,study_subject_even_arm_1,nomi_tracking_data,LDMRX,2020-09-26 21:01:09,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-009,502,94-11,event:53690,study_subject_even_arm_1,nomi_tracking_data,CBWNP,2020-09-28 09:48:24,America/New_York,0,-2,1,End date adjustment for handling at site after the device was returned,2,OARS EDC - Multi-Site Pilot
+ACY-M-009,502,94-11,event:53691,study_subject_even_arm_1,nomi_tracking_data,LDMRX,2020-09-28 11:04:00,America/New_York,-3,-3,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-009,502,94-11,event:53820,study_subject_even_arm_1,nomi_tracking_data,LDMRX,2020-09-28 11:08:41,America/New_York,3,3,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-009,502,94-11,event:53832,study_subject_even_arm_1,nomi_tracking_data,CBWNP,2020-10-06 12:27:51,America/New_York,-10,-10,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-009,502,94-11,event:53858,study_subject_even_arm_1,nomi_tracking_data,LDMRX,2020-10-08 05:03:08,America/New_York,-12,-12,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-010,503,94-12,event:53604,study_subject_even_arm_1,nomi_tracking_data,CDKHQ,2020-09-22 11:14:10,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-010,503,94-12,event:53603,study_subject_even_arm_1,nomi_tracking_data,SNMBN,2020-09-22 11:14:11,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-010,503,94-12,event:53608,study_subject_even_arm_1,nomi_tracking_data,CDKHQ,2020-09-22 13:51:21,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-010,503,94-12,event:53609,study_subject_even_arm_1,nomi_tracking_data,SNMBN,2020-09-22 13:51:22,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-010,503,94-12,event:53614,study_subject_even_arm_1,nomi_tracking_data,CDKHQ,2020-09-22 22:42:32,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-010,503,94-12,event:53613,study_subject_even_arm_1,nomi_tracking_data,SNMBN,2020-09-22 22:42:33,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-010,503,94-12,event:53621,study_subject_even_arm_1,nomi_tracking_data,SNMBN,2020-09-23 09:34:36,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-010,503,94-12,event:53622,study_subject_even_arm_1,nomi_tracking_data,CDKHQ,2020-09-23 09:35:28,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-010,503,94-12,event:53632,study_subject_even_arm_1,nomi_tracking_data,CDKHQ,2020-09-23 23:00:15,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-010,503,94-12,event:53645,study_subject_even_arm_1,nomi_tracking_data,SNMBN,2020-09-24 16:01:14,America/New_York,-2,-2,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-010,503,94-12,event:53648,study_subject_even_arm_1,nomi_tracking_data,CDKHQ,2020-09-24 22:17:53,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-010,503,94-12,event:53653,study_subject_even_arm_1,nomi_tracking_data,CDKHQ,2020-09-25 07:47:42,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-010,503,94-12,event:53654,study_subject_even_arm_1,nomi_tracking_data,SNMBN,2020-09-25 07:47:57,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-010,503,94-12,event:53660,study_subject_even_arm_1,nomi_tracking_data,SNMBN,2020-09-25 19:41:48,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-010,503,94-12,event:53659,study_subject_even_arm_1,nomi_tracking_data,CDKHQ,2020-09-25 19:41:49,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-010,503,94-12,event:53665,study_subject_even_arm_1,nomi_tracking_data,CDKHQ,2020-09-26 10:00:05,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-010,503,94-12,event:53666,study_subject_even_arm_1,nomi_tracking_data,SNMBN,2020-09-26 10:00:21,America/New_York,-2,-2,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-010,503,94-12,event:53670,study_subject_even_arm_1,nomi_tracking_data,CDKHQ,2020-09-26 18:02:06,America/New_York,-2,-2,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-010,503,94-12,event:53669,study_subject_even_arm_1,nomi_tracking_data,SNMBN,2020-09-26 18:02:08,America/New_York,-2,-2,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-010,503,94-12,event:53673,study_subject_even_arm_1,nomi_tracking_data,SNMBN,2020-09-26 22:55:33,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-010,503,94-12,event:53674,study_subject_even_arm_1,nomi_tracking_data,CDKHQ,2020-09-26 22:55:41,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-010,503,94-12,event:53678,study_subject_even_arm_1,nomi_tracking_data,SNMBN,2020-09-27 10:20:52,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-010,503,94-12,event:53677,study_subject_even_arm_1,nomi_tracking_data,CDKHQ,2020-09-27 10:20:55,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-010,503,94-12,event:53681,study_subject_even_arm_1,nomi_tracking_data,SNMBN,2020-09-27 15:53:37,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-010,503,94-12,event:53682,study_subject_even_arm_1,nomi_tracking_data,CDKHQ,2020-09-27 15:54:05,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-010,503,94-12,event:53684,study_subject_even_arm_1,nomi_tracking_data,CDKHQ,2020-09-28 04:31:25,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-010,503,94-12,event:53685,study_subject_even_arm_1,nomi_tracking_data,SNMBN,2020-09-28 04:31:39,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-010,503,94-12,event:53695,study_subject_even_arm_1,nomi_tracking_data,CDKHQ,2020-09-28 20:26:49,America/New_York,-2,-2,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-010,503,94-12,event:53696,study_subject_even_arm_1,nomi_tracking_data,SNMBN,2020-09-28 20:26:59,America/New_York,-2,-2,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-010,503,94-12,event:53702,study_subject_even_arm_1,nomi_tracking_data,SNMBN,2020-09-29 06:36:56,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-010,503,94-12,event:53703,study_subject_even_arm_1,nomi_tracking_data,CDKHQ,2020-09-29 06:37:08,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-010,503,94-12,event:53833,study_subject_even_arm_1,nomi_tracking_data,CDKHQ,2020-10-06 12:38:58,America/New_York,-2,-2,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-010,503,94-12,event:53834,study_subject_even_arm_1,nomi_tracking_data,SNMBN,2020-10-06 12:39:25,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-011,504,94-13,event:53319,study_subject_even_arm_1,nomi_tracking_data,PNKPP,2020-09-03 09:09:14,America/New_York,20,20,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-011,504,94-13,event:53733,study_subject_even_arm_1,nomi_tracking_data,RGBSC,2020-10-02 13:56:40,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-011,504,94-13,event:53744,study_subject_even_arm_1,nomi_tracking_data,PNKPP,2020-10-02 13:57:04,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-011,504,94-13,event:53749,study_subject_even_arm_1,nomi_tracking_data,PNKPP,2020-10-02 21:34:30,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-011,504,94-13,event:53753,study_subject_even_arm_1,nomi_tracking_data,PNKPP,2020-10-03 03:55:21,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-011,504,94-13,event:53761,study_subject_even_arm_1,nomi_tracking_data,PNKPP,2020-10-03 09:59:21,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-011,504,94-13,event:53765,study_subject_even_arm_1,nomi_tracking_data,RGBSC,2020-10-03 16:36:16,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-011,504,94-13,event:53768,study_subject_even_arm_1,nomi_tracking_data,RGBSC,2020-10-03 20:34:17,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-011,504,94-13,event:53774,study_subject_even_arm_1,nomi_tracking_data,RGBSC,2020-10-04 06:32:06,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-011,504,94-13,event:53810,study_subject_even_arm_1,nomi_tracking_data,PNKPP,2020-10-04 13:01:54,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-011,504,94-13,event:53784,study_subject_even_arm_1,nomi_tracking_data,RGBSC,2020-10-04 18:00:05,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-011,504,94-13,event:53811,study_subject_even_arm_1,nomi_tracking_data,PNKPP,2020-10-05 06:39:55,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-011,504,94-13,event:53798,study_subject_even_arm_1,nomi_tracking_data,RGBSC,2020-10-05 13:41:16,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-011,504,94-13,event:53805,study_subject_even_arm_1,nomi_tracking_data,RGBSC,2020-10-05 18:52:38,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-011,504,94-13,event:53837,study_subject_even_arm_1,nomi_tracking_data,RGBSC,2020-10-06 13:11:39,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-011,504,94-13,event:53840,study_subject_even_arm_1,nomi_tracking_data,RGBSC,2020-10-06 18:24:02,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-011,504,94-13,event:53857,study_subject_even_arm_1,nomi_tracking_data,PNKPP,2020-10-07 07:44:42,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-011,504,94-13,event:53848,study_subject_even_arm_1,nomi_tracking_data,RGBSC,2020-10-07 12:36:37,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-011,504,94-13,event:53850,study_subject_even_arm_1,nomi_tracking_data,RGBSC,2020-10-07 15:56:30,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-011,504,94-13,event:53853,study_subject_even_arm_1,nomi_tracking_data,RGBSC,2020-10-07 20:44:11,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+ACY-M-011,504,94-13,event:53865,study_subject_even_arm_1,nomi_tracking_data,RGBSC,2020-10-08 10:38:44,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-001,510,90-1,event:53741,study_subject_even_arm_1,nomi_tracking_data,DJCWN,2020-10-02 16:39:53,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-001,510,90-1,event:53742,study_subject_even_arm_1,nomi_tracking_data,SGDGV,2020-10-02 16:42:01,America/Chicago,-2,-2,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-001,510,90-1,event:53743,study_subject_even_arm_1,nomi_tracking_data,DJCWN,2020-10-02 16:42:15,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-001,510,90-1,event:53747,study_subject_even_arm_1,nomi_tracking_data,DJCWN,2020-10-02 20:26:52,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-001,510,90-1,event:53748,study_subject_even_arm_1,nomi_tracking_data,SGDGV,2020-10-02 20:27:11,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-001,510,90-1,event:53751,study_subject_even_arm_1,nomi_tracking_data,DJCWN,2020-10-03 01:38:14,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-001,510,90-1,event:53752,study_subject_even_arm_1,nomi_tracking_data,SGDGV,2020-10-03 01:38:36,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-001,510,90-1,event:53757,study_subject_even_arm_1,nomi_tracking_data,DJCWN,2020-10-03 08:12:16,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-001,510,90-1,event:53756,study_subject_even_arm_1,nomi_tracking_data,SGDGV,2020-10-03 08:12:17,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-001,510,90-1,event:53763,study_subject_even_arm_1,nomi_tracking_data,SGDGV,2020-10-03 11:56:37,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-001,510,90-1,event:53764,study_subject_even_arm_1,nomi_tracking_data,DJCWN,2020-10-03 11:56:43,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-001,510,90-1,event:53766,study_subject_even_arm_1,nomi_tracking_data,DJCWN,2020-10-03 15:38:38,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-001,510,90-1,event:53769,study_subject_even_arm_1,nomi_tracking_data,SGDGV,2020-10-03 21:31:13,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-001,510,90-1,event:53770,study_subject_even_arm_1,nomi_tracking_data,SGDGV,2020-10-03 21:32:50,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-001,510,90-1,event:53771,study_subject_even_arm_1,nomi_tracking_data,DJCWN,2020-10-03 21:33:00,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-001,510,90-1,event:53777,study_subject_even_arm_1,nomi_tracking_data,SGDGV,2020-10-04 06:56:51,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-001,510,90-1,event:53778,study_subject_even_arm_1,nomi_tracking_data,DJCWN,2020-10-04 06:57:01,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-001,510,90-1,event:53782,study_subject_even_arm_1,nomi_tracking_data,DJCWN,2020-10-04 12:47:55,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-001,510,90-1,event:53783,study_subject_even_arm_1,nomi_tracking_data,SGDGV,2020-10-04 12:48:01,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-001,510,90-1,event:53785,study_subject_even_arm_1,nomi_tracking_data,DJCWN,2020-10-04 17:45:21,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-001,510,90-1,event:53786,study_subject_even_arm_1,nomi_tracking_data,SGDGV,2020-10-04 17:45:31,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-001,510,90-1,event:53788,study_subject_even_arm_1,nomi_tracking_data,SGDGV,2020-10-05 02:09:49,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-001,510,90-1,event:53789,study_subject_even_arm_1,nomi_tracking_data,DJCWN,2020-10-05 02:10:10,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-001,510,90-1,event:53794,study_subject_even_arm_1,nomi_tracking_data,DJCWN,2020-10-05 07:54:40,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-001,510,90-1,event:53795,study_subject_even_arm_1,nomi_tracking_data,SGDGV,2020-10-05 07:54:48,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-001,510,90-1,event:53803,study_subject_even_arm_1,nomi_tracking_data,SGDGV,2020-10-05 16:59:44,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-001,510,90-1,event:53804,study_subject_even_arm_1,nomi_tracking_data,DJCWN,2020-10-05 17:00:06,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-001,510,90-1,event:53806,study_subject_even_arm_1,nomi_tracking_data,DJCWN,2020-10-05 20:34:18,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-001,510,90-1,event:53807,study_subject_even_arm_1,nomi_tracking_data,SGDGV,2020-10-05 20:34:19,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-001,510,90-1,event:53808,study_subject_even_arm_1,nomi_tracking_data,DJCWN,2020-10-06 00:00:52,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-001,510,90-1,event:53809,study_subject_even_arm_1,nomi_tracking_data,SGDGV,2020-10-06 00:00:53,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-001,510,90-1,event:53818,study_subject_even_arm_1,nomi_tracking_data,SGDGV,2020-10-06 08:47:49,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-001,510,90-1,event:53819,study_subject_even_arm_1,nomi_tracking_data,DJCWN,2020-10-06 08:47:57,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-001,510,90-1,event:53838,study_subject_even_arm_1,nomi_tracking_data,DJCWN,2020-10-06 17:40:00,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-001,510,90-1,event:53839,study_subject_even_arm_1,nomi_tracking_data,SGDGV,2020-10-06 17:40:01,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-001,510,90-1,event:53851,study_subject_even_arm_1,nomi_tracking_data,SGDGV,2020-10-07 18:00:51,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-001,510,90-1,event:53852,study_subject_even_arm_1,nomi_tracking_data,DJCWN,2020-10-07 18:00:56,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-001,510,90-1,event:53854,study_subject_even_arm_1,nomi_tracking_data,DJCWN,2020-10-07 21:17:26,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-001,510,90-1,event:53855,study_subject_even_arm_1,nomi_tracking_data,SGDGV,2020-10-07 21:17:34,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-003,509,90-3,event:53902,study_subject_even_arm_1,nomi_tracking_data,VJPHT,2020-10-09 16:25:01,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-003,509,90-3,event:53903,study_subject_even_arm_1,nomi_tracking_data,NNKFX,2020-10-09 16:25:39,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-003,509,90-3,event:53905,study_subject_even_arm_1,nomi_tracking_data,VJPHT,2020-10-10 00:58:34,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-003,509,90-3,event:53906,study_subject_even_arm_1,nomi_tracking_data,NNKFX,2020-10-10 00:59:06,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-003,509,90-3,event:53913,study_subject_even_arm_1,nomi_tracking_data,VJPHT,2020-10-10 12:05:40,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-003,509,90-3,event:53914,study_subject_even_arm_1,nomi_tracking_data,NNKFX,2020-10-10 12:06:57,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-003,509,90-3,event:53917,study_subject_even_arm_1,nomi_tracking_data,NNKFX,2020-10-10 18:08:51,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-003,509,90-3,event:53916,study_subject_even_arm_1,nomi_tracking_data,VJPHT,2020-10-10 18:10:46,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-003,509,90-3,event:53920,study_subject_even_arm_1,nomi_tracking_data,NNKFX,2020-10-11 00:29:50,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-003,509,90-3,event:53921,study_subject_even_arm_1,nomi_tracking_data,VJPHT,2020-10-11 00:30:36,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-003,509,90-3,event:53929,study_subject_even_arm_1,nomi_tracking_data,VJPHT,2020-10-11 12:06:22,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-003,509,90-3,event:53930,study_subject_even_arm_1,nomi_tracking_data,NNKFX,2020-10-11 12:06:26,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-003,509,90-3,event:53931,study_subject_even_arm_1,nomi_tracking_data,NNKFX,2020-10-11 18:03:25,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-003,509,90-3,event:53932,study_subject_even_arm_1,nomi_tracking_data,VJPHT,2020-10-11 18:03:44,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-003,509,90-3,event:53937,study_subject_even_arm_1,nomi_tracking_data,NNKFX,2020-10-12 00:31:26,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-003,509,90-3,event:53936,study_subject_even_arm_1,nomi_tracking_data,VJPHT,2020-10-12 00:31:40,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-003,509,90-3,event:53944,study_subject_even_arm_1,nomi_tracking_data,VJPHT,2020-10-12 12:13:34,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-003,509,90-3,event:53945,study_subject_even_arm_1,nomi_tracking_data,NNKFX,2020-10-12 12:15:26,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-003,509,90-3,event:53955,study_subject_even_arm_1,nomi_tracking_data,NNKFX,2020-10-13 13:38:43,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-003,509,90-3,event:53956,study_subject_even_arm_1,nomi_tracking_data,VJPHT,2020-10-13 13:38:44,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-003,509,90-3,event:53958,study_subject_even_arm_1,nomi_tracking_data,VJPHT,2020-10-14 00:25:52,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-003,509,90-3,event:53959,study_subject_even_arm_1,nomi_tracking_data,NNKFX,2020-10-14 00:26:51,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-003,509,90-3,event:53966,study_subject_even_arm_1,nomi_tracking_data,NNKFX,2020-10-14 11:58:36,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-003,509,90-3,event:53967,study_subject_even_arm_1,nomi_tracking_data,VJPHT,2020-10-14 11:58:57,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-003,509,90-3,event:53969,study_subject_even_arm_1,nomi_tracking_data,VJPHT,2020-10-15 00:36:36,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-003,509,90-3,event:53970,study_subject_even_arm_1,nomi_tracking_data,NNKFX,2020-10-15 00:37:23,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-003,509,90-3,event:53981,study_subject_even_arm_1,nomi_tracking_data,VJPHT,2020-10-15 12:57:36,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-003,509,90-3,event:53982,study_subject_even_arm_1,nomi_tracking_data,NNKFX,2020-10-15 12:57:52,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-003,509,90-3,event:53985,study_subject_even_arm_1,nomi_tracking_data,NNKFX,2020-10-15 19:01:38,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-003,509,90-3,event:53984,study_subject_even_arm_1,nomi_tracking_data,VJPHT,2020-10-15 19:01:52,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-003,509,90-3,event:53988,study_subject_even_arm_1,nomi_tracking_data,VJPHT,2020-10-16 00:54:55,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-003,509,90-3,event:53989,study_subject_even_arm_1,nomi_tracking_data,NNKFX,2020-10-16 00:55:38,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-003,509,90-3,event:53995,study_subject_even_arm_1,nomi_tracking_data,VJPHT,2020-10-16 12:34:35,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-003,509,90-3,event:53996,study_subject_even_arm_1,nomi_tracking_data,NNKFX,2020-10-16 12:34:56,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-003,509,90-3,event:54002,study_subject_even_arm_1,nomi_tracking_data,NNKFX,2020-10-16 18:07:47,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-003,509,90-3,event:54003,study_subject_even_arm_1,nomi_tracking_data,VJPHT,2020-10-16 18:08:12,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-003,509,90-3,event:54072,study_subject_even_arm_1,nomi_tracking_data,VJPHT,2020-10-22 00:08:01,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-003,509,90-3,event:54073,study_subject_even_arm_1,nomi_tracking_data,NNKFX,2020-10-22 00:08:33,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-002,508,90-5,event:53802,study_subject_even_arm_1,nomi_tracking_data,TJDTK,2020-10-05 13:26:29,America/Chicago,0,2,1,Cabinet activity,2,OARS EDC - Multi-Site Pilot
+MDW-F-002,508,90-5,event:53999,study_subject_even_arm_1,nomi_tracking_data,TJDTK,2020-10-16 10:54:52,America/Chicago,0,-2,1,Cabinet activity,2,OARS EDC - Multi-Site Pilot
+MDW-F-002,508,90-5,event:54004,study_subject_even_arm_1,nomi_tracking_data,RTTSB,2020-10-17 01:02:26,America/Chicago,-2,-2,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-002,508,90-5,event:54005,study_subject_even_arm_1,nomi_tracking_data,TJDTK,2020-10-17 01:02:26,America/Chicago,-2,-2,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-002,508,90-5,event:54013,study_subject_even_arm_1,nomi_tracking_data,TJDTK,2020-10-17 18:26:34,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-002,508,90-5,event:54014,study_subject_even_arm_1,nomi_tracking_data,RTTSB,2020-10-17 18:29:53,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-002,508,90-5,event:54015,study_subject_even_arm_1,nomi_tracking_data,RTTSB,2020-10-18 00:36:38,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-002,508,90-5,event:54016,study_subject_even_arm_1,nomi_tracking_data,TJDTK,2020-10-18 00:42:36,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-002,508,90-5,event:54024,study_subject_even_arm_1,nomi_tracking_data,RTTSB,2020-10-18 22:17:25,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-002,508,90-5,event:54023,study_subject_even_arm_1,nomi_tracking_data,TJDTK,2020-10-18 22:17:25,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-002,508,90-5,event:54044,study_subject_even_arm_1,nomi_tracking_data,RTTSB,2020-10-19 18:42:03,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-002,508,90-5,event:54046,study_subject_even_arm_1,nomi_tracking_data,TJDTK,2020-10-19 19:54:42,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-002,508,90-5,event:54051,study_subject_even_arm_1,nomi_tracking_data,RTTSB,2020-10-21 01:02:58,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-002,508,90-5,event:54052,study_subject_even_arm_1,nomi_tracking_data,TJDTK,2020-10-21 01:03:04,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-002,508,90-5,event:54064,study_subject_even_arm_1,nomi_tracking_data,TJDTK,2020-10-21 12:21:52,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-002,508,90-5,event:54065,study_subject_even_arm_1,nomi_tracking_data,RTTSB,2020-10-21 12:22:06,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-002,508,90-5,event:54070,study_subject_even_arm_1,nomi_tracking_data,RTTSB,2020-10-21 22:17:46,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-F-002,508,90-5,event:54071,study_subject_even_arm_1,nomi_tracking_data,TJDTK,2020-10-21 22:18:53,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-M-002,514,90-8,event:53740,study_subject_even_arm_1,nomi_tracking_data,DXFBL,2020-10-02 15:45:57,America/Chicago,-13,-13,0,,2,OARS EDC - Multi-Site Pilot
+MDW-M-002,514,90-8,event:54058,study_subject_even_arm_1,nomi_tracking_data,DXFBL,2020-10-16 16:10:43,America/Chicago,13,13,0,,2,OARS EDC - Multi-Site Pilot
+MDW-M-002,514,90-8,event:54069,study_subject_even_arm_1,nomi_tracking_data,DXFBL,2020-10-21 19:03:13,America/Chicago,-4,-4,0,,2,OARS EDC - Multi-Site Pilot
+MDW-M-002,514,90-8,event:54068,study_subject_even_arm_1,nomi_tracking_data,KXZDZ,2020-10-21 19:03:24,America/Chicago,-2,-2,0,,2,OARS EDC - Multi-Site Pilot
+MDW-M-002,514,90-8,event:54096,study_subject_even_arm_1,nomi_tracking_data,DXFBL,2020-10-23 07:10:21,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-M-002,514,90-8,event:54094,study_subject_even_arm_1,nomi_tracking_data,KXZDZ,2020-10-23 07:10:48,America/Chicago,-4,-4,0,,2,OARS EDC - Multi-Site Pilot
+MDW-M-002,514,90-8,event:54108,study_subject_even_arm_1,nomi_tracking_data,KXZDZ,2020-10-23 20:13:50,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-M-002,514,90-8,event:54114,study_subject_even_arm_1,nomi_tracking_data,DXFBL,2020-10-24 03:49:59,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-M-002,514,90-8,event:54130,study_subject_even_arm_1,nomi_tracking_data,KXZDZ,2020-10-25 09:22:22,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-M-002,514,90-8,event:54128,study_subject_even_arm_1,nomi_tracking_data,DXFBL,2020-10-25 09:22:45,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-M-003,512,90-9,event:54083,study_subject_even_arm_1,nomi_tracking_data,WZPBW,2020-10-22 13:59:35,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-M-003,512,90-9,event:54084,study_subject_even_arm_1,nomi_tracking_data,RRFWJ,2020-10-22 13:59:48,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-M-003,512,90-9,event:54085,study_subject_even_arm_1,nomi_tracking_data,RRFWJ,2020-10-22 18:10:33,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-M-003,512,90-9,event:54086,study_subject_even_arm_1,nomi_tracking_data,WZPBW,2020-10-22 18:10:40,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-M-003,512,90-9,event:54087,study_subject_even_arm_1,nomi_tracking_data,RRFWJ,2020-10-22 22:26:44,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-M-003,512,90-9,event:54088,study_subject_even_arm_1,nomi_tracking_data,WZPBW,2020-10-22 22:26:59,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-M-003,512,90-9,event:54090,study_subject_even_arm_1,nomi_tracking_data,RRFWJ,2020-10-23 01:15:35,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-M-003,512,90-9,event:54091,study_subject_even_arm_1,nomi_tracking_data,WZPBW,2020-10-23 01:15:55,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-M-003,512,90-9,event:54099,study_subject_even_arm_1,nomi_tracking_data,RRFWJ,2020-10-23 08:23:59,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-M-003,512,90-9,event:54100,study_subject_even_arm_1,nomi_tracking_data,WZPBW,2020-10-23 08:24:15,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-M-003,512,90-9,event:54101,study_subject_even_arm_1,nomi_tracking_data,RRFWJ,2020-10-23 08:24:42,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-M-003,512,90-9,event:54103,study_subject_even_arm_1,nomi_tracking_data,RRFWJ,2020-10-23 13:31:29,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-M-003,512,90-9,event:54104,study_subject_even_arm_1,nomi_tracking_data,WZPBW,2020-10-23 13:31:38,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-M-003,512,90-9,event:54106,study_subject_even_arm_1,nomi_tracking_data,RRFWJ,2020-10-23 18:15:27,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-M-003,512,90-9,event:54107,study_subject_even_arm_1,nomi_tracking_data,WZPBW,2020-10-23 18:15:37,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-M-003,512,90-9,event:54110,study_subject_even_arm_1,nomi_tracking_data,RRFWJ,2020-10-23 22:50:55,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-M-003,512,90-9,event:54111,study_subject_even_arm_1,nomi_tracking_data,WZPBW,2020-10-23 22:51:02,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-M-003,512,90-9,event:54112,study_subject_even_arm_1,nomi_tracking_data,WZPBW,2020-10-24 02:42:19,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-M-003,512,90-9,event:54113,study_subject_even_arm_1,nomi_tracking_data,RRFWJ,2020-10-24 02:42:29,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-M-001,513,90-11,event:54153,study_subject_even_arm_1,nomi_tracking_data,TCXXP,2020-10-27 12:50:40,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-M-001,513,90-11,event:54155,study_subject_even_arm_1,nomi_tracking_data,TCXXP,2020-10-27 15:17:43,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-M-001,513,90-11,event:54163,study_subject_even_arm_1,nomi_tracking_data,TCXXP,2020-10-28 10:21:04,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-M-001,513,90-11,event:54164,study_subject_even_arm_1,nomi_tracking_data,TCXXP,2020-10-28 10:35:31,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-M-001,513,90-11,event:54169,study_subject_even_arm_1,nomi_tracking_data,TCXXP,2020-10-29 00:32:12,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-M-001,513,90-11,event:54179,study_subject_even_arm_1,nomi_tracking_data,TCXXP,2020-10-30 00:37:07,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-M-001,513,90-11,event:54189,study_subject_even_arm_1,nomi_tracking_data,TCXXP,2020-10-30 23:22:36,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-M-001,513,90-11,event:54197,study_subject_even_arm_1,nomi_tracking_data,TCXXP,2020-10-31 14:22:26,America/Chicago,-4,-4,0,,2,OARS EDC - Multi-Site Pilot
+MDW-M-001,513,90-11,event:54198,study_subject_even_arm_1,nomi_tracking_data,TCXXP,2020-10-31 21:45:01,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-M-001,513,90-11,event:54208,study_subject_even_arm_1,nomi_tracking_data,TCXXP,2020-11-01 12:20:24,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-M-001,513,90-11,event:54210,study_subject_even_arm_1,nomi_tracking_data,TCXXP,2020-11-01 13:54:52,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-M-001,513,90-11,event:54242,study_subject_even_arm_1,nomi_tracking_data,TCXXP,2020-11-02 14:38:18,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-M-001,513,90-11,event:54245,study_subject_even_arm_1,nomi_tracking_data,TCXXP,2020-11-02 22:30:51,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-M-001,513,90-11,event:54258,study_subject_even_arm_1,nomi_tracking_data,TCXXP,2020-11-03 23:24:39,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+MDW-M-001,513,90-11,event:54273,study_subject_even_arm_1,nomi_tracking_data,TCXXP,2020-11-05 00:59:10,America/Chicago,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-001,520,91-1,event:54300,study_subject_even_arm_1,nomi_tracking_data,TLMMH,2020-11-06 14:59:54,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-001,520,91-1,event:54304,study_subject_even_arm_1,nomi_tracking_data,TLMMH,2020-11-06 17:20:17,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-001,520,91-1,event:54305,study_subject_even_arm_1,nomi_tracking_data,NMPQW,2020-11-06 17:20:48,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-001,520,91-1,event:54310,study_subject_even_arm_1,nomi_tracking_data,NMPQW,2020-11-07 08:13:10,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-001,520,91-1,event:54311,study_subject_even_arm_1,nomi_tracking_data,TLMMH,2020-11-07 08:13:28,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-001,520,91-1,event:54316,study_subject_even_arm_1,nomi_tracking_data,NMPQW,2020-11-07 18:25:32,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-001,520,91-1,event:54317,study_subject_even_arm_1,nomi_tracking_data,TLMMH,2020-11-07 18:25:46,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-001,520,91-1,event:54319,study_subject_even_arm_1,nomi_tracking_data,NMPQW,2020-11-08 00:39:53,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-001,520,91-1,event:54320,study_subject_even_arm_1,nomi_tracking_data,TLMMH,2020-11-08 00:40:05,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-001,520,91-1,event:54328,study_subject_even_arm_1,nomi_tracking_data,NMPQW,2020-11-08 22:15:58,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-001,520,91-1,event:54329,study_subject_even_arm_1,nomi_tracking_data,TLMMH,2020-11-08 22:16:14,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-001,520,91-1,event:54338,study_subject_even_arm_1,nomi_tracking_data,NMPQW,2020-11-09 18:30:31,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-001,520,91-1,event:54339,study_subject_even_arm_1,nomi_tracking_data,TLMMH,2020-11-09 18:30:43,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-001,520,91-1,event:54353,study_subject_even_arm_1,nomi_tracking_data,NMPQW,2020-11-10 13:43:07,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-001,520,91-1,event:54354,study_subject_even_arm_1,nomi_tracking_data,TLMMH,2020-11-10 13:43:34,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-001,520,91-1,event:54365,study_subject_even_arm_1,nomi_tracking_data,TLMMH,2020-11-11 04:57:11,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-001,520,91-1,event:54366,study_subject_even_arm_1,nomi_tracking_data,NMPQW,2020-11-11 04:57:24,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-001,520,91-1,event:54379,study_subject_even_arm_1,nomi_tracking_data,NMPQW,2020-11-11 13:43:09,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-001,520,91-1,event:54380,study_subject_even_arm_1,nomi_tracking_data,TLMMH,2020-11-11 13:43:10,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-001,520,91-1,event:54387,study_subject_even_arm_1,nomi_tracking_data,NMPQW,2020-11-11 17:56:41,America/New_York,0,1,1,"After review, weight added likely due to handling. Weight reconciled later. ",2,OARS EDC - Multi-Site Pilot
+DCA-M-001,520,91-1,event:54399,study_subject_even_arm_1,nomi_tracking_data,NMPQW,2020-11-12 06:16:09,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-001,520,91-1,event:54402,study_subject_even_arm_1,nomi_tracking_data,NMPQW,2020-11-12 06:57:24,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-001,520,91-1,event:54403,study_subject_even_arm_1,nomi_tracking_data,TLMMH,2020-11-12 06:57:43,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-001,520,91-1,event:54425,study_subject_even_arm_1,nomi_tracking_data,TLMMH,2020-11-12 10:36:10,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-001,520,91-1,event:54426,study_subject_even_arm_1,nomi_tracking_data,NMPQW,2020-11-12 10:36:22,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-001,520,91-1,event:54472,study_subject_even_arm_1,nomi_tracking_data,NMPQW,2020-11-12 17:59:04,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-001,520,91-1,event:54473,study_subject_even_arm_1,nomi_tracking_data,TLMMH,2020-11-12 17:59:18,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-001,520,91-1,event:54490,study_subject_even_arm_1,nomi_tracking_data,NMPQW,2020-11-13 01:43:19,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-001,520,91-1,event:54491,study_subject_even_arm_1,nomi_tracking_data,TLMMH,2020-11-13 01:43:48,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-001,520,91-1,event:54510,study_subject_even_arm_1,nomi_tracking_data,NMPQW,2020-11-13 11:17:19,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-001,520,91-1,event:54511,study_subject_even_arm_1,nomi_tracking_data,TLMMH,2020-11-13 11:17:30,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-002,521,91-2,event:54355,study_subject_even_arm_1,nomi_tracking_data,VHNFS,2020-11-10 14:32:22,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-002,521,91-2,event:54356,study_subject_even_arm_1,nomi_tracking_data,KKKDM,2020-11-10 14:34:32,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-002,521,91-2,event:54359,study_subject_even_arm_1,nomi_tracking_data,VHNFS,2020-11-10 19:39:25,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-002,521,91-2,event:54371,study_subject_even_arm_1,nomi_tracking_data,KKKDM,2020-11-11 09:54:22,America/New_York,-2,-2,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-002,521,91-2,event:54372,study_subject_even_arm_1,nomi_tracking_data,VHNFS,2020-11-11 09:54:32,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-002,521,91-2,event:54383,study_subject_even_arm_1,nomi_tracking_data,KKKDM,2020-11-11 17:13:40,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-002,521,91-2,event:54384,study_subject_even_arm_1,nomi_tracking_data,VHNFS,2020-11-11 17:13:53,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-002,521,91-2,event:54388,study_subject_even_arm_1,nomi_tracking_data,VHNFS,2020-11-11 20:45:34,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-002,521,91-2,event:54389,study_subject_even_arm_1,nomi_tracking_data,KKKDM,2020-11-11 20:45:59,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-002,521,91-2,event:54432,study_subject_even_arm_1,nomi_tracking_data,VHNFS,2020-11-12 10:53:58,America/New_York,-2,-2,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-002,521,91-2,event:54433,study_subject_even_arm_1,nomi_tracking_data,KKKDM,2020-11-12 10:54:12,America/New_York,-2,-2,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-002,521,91-2,event:54469,study_subject_even_arm_1,nomi_tracking_data,VHNFS,2020-11-12 16:44:29,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-002,521,91-2,event:54470,study_subject_even_arm_1,nomi_tracking_data,KKKDM,2020-11-12 16:44:44,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-002,521,91-2,event:54488,study_subject_even_arm_1,nomi_tracking_data,KKKDM,2020-11-13 01:25:51,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-002,521,91-2,event:54489,study_subject_even_arm_1,nomi_tracking_data,VHNFS,2020-11-13 01:26:08,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-002,521,91-2,event:54509,study_subject_even_arm_1,nomi_tracking_data,VHNFS,2020-11-13 10:48:17,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-002,521,91-2,event:54508,study_subject_even_arm_1,nomi_tracking_data,KKKDM,2020-11-13 10:48:17,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-002,521,91-2,event:54527,study_subject_even_arm_1,nomi_tracking_data,KKKDM,2020-11-13 19:30:02,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-002,521,91-2,event:54528,study_subject_even_arm_1,nomi_tracking_data,VHNFS,2020-11-13 19:30:16,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-002,521,91-2,event:54564,study_subject_even_arm_1,nomi_tracking_data,VHNFS,2020-11-14 19:09:36,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-002,521,91-2,event:54565,study_subject_even_arm_1,nomi_tracking_data,KKKDM,2020-11-14 19:09:49,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-002,521,91-2,event:54584,study_subject_even_arm_1,nomi_tracking_data,VHNFS,2020-11-15 10:17:26,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-002,521,91-2,event:54585,study_subject_even_arm_1,nomi_tracking_data,KKKDM,2020-11-15 10:18:17,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-002,526,91-4,event:54166,study_subject_even_arm_1,nomi_tracking_data,CJVKN,2020-10-28 12:43:58,America/New_York,0,-8,1,Cabinet activity,2,OARS EDC - Multi-Site Pilot
+DCA-F-002,526,91-4,event:54167,study_subject_even_arm_1,nomi_tracking_data,CJVKN,2020-10-28 14:57:10,America/New_York,0,7,1,Cabinet activity,2,OARS EDC - Multi-Site Pilot
+DCA-F-002,526,91-4,event:54416,study_subject_even_arm_1,nomi_tracking_data,CJVKN,2020-11-12 09:56:53,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-002,526,91-4,event:54415,study_subject_even_arm_1,nomi_tracking_data,WQZMD,2020-11-12 09:56:54,America/New_York,-5,-5,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-002,526,91-4,event:54419,study_subject_even_arm_1,nomi_tracking_data,CJVKN,2020-11-12 10:05:56,America/New_York,1,1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-002,526,91-4,event:54420,study_subject_even_arm_1,nomi_tracking_data,WQZMD,2020-11-12 10:08:28,America/New_York,5,5,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-002,526,91-4,event:54430,study_subject_even_arm_1,nomi_tracking_data,WQZMD,2020-11-12 10:51:24,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-002,526,91-4,event:54431,study_subject_even_arm_1,nomi_tracking_data,CJVKN,2020-11-12 10:52:19,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-002,526,91-4,event:54461,study_subject_even_arm_1,nomi_tracking_data,CJVKN,2020-11-12 15:09:36,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-002,526,91-4,event:54462,study_subject_even_arm_1,nomi_tracking_data,WQZMD,2020-11-12 15:09:55,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-002,526,91-4,event:54480,study_subject_even_arm_1,nomi_tracking_data,CJVKN,2020-11-12 20:47:18,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-002,526,91-4,event:54481,study_subject_even_arm_1,nomi_tracking_data,WQZMD,2020-11-12 20:47:33,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-002,526,91-4,event:54506,study_subject_even_arm_1,nomi_tracking_data,CJVKN,2020-11-13 10:19:05,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-002,526,91-4,event:54507,study_subject_even_arm_1,nomi_tracking_data,WQZMD,2020-11-13 10:19:20,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-002,526,91-4,event:54531,study_subject_even_arm_1,nomi_tracking_data,WQZMD,2020-11-13 20:29:28,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-002,526,91-4,event:54532,study_subject_even_arm_1,nomi_tracking_data,CJVKN,2020-11-13 20:30:00,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-002,526,91-4,event:54553,study_subject_even_arm_1,nomi_tracking_data,WQZMD,2020-11-14 13:30:32,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-002,526,91-4,event:54554,study_subject_even_arm_1,nomi_tracking_data,CJVKN,2020-11-14 13:30:47,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-002,526,91-4,event:54562,study_subject_even_arm_1,nomi_tracking_data,CJVKN,2020-11-14 18:49:45,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-002,526,91-4,event:54563,study_subject_even_arm_1,nomi_tracking_data,WQZMD,2020-11-14 18:49:57,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-002,526,91-4,event:54650,study_subject_even_arm_1,nomi_tracking_data,WQZMD,2020-11-18 12:42:34,America/New_York,-13,-13,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-002,526,91-4,event:54651,study_subject_even_arm_1,nomi_tracking_data,CJVKN,2020-11-18 12:42:43,America/New_York,-12,-12,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-002,526,91-4,event:54652,study_subject_even_arm_1,nomi_tracking_data,CJVKN,2020-11-18 12:46:59,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-002,526,91-4,event:54653,study_subject_even_arm_1,nomi_tracking_data,WQZMD,2020-11-18 12:47:21,America/New_York,13,13,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-002,526,91-4,event:54654,study_subject_even_arm_1,nomi_tracking_data,CJVKN,2020-11-18 12:54:11,America/New_York,13,13,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-001,527,91-3,event:54243,study_subject_even_arm_1,nomi_tracking_data,TSNRP,2020-11-02 16:06:54,America/New_York,0,-7,1,Cabinet activity,2,OARS EDC - Multi-Site Pilot
+DCA-F-001,527,91-3,event:54244,study_subject_even_arm_1,nomi_tracking_data,TSNRP,2020-11-02 16:07:29,America/New_York,0,7,1,Cabinet activity,2,OARS EDC - Multi-Site Pilot
+DCA-F-001,527,91-3,event:54385,study_subject_even_arm_1,nomi_tracking_data,TSNRP,2020-11-11 17:35:58,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-001,527,91-3,event:54386,study_subject_even_arm_1,nomi_tracking_data,LZTGS,2020-11-11 17:36:02,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-001,527,91-3,event:54391,study_subject_even_arm_1,nomi_tracking_data,LZTGS,2020-11-11 22:43:01,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-001,527,91-3,event:54392,study_subject_even_arm_1,nomi_tracking_data,TSNRP,2020-11-11 22:43:01,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-001,527,91-3,event:54394,study_subject_even_arm_1,nomi_tracking_data,TSNRP,2020-11-12 02:52:46,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-001,527,91-3,event:54395,study_subject_even_arm_1,nomi_tracking_data,LZTGS,2020-11-12 02:53:01,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-001,527,91-3,event:54396,study_subject_even_arm_1,nomi_tracking_data,LZTGS,2020-11-12 02:53:47,America/New_York,1,1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-001,527,91-3,event:54397,study_subject_even_arm_1,nomi_tracking_data,TSNRP,2020-11-12 02:53:56,America/New_York,1,1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-001,527,91-3,event:54406,study_subject_even_arm_1,nomi_tracking_data,LZTGS,2020-11-12 07:56:45,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-001,527,91-3,event:54407,study_subject_even_arm_1,nomi_tracking_data,TSNRP,2020-11-12 07:56:53,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-001,527,91-3,event:54444,study_subject_even_arm_1,nomi_tracking_data,LZTGS,2020-11-12 12:24:03,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-001,527,91-3,event:54445,study_subject_even_arm_1,nomi_tracking_data,TSNRP,2020-11-12 12:24:27,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-003,522,91-6,event:54452,study_subject_even_arm_1,nomi_tracking_data,DVTMT,2020-11-12 13:04:25,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-003,522,91-6,event:54453,study_subject_even_arm_1,nomi_tracking_data,MZWFK,2020-11-12 13:04:37,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-003,525,91-5,event:54459,study_subject_even_arm_1,nomi_tracking_data,PVHPK,2020-11-12 14:26:59,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-003,525,91-5,event:54460,study_subject_even_arm_1,nomi_tracking_data,XHRSR,2020-11-12 14:28:29,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-001,527,91-3,event:54468,study_subject_even_arm_1,nomi_tracking_data,TSNRP,2020-11-12 16:37:10,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-001,527,91-3,event:54467,study_subject_even_arm_1,nomi_tracking_data,LZTGS,2020-11-12 16:37:10,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-003,525,91-5,event:54474,study_subject_even_arm_1,nomi_tracking_data,PVHPK,2020-11-12 18:14:39,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-003,525,91-5,event:54475,study_subject_even_arm_1,nomi_tracking_data,XHRSR,2020-11-12 18:14:54,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-003,522,91-6,event:54476,study_subject_even_arm_1,nomi_tracking_data,DVTMT,2020-11-12 20:25:50,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-003,522,91-6,event:54477,study_subject_even_arm_1,nomi_tracking_data,MZWFK,2020-11-12 20:26:05,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-001,527,91-3,event:54478,study_subject_even_arm_1,nomi_tracking_data,LZTGS,2020-11-12 20:38:50,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-001,527,91-3,event:54479,study_subject_even_arm_1,nomi_tracking_data,TSNRP,2020-11-12 20:38:58,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-001,527,91-3,event:54492,study_subject_even_arm_1,nomi_tracking_data,LZTGS,2020-11-13 00:49:26,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-001,527,91-3,event:54487,study_subject_even_arm_1,nomi_tracking_data,TSNRP,2020-11-13 00:49:49,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-003,522,91-6,event:54484,study_subject_even_arm_1,nomi_tracking_data,MZWFK,2020-11-13 00:59:21,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-003,525,91-5,event:54483,study_subject_even_arm_1,nomi_tracking_data,PVHPK,2020-11-13 00:59:30,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-003,525,91-5,event:54485,study_subject_even_arm_1,nomi_tracking_data,XHRSR,2020-11-13 00:59:30,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-003,522,91-6,event:54486,study_subject_even_arm_1,nomi_tracking_data,DVTMT,2020-11-13 00:59:38,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-003,522,91-6,event:54494,study_subject_even_arm_1,nomi_tracking_data,MZWFK,2020-11-13 06:06:51,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-003,522,91-6,event:54495,study_subject_even_arm_1,nomi_tracking_data,DVTMT,2020-11-13 06:07:04,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-001,527,91-3,event:54497,study_subject_even_arm_1,nomi_tracking_data,TSNRP,2020-11-13 06:27:54,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-001,527,91-3,event:54498,study_subject_even_arm_1,nomi_tracking_data,LZTGS,2020-11-13 06:28:11,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-003,522,91-6,event:54512,study_subject_even_arm_1,nomi_tracking_data,MZWFK,2020-11-13 11:59:55,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-003,522,91-6,event:54513,study_subject_even_arm_1,nomi_tracking_data,DVTMT,2020-11-13 12:00:05,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-001,527,91-3,event:54516,study_subject_even_arm_1,nomi_tracking_data,LZTGS,2020-11-13 12:21:36,America/New_York,-2,-2,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-001,527,91-3,event:54517,study_subject_even_arm_1,nomi_tracking_data,TSNRP,2020-11-13 12:21:55,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-003,525,91-5,event:54520,study_subject_even_arm_1,nomi_tracking_data,XHRSR,2020-11-13 14:40:07,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-003,525,91-5,event:54521,study_subject_even_arm_1,nomi_tracking_data,PVHPK,2020-11-13 14:40:08,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-003,522,91-6,event:54525,study_subject_even_arm_1,nomi_tracking_data,MZWFK,2020-11-13 17:42:09,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-003,522,91-6,event:54526,study_subject_even_arm_1,nomi_tracking_data,DVTMT,2020-11-13 17:42:16,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-001,527,91-3,event:54529,study_subject_even_arm_1,nomi_tracking_data,LZTGS,2020-11-13 19:39:01,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-001,527,91-3,event:54530,study_subject_even_arm_1,nomi_tracking_data,TSNRP,2020-11-13 19:39:19,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-003,525,91-5,event:54533,study_subject_even_arm_1,nomi_tracking_data,XHRSR,2020-11-13 20:42:40,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-003,525,91-5,event:54534,study_subject_even_arm_1,nomi_tracking_data,PVHPK,2020-11-13 22:50:15,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-003,522,91-6,event:54536,study_subject_even_arm_1,nomi_tracking_data,MZWFK,2020-11-14 00:17:35,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-003,522,91-6,event:54537,study_subject_even_arm_1,nomi_tracking_data,DVTMT,2020-11-14 00:17:49,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-003,522,91-6,event:54541,study_subject_even_arm_1,nomi_tracking_data,MZWFK,2020-11-14 07:00:26,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-003,522,91-6,event:54542,study_subject_even_arm_1,nomi_tracking_data,DVTMT,2020-11-14 07:00:43,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-003,525,91-5,event:54544,study_subject_even_arm_1,nomi_tracking_data,PVHPK,2020-11-14 08:17:07,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-003,525,91-5,event:54545,study_subject_even_arm_1,nomi_tracking_data,XHRSR,2020-11-14 08:17:16,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-001,527,91-3,event:54549,study_subject_even_arm_1,nomi_tracking_data,LZTGS,2020-11-14 10:58:09,America/New_York,-2,-2,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-001,527,91-3,event:54550,study_subject_even_arm_1,nomi_tracking_data,TSNRP,2020-11-14 10:58:20,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-003,522,91-6,event:54551,study_subject_even_arm_1,nomi_tracking_data,MZWFK,2020-11-14 11:57:05,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-003,522,91-6,event:54552,study_subject_even_arm_1,nomi_tracking_data,DVTMT,2020-11-14 11:57:17,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-003,525,91-5,event:54556,study_subject_even_arm_1,nomi_tracking_data,PVHPK,2020-11-14 16:57:42,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-003,525,91-5,event:54557,study_subject_even_arm_1,nomi_tracking_data,XHRSR,2020-11-14 16:57:54,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-003,522,91-6,event:54558,study_subject_even_arm_1,nomi_tracking_data,MZWFK,2020-11-14 18:05:06,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-003,522,91-6,event:54559,study_subject_even_arm_1,nomi_tracking_data,DVTMT,2020-11-14 18:05:17,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-001,527,91-3,event:54560,study_subject_even_arm_1,nomi_tracking_data,LZTGS,2020-11-14 18:45:43,America/New_York,-12,-12,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-001,527,91-3,event:54561,study_subject_even_arm_1,nomi_tracking_data,TSNRP,2020-11-14 18:45:54,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-001,527,91-3,event:54566,study_subject_even_arm_1,nomi_tracking_data,LZTGS,2020-11-14 19:23:37,America/New_York,11,11,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-003,522,91-6,event:54567,study_subject_even_arm_1,nomi_tracking_data,MZWFK,2020-11-14 22:28:05,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-003,522,91-6,event:54568,study_subject_even_arm_1,nomi_tracking_data,DVTMT,2020-11-14 22:28:14,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-001,527,91-3,event:54572,study_subject_even_arm_1,nomi_tracking_data,LZTGS,2020-11-15 01:29:50,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-001,527,91-3,event:54573,study_subject_even_arm_1,nomi_tracking_data,TSNRP,2020-11-15 01:30:04,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-003,525,91-5,event:54575,study_subject_even_arm_1,nomi_tracking_data,XHRSR,2020-11-15 04:07:33,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-003,525,91-5,event:54576,study_subject_even_arm_1,nomi_tracking_data,PVHPK,2020-11-15 04:07:45,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-003,522,91-6,event:54577,study_subject_even_arm_1,nomi_tracking_data,DVTMT,2020-11-15 04:41:26,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-003,522,91-6,event:54578,study_subject_even_arm_1,nomi_tracking_data,MZWFK,2020-11-15 04:41:45,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-001,527,91-3,event:54587,study_subject_even_arm_1,nomi_tracking_data,LZTGS,2020-11-15 11:38:23,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-003,522,91-6,event:54588,study_subject_even_arm_1,nomi_tracking_data,MZWFK,2020-11-15 12:02:48,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-003,522,91-6,event:54589,study_subject_even_arm_1,nomi_tracking_data,DVTMT,2020-11-15 12:02:56,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-003,525,91-5,event:54590,study_subject_even_arm_1,nomi_tracking_data,PVHPK,2020-11-15 12:56:09,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-003,525,91-5,event:54591,study_subject_even_arm_1,nomi_tracking_data,XHRSR,2020-11-15 12:57:02,America/New_York,-1,-11,1,High G event causes ~5g weight shift,2,OARS EDC - Multi-Site Pilot
+DCA-M-003,522,91-6,event:54593,study_subject_even_arm_1,nomi_tracking_data,MZWFK,2020-11-15 18:38:27,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-003,522,91-6,event:54594,study_subject_even_arm_1,nomi_tracking_data,DVTMT,2020-11-15 18:38:38,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-003,522,91-6,event:54596,study_subject_even_arm_1,nomi_tracking_data,DVTMT,2020-11-15 23:06:41,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-003,522,91-6,event:54597,study_subject_even_arm_1,nomi_tracking_data,MZWFK,2020-11-15 23:06:50,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-001,527,91-3,event:54598,study_subject_even_arm_1,nomi_tracking_data,TSNRP,2020-11-16 02:53:36,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-003,522,91-6,event:54600,study_subject_even_arm_1,nomi_tracking_data,DVTMT,2020-11-16 06:00:44,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-003,522,91-6,event:54601,study_subject_even_arm_1,nomi_tracking_data,MZWFK,2020-11-16 06:00:55,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-003,525,91-5,event:54604,study_subject_even_arm_1,nomi_tracking_data,XHRSR,2020-11-16 08:45:09,America/New_York,-4,-4,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-003,525,91-5,event:54605,study_subject_even_arm_1,nomi_tracking_data,PVHPK,2020-11-16 08:45:19,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-003,522,91-6,event:54614,study_subject_even_arm_1,nomi_tracking_data,MZWFK,2020-11-16 13:21:43,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-003,522,91-6,event:54615,study_subject_even_arm_1,nomi_tracking_data,DVTMT,2020-11-16 13:21:52,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-003,525,91-5,event:54616,study_subject_even_arm_1,nomi_tracking_data,XHRSR,2020-11-16 13:22:18,America/New_York,2,2,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-003,525,91-5,event:54617,study_subject_even_arm_1,nomi_tracking_data,PVHPK,2020-11-16 13:22:42,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-003,522,91-6,event:54618,study_subject_even_arm_1,nomi_tracking_data,DVTMT,2020-11-16 18:08:31,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-003,522,91-6,event:54619,study_subject_even_arm_1,nomi_tracking_data,MZWFK,2020-11-16 18:08:32,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-003,522,91-6,event:54620,study_subject_even_arm_1,nomi_tracking_data,DVTMT,2020-11-16 22:04:31,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-003,522,91-6,event:54621,study_subject_even_arm_1,nomi_tracking_data,MZWFK,2020-11-16 22:04:38,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-003,522,91-6,event:54623,study_subject_even_arm_1,nomi_tracking_data,MZWFK,2020-11-17 06:00:45,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-003,522,91-6,event:54624,study_subject_even_arm_1,nomi_tracking_data,DVTMT,2020-11-17 06:00:56,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-003,525,91-5,event:54626,study_subject_even_arm_1,nomi_tracking_data,XHRSR,2020-11-17 06:45:02,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-003,525,91-5,event:54627,study_subject_even_arm_1,nomi_tracking_data,PVHPK,2020-11-17 06:45:12,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-001,527,91-3,event:54631,study_subject_even_arm_1,nomi_tracking_data,LZTGS,2020-11-17 11:03:54,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-001,527,91-3,event:54632,study_subject_even_arm_1,nomi_tracking_data,TSNRP,2020-11-17 11:03:55,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-003,525,91-5,event:54636,study_subject_even_arm_1,nomi_tracking_data,XHRSR,2020-11-17 13:52:46,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-003,525,91-5,event:54637,study_subject_even_arm_1,nomi_tracking_data,PVHPK,2020-11-17 13:52:53,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-001,527,91-3,event:54669,study_subject_even_arm_1,nomi_tracking_data,TSNRP,2020-11-19 11:14:55,America/New_York,-2,-2,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-001,527,91-3,event:54671,study_subject_even_arm_1,nomi_tracking_data,TSNRP,2020-11-19 11:49:30,America/New_York,2,2,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-003,525,91-5,event:54676,study_subject_even_arm_1,nomi_tracking_data,PVHPK,2020-11-19 14:20:35,America/New_York,-7,-7,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-003,525,91-5,event:54677,study_subject_even_arm_1,nomi_tracking_data,XHRSR,2020-11-19 14:20:40,America/New_York,-7,-7,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-003,525,91-5,event:54678,study_subject_even_arm_1,nomi_tracking_data,PVHPK,2020-11-19 14:24:28,America/New_York,7,7,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-003,525,91-5,event:54679,study_subject_even_arm_1,nomi_tracking_data,XHRSR,2020-11-19 14:24:32,America/New_York,7,7,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-004,523,91-7,event:54352,study_subject_even_arm_1,nomi_tracking_data,QMMTH,2020-11-10 13:27:26,America/New_York,2,2,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-004,523,91-7,event:54667,study_subject_even_arm_1,nomi_tracking_data,VLKTC,2020-11-19 10:26:06,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-004,523,91-7,event:54668,study_subject_even_arm_1,nomi_tracking_data,QMMTH,2020-11-19 10:27:05,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-004,523,91-7,event:54673,study_subject_even_arm_1,nomi_tracking_data,VLKTC,2020-11-19 14:00:52,America/New_York,-7,-7,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-004,523,91-7,event:54674,study_subject_even_arm_1,nomi_tracking_data,QMMTH,2020-11-19 14:01:17,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-004,523,91-7,event:54682,study_subject_even_arm_1,nomi_tracking_data,VLKTC,2020-11-19 16:02:49,America/New_York,6,6,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-004,523,91-7,event:54684,study_subject_even_arm_1,nomi_tracking_data,QMMTH,2020-11-19 17:39:46,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-004,523,91-7,event:54683,study_subject_even_arm_1,nomi_tracking_data,VLKTC,2020-11-19 17:39:46,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-004,523,91-7,event:54686,study_subject_even_arm_1,nomi_tracking_data,QMMTH,2020-11-19 21:48:58,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-004,523,91-7,event:54687,study_subject_even_arm_1,nomi_tracking_data,VLKTC,2020-11-19 21:49:13,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-004,523,91-7,event:54692,study_subject_even_arm_1,nomi_tracking_data,VLKTC,2020-11-20 09:30:22,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-004,523,91-7,event:54693,study_subject_even_arm_1,nomi_tracking_data,QMMTH,2020-11-20 09:30:41,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-004,523,91-7,event:54711,study_subject_even_arm_1,nomi_tracking_data,QMMTH,2020-11-20 16:49:04,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-004,523,91-7,event:54710,study_subject_even_arm_1,nomi_tracking_data,VLKTC,2020-11-20 16:49:04,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-004,523,91-7,event:54716,study_subject_even_arm_1,nomi_tracking_data,VLKTC,2020-11-20 22:34:36,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-004,523,91-7,event:54717,study_subject_even_arm_1,nomi_tracking_data,QMMTH,2020-11-20 22:34:48,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-004,523,91-7,event:54730,study_subject_even_arm_1,nomi_tracking_data,QMMTH,2020-11-21 10:58:46,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-004,523,91-7,event:54729,study_subject_even_arm_1,nomi_tracking_data,VLKTC,2020-11-21 10:58:46,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-004,523,91-7,event:54737,study_subject_even_arm_1,nomi_tracking_data,VLKTC,2020-11-21 15:33:34,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-004,523,91-7,event:54738,study_subject_even_arm_1,nomi_tracking_data,QMMTH,2020-11-21 15:33:43,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-004,523,91-7,event:54745,study_subject_even_arm_1,nomi_tracking_data,QMMTH,2020-11-21 20:59:09,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-004,523,91-7,event:54746,study_subject_even_arm_1,nomi_tracking_data,VLKTC,2020-11-21 20:59:29,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-004,523,91-7,event:54748,study_subject_even_arm_1,nomi_tracking_data,VLKTC,2020-11-22 00:09:36,America/New_York,3,3,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-004,523,91-7,event:54749,study_subject_even_arm_1,nomi_tracking_data,QMMTH,2020-11-22 00:10:07,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-004,523,91-7,event:54753,study_subject_even_arm_1,nomi_tracking_data,VLKTC,2020-11-22 09:34:42,America/New_York,-4,-4,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-004,523,91-7,event:54804,study_subject_even_arm_1,nomi_tracking_data,VLKTC,2020-11-24 13:13:21,America/New_York,-9,-9,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-004,523,91-7,event:54805,study_subject_even_arm_1,nomi_tracking_data,QMMTH,2020-11-24 13:13:39,America/New_York,-9,-9,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-004,523,91-7,event:54806,study_subject_even_arm_1,nomi_tracking_data,QMMTH,2020-11-24 13:21:03,America/New_York,9,9,0,,2,OARS EDC - Multi-Site Pilot
+DCA-M-004,523,91-7,event:54807,study_subject_even_arm_1,nomi_tracking_data,VLKTC,2020-11-24 13:25:40,America/New_York,9,9,0,,2,OARS EDC - Multi-Site Pilot
+FNT-M-002,533,92-2,event:54708,study_subject_even_arm_1,nomi_tracking_data,SPVKS,2020-11-20 16:28:02,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-M-002,533,92-2,event:54709,study_subject_even_arm_1,nomi_tracking_data,TLKVS,2020-11-20 16:28:02,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-M-002,533,92-2,event:54712,study_subject_even_arm_1,nomi_tracking_data,TLKVS,2020-11-20 19:28:32,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-M-002,533,92-2,event:54713,study_subject_even_arm_1,nomi_tracking_data,SPVKS,2020-11-20 19:29:39,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-M-002,533,92-2,event:54718,study_subject_even_arm_1,nomi_tracking_data,SPVKS,2020-11-20 23:44:08,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-M-002,533,92-2,event:54719,study_subject_even_arm_1,nomi_tracking_data,TLKVS,2020-11-20 23:44:28,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-M-002,533,92-2,event:54723,study_subject_even_arm_1,nomi_tracking_data,TLKVS,2020-11-21 06:11:50,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-M-002,533,92-2,event:54724,study_subject_even_arm_1,nomi_tracking_data,SPVKS,2020-11-21 06:12:21,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-M-002,533,92-2,event:54734,study_subject_even_arm_1,nomi_tracking_data,SPVKS,2020-11-21 12:01:01,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-M-002,533,92-2,event:54735,study_subject_even_arm_1,nomi_tracking_data,TLKVS,2020-11-21 12:01:28,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-M-002,533,92-2,event:54743,study_subject_even_arm_1,nomi_tracking_data,TLKVS,2020-11-21 19:42:00,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-M-002,533,92-2,event:54744,study_subject_even_arm_1,nomi_tracking_data,SPVKS,2020-11-21 19:43:01,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-M-002,533,92-2,event:54813,study_subject_even_arm_1,nomi_tracking_data,SPVKS,2020-11-25 08:15:27,America/New_York,-4,-4,0,,2,OARS EDC - Multi-Site Pilot
+FNT-M-002,533,92-2,event:54814,study_subject_even_arm_1,nomi_tracking_data,SPVKS,2020-11-25 08:16:08,America/New_York,4,4,0,,2,OARS EDC - Multi-Site Pilot
+FNT-M-002,533,92-2,event:54815,study_subject_even_arm_1,nomi_tracking_data,TLKVS,2020-11-25 08:16:16,America/New_York,0,-1,1,End date adjustment for handling at site after the device was returned,2,OARS EDC - Multi-Site Pilot
+FNT-M-001,532,92-1,event:54705,study_subject_even_arm_1,nomi_tracking_data,SWNNJ,2020-11-20 15:15:37,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-M-001,532,92-1,event:54706,study_subject_even_arm_1,nomi_tracking_data,CRPBX,2020-11-20 15:15:57,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-M-001,532,92-1,event:54714,study_subject_even_arm_1,nomi_tracking_data,SWNNJ,2020-11-20 20:27:13,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-M-001,532,92-1,event:54715,study_subject_even_arm_1,nomi_tracking_data,CRPBX,2020-11-20 20:27:43,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-M-001,532,92-1,event:54720,study_subject_even_arm_1,nomi_tracking_data,SWNNJ,2020-11-21 01:33:12,America/New_York,-3,-3,0,,2,OARS EDC - Multi-Site Pilot
+FNT-M-001,532,92-1,event:54721,study_subject_even_arm_1,nomi_tracking_data,CRPBX,2020-11-21 01:33:37,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-M-001,532,92-1,event:54725,study_subject_even_arm_1,nomi_tracking_data,SWNNJ,2020-11-21 07:08:58,America/New_York,1,1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-M-001,532,92-1,event:54726,study_subject_even_arm_1,nomi_tracking_data,CRPBX,2020-11-21 07:09:15,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-M-001,532,92-1,event:54742,study_subject_even_arm_1,nomi_tracking_data,CRPBX,2020-11-21 16:39:29,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-M-001,532,92-1,event:54741,study_subject_even_arm_1,nomi_tracking_data,SWNNJ,2020-11-21 16:39:29,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-M-001,532,92-1,event:54750,study_subject_even_arm_1,nomi_tracking_data,SWNNJ,2020-11-22 03:59:19,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-M-001,532,92-1,event:54751,study_subject_even_arm_1,nomi_tracking_data,CRPBX,2020-11-22 03:59:41,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-M-001,532,92-1,event:54758,study_subject_even_arm_1,nomi_tracking_data,SWNNJ,2020-11-22 12:38:19,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-M-001,532,92-1,event:54759,study_subject_even_arm_1,nomi_tracking_data,CRPBX,2020-11-22 12:38:20,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-M-001,532,92-1,event:54762,study_subject_even_arm_1,nomi_tracking_data,SWNNJ,2020-11-22 21:31:27,America/New_York,-2,-2,0,,2,OARS EDC - Multi-Site Pilot
+FNT-M-001,532,92-1,event:54763,study_subject_even_arm_1,nomi_tracking_data,CRPBX,2020-11-22 21:31:43,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-M-001,532,92-1,event:54768,study_subject_even_arm_1,nomi_tracking_data,CRPBX,2020-11-23 07:14:08,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-M-001,532,92-1,event:54780,study_subject_even_arm_1,nomi_tracking_data,SWNNJ,2020-11-23 21:14:08,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-M-001,532,92-1,event:54785,study_subject_even_arm_1,nomi_tracking_data,CRPBX,2020-11-23 21:28:15,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-M-001,532,92-1,event:54793,study_subject_even_arm_1,nomi_tracking_data,SWNNJ,2020-11-24 01:03:21,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-M-001,532,92-1,event:54794,study_subject_even_arm_1,nomi_tracking_data,CRPBX,2020-11-24 01:03:22,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-M-001,532,92-1,event:54808,study_subject_even_arm_1,nomi_tracking_data,SWNNJ,2020-11-24 19:52:13,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-M-001,532,92-1,event:54809,study_subject_even_arm_1,nomi_tracking_data,SWNNJ,2020-11-24 20:07:47,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-M-001,532,92-1,event:54810,study_subject_even_arm_1,nomi_tracking_data,CRPBX,2020-11-24 20:07:48,America/New_York,-2,-2,0,,2,OARS EDC - Multi-Site Pilot
+FNT-M-001,532,92-1,event:54823,study_subject_even_arm_1,nomi_tracking_data,CRPBX,2020-11-26 01:37:06,America/New_York,-2,-2,0,,2,OARS EDC - Multi-Site Pilot
+FNT-M-001,532,92-1,event:54822,study_subject_even_arm_1,nomi_tracking_data,SWNNJ,2020-11-26 01:37:06,America/New_York,-2,-2,0,,2,OARS EDC - Multi-Site Pilot
+FNT-M-001,532,92-1,event:54831,study_subject_even_arm_1,nomi_tracking_data,SWNNJ,2020-11-26 15:09:31,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-M-001,532,92-1,event:54830,study_subject_even_arm_1,nomi_tracking_data,CRPBX,2020-11-26 15:09:31,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-M-001,532,92-1,event:54839,study_subject_even_arm_1,nomi_tracking_data,CRPBX,2020-11-27 21:09:09,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-M-001,532,92-1,event:54840,study_subject_even_arm_1,nomi_tracking_data,SWNNJ,2020-11-27 21:09:09,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-M-001,532,92-1,event:54851,study_subject_even_arm_1,nomi_tracking_data,SWNNJ,2020-11-29 01:38:34,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-M-001,532,92-1,event:54852,study_subject_even_arm_1,nomi_tracking_data,CRPBX,2020-11-29 01:38:49,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-004,524,91-8,event:55046,study_subject_even_arm_1,nomi_tracking_data,RNXJC,2020-12-07 15:21:51,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-004,524,91-8,event:55049,study_subject_even_arm_1,nomi_tracking_data,LWDBX,2020-12-07 17:30:14,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-004,524,91-8,event:55051,study_subject_even_arm_1,nomi_tracking_data,RNXJC,2020-12-07 19:01:59,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-004,524,91-8,event:55052,study_subject_even_arm_1,nomi_tracking_data,LWDBX,2020-12-07 19:03:18,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-004,524,91-8,event:55059,study_subject_even_arm_1,nomi_tracking_data,LWDBX,2020-12-07 22:58:04,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-004,524,91-8,event:55060,study_subject_even_arm_1,nomi_tracking_data,RNXJC,2020-12-07 22:59:08,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-004,524,91-8,event:55068,study_subject_even_arm_1,nomi_tracking_data,RNXJC,2020-12-08 06:00:26,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-004,524,91-8,event:55069,study_subject_even_arm_1,nomi_tracking_data,LWDBX,2020-12-08 06:00:41,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-004,524,91-8,event:55079,study_subject_even_arm_1,nomi_tracking_data,LWDBX,2020-12-08 12:01:49,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-004,524,91-8,event:55080,study_subject_even_arm_1,nomi_tracking_data,RNXJC,2020-12-08 12:02:06,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-004,524,91-8,event:55085,study_subject_even_arm_1,nomi_tracking_data,RNXJC,2020-12-08 19:04:56,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-004,524,91-8,event:55086,study_subject_even_arm_1,nomi_tracking_data,LWDBX,2020-12-08 19:04:56,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-004,524,91-8,event:55090,study_subject_even_arm_1,nomi_tracking_data,LWDBX,2020-12-08 23:33:21,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-004,524,91-8,event:55091,study_subject_even_arm_1,nomi_tracking_data,RNXJC,2020-12-08 23:33:32,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-004,524,91-8,event:55095,study_subject_even_arm_1,nomi_tracking_data,LWDBX,2020-12-09 06:23:30,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-004,524,91-8,event:55096,study_subject_even_arm_1,nomi_tracking_data,RNXJC,2020-12-09 06:23:31,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-004,524,91-8,event:55101,study_subject_even_arm_1,nomi_tracking_data,LWDBX,2020-12-09 12:41:25,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-004,524,91-8,event:55102,study_subject_even_arm_1,nomi_tracking_data,RNXJC,2020-12-09 12:41:32,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-004,524,91-8,event:55107,study_subject_even_arm_1,nomi_tracking_data,RNXJC,2020-12-09 18:17:49,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-004,524,91-8,event:55108,study_subject_even_arm_1,nomi_tracking_data,LWDBX,2020-12-09 18:18:07,America/New_York,-2,-2,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-004,524,91-8,event:55111,study_subject_even_arm_1,nomi_tracking_data,LWDBX,2020-12-09 22:56:00,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-004,524,91-8,event:55112,study_subject_even_arm_1,nomi_tracking_data,RNXJC,2020-12-09 22:56:15,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-004,524,91-8,event:55117,study_subject_even_arm_1,nomi_tracking_data,RNXJC,2020-12-10 07:44:33,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-004,524,91-8,event:55116,study_subject_even_arm_1,nomi_tracking_data,LWDBX,2020-12-10 07:44:33,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-004,524,91-8,event:55118,study_subject_even_arm_1,nomi_tracking_data,LWDBX,2020-12-10 07:52:26,America/New_York,1,1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-004,524,91-8,event:55125,study_subject_even_arm_1,nomi_tracking_data,LWDBX,2020-12-10 13:56:24,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-004,524,91-8,event:55126,study_subject_even_arm_1,nomi_tracking_data,RNXJC,2020-12-10 13:56:38,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-004,524,91-8,event:55127,study_subject_even_arm_1,nomi_tracking_data,LWDBX,2020-12-10 19:14:34,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-004,524,91-8,event:55128,study_subject_even_arm_1,nomi_tracking_data,RNXJC,2020-12-10 19:15:05,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-004,524,91-8,event:55134,study_subject_even_arm_1,nomi_tracking_data,LWDBX,2020-12-11 00:46:51,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-004,524,91-8,event:55133,study_subject_even_arm_1,nomi_tracking_data,RNXJC,2020-12-11 00:46:51,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-004,524,91-8,event:55151,study_subject_even_arm_1,nomi_tracking_data,LWDBX,2020-12-11 15:55:22,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-004,524,91-8,event:55152,study_subject_even_arm_1,nomi_tracking_data,RNXJC,2020-12-11 15:55:36,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-004,524,91-8,event:55153,study_subject_even_arm_1,nomi_tracking_data,LWDBX,2020-12-12 00:31:34,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-004,524,91-8,event:55154,study_subject_even_arm_1,nomi_tracking_data,RNXJC,2020-12-12 00:31:47,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-004,524,91-8,event:55164,study_subject_even_arm_1,nomi_tracking_data,LWDBX,2020-12-12 22:07:21,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-004,524,91-8,event:55165,study_subject_even_arm_1,nomi_tracking_data,RNXJC,2020-12-12 22:07:30,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-004,524,91-8,event:55176,study_subject_even_arm_1,nomi_tracking_data,LWDBX,2020-12-13 22:39:08,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+DCA-F-004,524,91-8,event:55177,study_subject_even_arm_1,nomi_tracking_data,RNXJC,2020-12-13 22:39:21,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-M-003,534,92-3,event:54969,study_subject_even_arm_1,nomi_tracking_data,NPZZL,2020-12-04 14:47:43,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-M-003,534,92-3,event:54977,study_subject_even_arm_1,nomi_tracking_data,LVVVC,2020-12-04 17:45:51,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-M-003,534,92-3,event:54978,study_subject_even_arm_1,nomi_tracking_data,NPZZL,2020-12-04 17:46:39,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-M-003,534,92-3,event:54979,study_subject_even_arm_1,nomi_tracking_data,LVVVC,2020-12-04 17:46:58,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-M-003,534,92-3,event:54980,study_subject_even_arm_1,nomi_tracking_data,LVVVC,2020-12-04 17:48:09,America/New_York,-6,-6,0,,2,OARS EDC - Multi-Site Pilot
+FNT-M-003,534,92-3,event:54981,study_subject_even_arm_1,nomi_tracking_data,LVVVC,2020-12-04 17:52:47,America/New_York,4,4,0,,2,OARS EDC - Multi-Site Pilot
+FNT-M-003,534,92-3,event:54983,study_subject_even_arm_1,nomi_tracking_data,NPZZL,2020-12-04 22:00:35,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-M-003,534,92-3,event:54984,study_subject_even_arm_1,nomi_tracking_data,LVVVC,2020-12-04 22:00:57,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-M-003,534,92-3,event:54990,study_subject_even_arm_1,nomi_tracking_data,NPZZL,2020-12-05 09:05:49,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-M-003,534,92-3,event:54991,study_subject_even_arm_1,nomi_tracking_data,LVVVC,2020-12-05 09:07:44,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-M-003,534,92-3,event:54996,study_subject_even_arm_1,nomi_tracking_data,LVVVC,2020-12-05 13:08:05,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-M-003,534,92-3,event:54997,study_subject_even_arm_1,nomi_tracking_data,NPZZL,2020-12-05 13:08:09,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-M-003,534,92-3,event:54999,study_subject_even_arm_1,nomi_tracking_data,NPZZL,2020-12-05 17:03:55,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-M-003,534,92-3,event:55000,study_subject_even_arm_1,nomi_tracking_data,LVVVC,2020-12-05 17:04:04,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-M-003,534,92-3,event:55002,study_subject_even_arm_1,nomi_tracking_data,LVVVC,2020-12-05 20:38:29,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-M-003,534,92-3,event:55003,study_subject_even_arm_1,nomi_tracking_data,NPZZL,2020-12-05 20:38:39,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-M-003,534,92-3,event:55007,study_subject_even_arm_1,nomi_tracking_data,LVVVC,2020-12-06 08:34:10,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-M-003,534,92-3,event:55008,study_subject_even_arm_1,nomi_tracking_data,NPZZL,2020-12-06 08:34:48,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-M-003,534,92-3,event:55014,study_subject_even_arm_1,nomi_tracking_data,NPZZL,2020-12-06 12:48:47,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-M-003,534,92-3,event:55015,study_subject_even_arm_1,nomi_tracking_data,LVVVC,2020-12-06 12:49:03,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-M-003,534,92-3,event:55018,study_subject_even_arm_1,nomi_tracking_data,LVVVC,2020-12-06 15:30:21,America/New_York,1,1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-M-003,534,92-3,event:55019,study_subject_even_arm_1,nomi_tracking_data,LVVVC,2020-12-06 16:46:55,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-M-003,534,92-3,event:55021,study_subject_even_arm_1,nomi_tracking_data,NPZZL,2020-12-06 16:48:31,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-M-003,534,92-3,event:55026,study_subject_even_arm_1,nomi_tracking_data,LVVVC,2020-12-07 04:52:55,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-M-003,534,92-3,event:55027,study_subject_even_arm_1,nomi_tracking_data,NPZZL,2020-12-07 04:53:09,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-M-003,534,92-3,event:55047,study_subject_even_arm_1,nomi_tracking_data,LVVVC,2020-12-07 16:36:07,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-M-003,534,92-3,event:55048,study_subject_even_arm_1,nomi_tracking_data,NPZZL,2020-12-07 16:36:12,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-M-003,534,92-3,event:55065,study_subject_even_arm_1,nomi_tracking_data,NPZZL,2020-12-08 04:53:20,America/New_York,-15,-15,0,,2,OARS EDC - Multi-Site Pilot
+FNT-M-003,534,92-3,event:55066,study_subject_even_arm_1,nomi_tracking_data,LVVVC,2020-12-08 04:53:31,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-M-003,534,92-3,event:55067,study_subject_even_arm_1,nomi_tracking_data,NPZZL,2020-12-08 04:54:38,America/New_York,14,14,0,,2,OARS EDC - Multi-Site Pilot
+FNT-M-003,534,92-3,event:55083,study_subject_even_arm_1,nomi_tracking_data,LVVVC,2020-12-08 17:57:45,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-M-003,534,92-3,event:55084,study_subject_even_arm_1,nomi_tracking_data,NPZZL,2020-12-08 17:57:56,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-M-003,534,92-3,event:55092,study_subject_even_arm_1,nomi_tracking_data,NPZZL,2020-12-09 04:54:54,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-M-003,534,92-3,event:55093,study_subject_even_arm_1,nomi_tracking_data,LVVVC,2020-12-09 04:55:05,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-F-001,553,93-1,event:55468,study_subject_even_arm_1,nomi_tracking_data,FDHZZ,2021-01-06 13:37:13,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-F-001,553,93-1,event:55469,study_subject_even_arm_1,nomi_tracking_data,BTMGQ,2021-01-06 14:26:53,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-F-001,553,93-1,event:55471,study_subject_even_arm_1,nomi_tracking_data,FDHZZ,2021-01-06 15:36:23,America/New_York,-1,-15,1,Combine 2 abnormal readings into a single sensible reading,2,OARS EDC - Multi-Site Pilot
+BUF-F-001,553,93-1,event:55472,study_subject_even_arm_1,nomi_tracking_data,BTMGQ,2021-01-06 15:36:35,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-F-001,553,93-1,event:55473,study_subject_even_arm_1,nomi_tracking_data,FDHZZ,2021-01-06 15:38:43,America/New_York,0,13,1,Combine 2 abnormal readings into a single sensible reading,2,OARS EDC - Multi-Site Pilot
+BUF-F-001,553,93-1,event:55474,study_subject_even_arm_1,nomi_tracking_data,BTMGQ,2021-01-06 18:47:57,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-F-001,553,93-1,event:55475,study_subject_even_arm_1,nomi_tracking_data,FDHZZ,2021-01-06 18:48:05,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-F-001,553,93-1,event:55477,study_subject_even_arm_1,nomi_tracking_data,BTMGQ,2021-01-06 23:36:52,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-F-001,553,93-1,event:55478,study_subject_even_arm_1,nomi_tracking_data,FDHZZ,2021-01-06 23:37:06,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-F-001,553,93-1,event:55480,study_subject_even_arm_1,nomi_tracking_data,BTMGQ,2021-01-07 04:05:48,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-F-001,553,93-1,event:55481,study_subject_even_arm_1,nomi_tracking_data,FDHZZ,2021-01-07 04:06:06,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-F-001,553,93-1,event:55486,study_subject_even_arm_1,nomi_tracking_data,FDHZZ,2021-01-07 09:04:47,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-F-001,553,93-1,event:55487,study_subject_even_arm_1,nomi_tracking_data,BTMGQ,2021-01-07 09:05:03,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-F-001,553,93-1,event:55492,study_subject_even_arm_1,nomi_tracking_data,FDHZZ,2021-01-07 14:05:27,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-F-001,553,93-1,event:55493,study_subject_even_arm_1,nomi_tracking_data,BTMGQ,2021-01-07 14:05:50,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-F-001,553,93-1,event:55499,study_subject_even_arm_1,nomi_tracking_data,FDHZZ,2021-01-07 18:42:28,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-F-001,553,93-1,event:55500,study_subject_even_arm_1,nomi_tracking_data,BTMGQ,2021-01-07 18:42:37,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-F-001,553,93-1,event:55502,study_subject_even_arm_1,nomi_tracking_data,BTMGQ,2021-01-08 04:16:27,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-F-001,553,93-1,event:55503,study_subject_even_arm_1,nomi_tracking_data,FDHZZ,2021-01-08 04:16:36,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-F-001,553,93-1,event:55508,study_subject_even_arm_1,nomi_tracking_data,BTMGQ,2021-01-08 09:05:13,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-F-001,553,93-1,event:55509,study_subject_even_arm_1,nomi_tracking_data,FDHZZ,2021-01-08 09:05:34,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-F-001,553,93-1,event:55516,study_subject_even_arm_1,nomi_tracking_data,FDHZZ,2021-01-08 22:08:28,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-F-001,553,93-1,event:55517,study_subject_even_arm_1,nomi_tracking_data,BTMGQ,2021-01-08 22:08:41,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-F-001,553,93-1,event:55521,study_subject_even_arm_1,nomi_tracking_data,FDHZZ,2021-01-09 08:02:04,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-F-001,553,93-1,event:55522,study_subject_even_arm_1,nomi_tracking_data,BTMGQ,2021-01-09 08:02:26,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-F-001,553,93-1,event:55526,study_subject_even_arm_1,nomi_tracking_data,BTMGQ,2021-01-09 12:27:15,America/New_York,0,-43,1,Remove abnormal dose that could not physically have happened.,2,OARS EDC - Multi-Site Pilot
+BUF-F-001,553,93-1,event:55541,study_subject_even_arm_1,nomi_tracking_data,BTMGQ,2021-01-09 16:21:59,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-F-001,553,93-1,event:55542,study_subject_even_arm_1,nomi_tracking_data,FDHZZ,2021-01-09 16:22:11,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-F-001,553,93-1,event:55549,study_subject_even_arm_1,nomi_tracking_data,BTMGQ,2021-01-09 22:15:15,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-F-001,553,93-1,event:55548,study_subject_even_arm_1,nomi_tracking_data,FDHZZ,2021-01-09 22:15:15,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-F-001,553,93-1,event:55552,study_subject_even_arm_1,nomi_tracking_data,FDHZZ,2021-01-10 07:35:50,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-F-001,553,93-1,event:55553,study_subject_even_arm_1,nomi_tracking_data,BTMGQ,2021-01-10 07:36:08,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-F-001,553,93-1,event:55560,study_subject_even_arm_1,nomi_tracking_data,FDHZZ,2021-01-10 13:25:57,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-F-001,553,93-1,event:55561,study_subject_even_arm_1,nomi_tracking_data,BTMGQ,2021-01-10 13:25:58,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-F-001,553,93-1,event:55565,study_subject_even_arm_1,nomi_tracking_data,FDHZZ,2021-01-10 21:35:48,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-F-001,553,93-1,event:55566,study_subject_even_arm_1,nomi_tracking_data,BTMGQ,2021-01-10 21:36:04,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-F-001,553,93-1,event:55577,study_subject_even_arm_1,nomi_tracking_data,BTMGQ,2021-01-11 09:57:13,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-F-001,553,93-1,event:55578,study_subject_even_arm_1,nomi_tracking_data,FDHZZ,2021-01-11 09:57:24,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-F-001,553,93-1,event:55607,study_subject_even_arm_1,nomi_tracking_data,BTMGQ,2021-01-11 20:55:55,America/New_York,0,89,1,Remove abnormal dose that could not physically have happened.,2,OARS EDC - Multi-Site Pilot
+BUF-F-001,553,93-1,event:55608,study_subject_even_arm_1,nomi_tracking_data,BTMGQ,2021-01-11 20:57:27,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-F-001,553,93-1,event:55610,study_subject_even_arm_1,nomi_tracking_data,BTMGQ,2021-01-11 21:38:12,America/New_York,1,1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-F-001,553,93-1,event:55619,study_subject_even_arm_1,nomi_tracking_data,BTMGQ,2021-01-12 07:10:15,America/New_York,-4,-4,0,,2,OARS EDC - Multi-Site Pilot
+BUF-F-001,553,93-1,event:55620,study_subject_even_arm_1,nomi_tracking_data,FDHZZ,2021-01-12 07:10:29,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-F-001,553,93-1,event:55642,study_subject_even_arm_1,nomi_tracking_data,BTMGQ,2021-01-12 11:23:56,America/New_York,2,2,0,,2,OARS EDC - Multi-Site Pilot
+BUF-F-001,553,93-1,event:55650,study_subject_even_arm_1,nomi_tracking_data,FDHZZ,2021-01-12 18:50:44,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-F-001,553,93-1,event:55651,study_subject_even_arm_1,nomi_tracking_data,BTMGQ,2021-01-12 18:51:01,America/New_York,2,2,0,,2,OARS EDC - Multi-Site Pilot
+BUF-F-001,553,93-1,event:55684,study_subject_even_arm_1,nomi_tracking_data,BTMGQ,2021-01-13 12:40:56,America/New_York,0,-1,1,End date adjustment for handling at site after the device was returned,2,OARS EDC - Multi-Site Pilot
+BUF-F-001,553,93-1,event:55687,study_subject_even_arm_1,nomi_tracking_data,BTMGQ,2021-01-13 12:58:19,America/New_York,0,2,1,End date adjustment for handling at site after the device was returned,2,OARS EDC - Multi-Site Pilot
+BUF-F-001,553,93-1,event:55688,study_subject_even_arm_1,nomi_tracking_data,FDHZZ,2021-01-13 13:05:39,America/New_York,-9,-9,0,,2,OARS EDC - Multi-Site Pilot
+BUF-F-001,553,93-1,event:55690,study_subject_even_arm_1,nomi_tracking_data,FDHZZ,2021-01-13 13:56:51,America/New_York,9,9,0,,2,OARS EDC - Multi-Site Pilot
+BUF-F-002,554,93-2,event:55592,study_subject_even_arm_1,nomi_tracking_data,XHJWS,2021-01-11 12:51:32,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-F-002,554,93-2,event:55601,study_subject_even_arm_1,nomi_tracking_data,XHJWS,2021-01-11 16:01:55,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-F-002,554,93-2,event:55609,study_subject_even_arm_1,nomi_tracking_data,XHJWS,2021-01-11 21:30:14,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-F-002,554,93-2,event:55616,study_subject_even_arm_1,nomi_tracking_data,XHJWS,2021-01-12 03:02:41,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-F-002,554,93-2,event:55623,study_subject_even_arm_1,nomi_tracking_data,XHJWS,2021-01-12 09:13:59,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-F-003,555,93-3,event:55644,study_subject_even_arm_1,nomi_tracking_data,PVKSB,2021-01-12 11:30:12,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-F-002,554,93-2,event:55646,study_subject_even_arm_1,nomi_tracking_data,XHJWS,2021-01-12 14:59:13,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-F-003,555,93-3,event:55654,study_subject_even_arm_1,nomi_tracking_data,PVKSB,2021-01-12 21:05:02,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-F-002,554,93-2,event:55658,study_subject_even_arm_1,nomi_tracking_data,XHJWS,2021-01-12 23:35:36,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-F-003,555,93-3,event:55660,study_subject_even_arm_1,nomi_tracking_data,PVKSB,2021-01-13 02:27:46,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-F-003,555,93-3,event:55661,study_subject_even_arm_1,nomi_tracking_data,PVKSB,2021-01-13 04:15:59,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-F-002,554,93-2,event:55662,study_subject_even_arm_1,nomi_tracking_data,XHJWS,2021-01-13 05:24:01,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-F-003,555,93-3,event:55667,study_subject_even_arm_1,nomi_tracking_data,PVKSB,2021-01-13 09:16:12,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-F-003,555,93-3,event:55695,study_subject_even_arm_1,nomi_tracking_data,PVKSB,2021-01-13 14:38:37,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-F-002,554,93-2,event:55708,study_subject_even_arm_1,nomi_tracking_data,XHJWS,2021-01-13 23:23:08,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-F-003,555,93-3,event:55709,study_subject_even_arm_1,nomi_tracking_data,PVKSB,2021-01-13 23:55:19,America/New_York,7,7,0,,2,OARS EDC - Multi-Site Pilot
+BUF-F-003,555,93-3,event:55717,study_subject_even_arm_1,nomi_tracking_data,PVKSB,2021-01-14 08:30:41,America/New_York,-8,-8,0,,2,OARS EDC - Multi-Site Pilot
+BUF-F-003,555,93-3,event:55766,study_subject_even_arm_1,nomi_tracking_data,PVKSB,2021-01-14 15:02:35,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-F-003,555,93-3,event:55770,study_subject_even_arm_1,nomi_tracking_data,PVKSB,2021-01-14 15:15:17,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-F-003,555,93-3,event:55807,study_subject_even_arm_1,nomi_tracking_data,PVKSB,2021-01-15 00:16:10,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-F-003,555,93-3,event:55812,study_subject_even_arm_1,nomi_tracking_data,PVKSB,2021-01-15 05:54:19,America/New_York,1,1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-F-003,555,93-3,event:55813,study_subject_even_arm_1,nomi_tracking_data,PVKSB,2021-01-15 06:02:38,America/New_York,-2,-2,0,,2,OARS EDC - Multi-Site Pilot
+BUF-F-003,555,93-3,event:55822,study_subject_even_arm_1,nomi_tracking_data,PVKSB,2021-01-15 11:13:03,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-F-003,555,93-3,event:55836,study_subject_even_arm_1,nomi_tracking_data,PVKSB,2021-01-16 02:19:13,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-F-003,555,93-3,event:55851,study_subject_even_arm_1,nomi_tracking_data,PVKSB,2021-01-16 12:25:38,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-F-003,555,93-3,event:55852,study_subject_even_arm_1,nomi_tracking_data,PVKSB,2021-01-16 12:36:29,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-F-003,555,93-3,event:55864,study_subject_even_arm_1,nomi_tracking_data,PVKSB,2021-01-17 00:04:00,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-F-003,555,93-3,event:55871,study_subject_even_arm_1,nomi_tracking_data,PVKSB,2021-01-17 08:06:44,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-F-003,555,93-3,event:55884,study_subject_even_arm_1,nomi_tracking_data,PVKSB,2021-01-17 15:21:07,America/New_York,1,1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-F-003,555,93-3,event:55914,study_subject_even_arm_1,nomi_tracking_data,PVKSB,2021-01-18 18:50:29,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-F-003,555,93-3,event:55926,study_subject_even_arm_1,nomi_tracking_data,PVKSB,2021-01-19 01:08:41,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-F-003,555,93-3,event:55927,study_subject_even_arm_1,nomi_tracking_data,PVKSB,2021-01-19 01:09:50,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-M-001,557,93-4,event:55677,study_subject_even_arm_1,nomi_tracking_data,GZGFR,2021-01-13 10:32:01,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-M-001,557,93-4,event:55678,study_subject_even_arm_1,nomi_tracking_data,GZGFR,2021-01-13 10:39:33,America/New_York,1,1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-M-001,557,93-4,event:55681,study_subject_even_arm_1,nomi_tracking_data,GZGFR,2021-01-13 12:47:44,America/New_York,40,40,0,,2,OARS EDC - Multi-Site Pilot
+BUF-M-001,557,93-4,event:55682,study_subject_even_arm_1,nomi_tracking_data,DDBMW,2021-01-13 12:47:47,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-M-001,557,93-4,event:55683,study_subject_even_arm_1,nomi_tracking_data,GZGFR,2021-01-13 12:49:31,America/New_York,-41,-41,0,,2,OARS EDC - Multi-Site Pilot
+BUF-M-001,557,93-4,event:55698,study_subject_even_arm_1,nomi_tracking_data,DDBMW,2021-01-13 19:19:05,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-M-001,557,93-4,event:55699,study_subject_even_arm_1,nomi_tracking_data,GZGFR,2021-01-13 19:19:31,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-M-001,557,93-4,event:55713,study_subject_even_arm_1,nomi_tracking_data,GZGFR,2021-01-14 07:14:29,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-M-001,557,93-4,event:55714,study_subject_even_arm_1,nomi_tracking_data,DDBMW,2021-01-14 07:14:36,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-M-001,557,93-4,event:55764,study_subject_even_arm_1,nomi_tracking_data,DDBMW,2021-01-14 12:27:35,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-M-001,557,93-4,event:55765,study_subject_even_arm_1,nomi_tracking_data,GZGFR,2021-01-14 12:28:25,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-M-001,557,93-4,event:55782,study_subject_even_arm_1,nomi_tracking_data,GZGFR,2021-01-14 16:36:25,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-M-001,557,93-4,event:55781,study_subject_even_arm_1,nomi_tracking_data,DDBMW,2021-01-14 16:36:27,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-M-001,557,93-4,event:55789,study_subject_even_arm_1,nomi_tracking_data,DDBMW,2021-01-14 18:33:44,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-M-001,557,93-4,event:55801,study_subject_even_arm_1,nomi_tracking_data,DDBMW,2021-01-14 21:35:00,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-M-001,557,93-4,event:55802,study_subject_even_arm_1,nomi_tracking_data,GZGFR,2021-01-14 21:35:06,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-M-001,557,93-4,event:55816,study_subject_even_arm_1,nomi_tracking_data,DDBMW,2021-01-15 07:50:28,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-M-001,557,93-4,event:55817,study_subject_even_arm_1,nomi_tracking_data,GZGFR,2021-01-15 07:50:34,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-M-001,557,93-4,event:55827,study_subject_even_arm_1,nomi_tracking_data,GZGFR,2021-01-15 17:42:14,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-M-001,557,93-4,event:55828,study_subject_even_arm_1,nomi_tracking_data,DDBMW,2021-01-15 17:42:21,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-M-001,557,93-4,event:55845,study_subject_even_arm_1,nomi_tracking_data,GZGFR,2021-01-16 08:06:13,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-M-001,557,93-4,event:55846,study_subject_even_arm_1,nomi_tracking_data,DDBMW,2021-01-16 08:06:20,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-M-001,557,93-4,event:55855,study_subject_even_arm_1,nomi_tracking_data,GZGFR,2021-01-16 15:10:07,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-M-001,557,93-4,event:55856,study_subject_even_arm_1,nomi_tracking_data,DDBMW,2021-01-16 15:10:12,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-M-001,557,93-4,event:55859,study_subject_even_arm_1,nomi_tracking_data,DDBMW,2021-01-16 21:17:29,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-M-001,557,93-4,event:55860,study_subject_even_arm_1,nomi_tracking_data,GZGFR,2021-01-16 21:17:35,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-M-001,557,93-4,event:55872,study_subject_even_arm_1,nomi_tracking_data,GZGFR,2021-01-17 08:25:37,America/New_York,0,1,1,Remove units added that was actually settling extra weight from 1/16,2,OARS EDC - Multi-Site Pilot
+BUF-M-001,557,93-4,event:55873,study_subject_even_arm_1,nomi_tracking_data,DDBMW,2021-01-17 08:26:22,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-M-001,557,93-4,event:55874,study_subject_even_arm_1,nomi_tracking_data,GZGFR,2021-01-17 08:27:16,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-M-001,557,93-4,event:55885,study_subject_even_arm_1,nomi_tracking_data,DDBMW,2021-01-17 15:22:04,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-M-001,557,93-4,event:55886,study_subject_even_arm_1,nomi_tracking_data,GZGFR,2021-01-17 15:22:11,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-M-001,557,93-4,event:55892,study_subject_even_arm_1,nomi_tracking_data,GZGFR,2021-01-17 22:26:31,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-M-001,557,93-4,event:55893,study_subject_even_arm_1,nomi_tracking_data,DDBMW,2021-01-17 22:26:45,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-M-001,557,93-4,event:55900,study_subject_even_arm_1,nomi_tracking_data,GZGFR,2021-01-18 09:10:08,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-M-001,557,93-4,event:55901,study_subject_even_arm_1,nomi_tracking_data,DDBMW,2021-01-18 09:10:13,America/New_York,1,1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-M-001,557,93-4,event:55920,study_subject_even_arm_1,nomi_tracking_data,DDBMW,2021-01-18 22:21:14,America/New_York,-3,-3,0,,2,OARS EDC - Multi-Site Pilot
+BUF-M-001,557,93-4,event:55921,study_subject_even_arm_1,nomi_tracking_data,GZGFR,2021-01-18 22:21:24,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-M-001,557,93-4,event:55933,study_subject_even_arm_1,nomi_tracking_data,DDBMW,2021-01-19 08:48:05,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-M-001,557,93-4,event:55934,study_subject_even_arm_1,nomi_tracking_data,GZGFR,2021-01-19 08:48:15,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-M-001,557,93-4,event:55961,study_subject_even_arm_1,nomi_tracking_data,DDBMW,2021-01-19 22:02:40,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-M-001,557,93-4,event:55977,study_subject_even_arm_1,nomi_tracking_data,DDBMW,2021-01-20 08:51:30,America/New_York,0,-1,1,End date adjustment for handling at site after the device was returned,2,OARS EDC - Multi-Site Pilot
+BUF-M-001,557,93-4,event:55979,study_subject_even_arm_1,nomi_tracking_data,DDBMW,2021-01-20 08:54:34,America/New_York,0,1,1,End date adjustment for handling at site after the device was returned,2,OARS EDC - Multi-Site Pilot
+BUF-M-001,557,93-4,event:55995,study_subject_even_arm_1,nomi_tracking_data,DDBMW,2021-01-20 10:18:21,America/New_York,0,-1,1,End date adjustment for handling at site after the device was returned,2,OARS EDC - Multi-Site Pilot
+BUF-M-002,558,93-6,event:55142,study_subject_even_arm_1,nomi_tracking_data,MSSBM,2020-12-11 13:02:12,America/New_York,0,-12,1,Cabinet activity,2,OARS EDC - Multi-Site Pilot
+BUF-M-002,558,93-6,event:55149,study_subject_even_arm_1,nomi_tracking_data,MSSBM,2020-12-11 13:45:49,America/New_York,0,12,1,Cabinet activity,2,OARS EDC - Multi-Site Pilot
+BUF-M-002,558,93-6,event:56215,study_subject_even_arm_1,nomi_tracking_data,MSSBM,2021-01-28 18:30:42,America/New_York,10,10,0,,2,OARS EDC - Multi-Site Pilot
+BUF-M-002,558,93-6,event:56216,study_subject_even_arm_1,nomi_tracking_data,HXHFC,2021-01-28 18:30:59,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-M-002,558,93-6,event:56217,study_subject_even_arm_1,nomi_tracking_data,MSSBM,2021-01-28 18:31:27,America/New_York,-11,-11,0,,2,OARS EDC - Multi-Site Pilot
+BUF-M-002,558,93-6,event:56232,study_subject_even_arm_1,nomi_tracking_data,HXHFC,2021-01-28 21:36:03,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-M-002,558,93-6,event:56233,study_subject_even_arm_1,nomi_tracking_data,MSSBM,2021-01-28 21:36:09,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-M-002,558,93-6,event:56249,study_subject_even_arm_1,nomi_tracking_data,HXHFC,2021-01-29 12:08:02,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-M-002,558,93-6,event:56250,study_subject_even_arm_1,nomi_tracking_data,MSSBM,2021-01-29 12:08:17,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-M-002,558,93-6,event:56283,study_subject_even_arm_1,nomi_tracking_data,HXHFC,2021-01-29 19:02:48,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-M-002,558,93-6,event:56282,study_subject_even_arm_1,nomi_tracking_data,MSSBM,2021-01-29 19:02:48,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-M-002,558,93-6,event:56294,study_subject_even_arm_1,nomi_tracking_data,MSSBM,2021-01-29 22:30:31,America/New_York,-3,-3,0,,2,OARS EDC - Multi-Site Pilot
+BUF-M-002,558,93-6,event:56295,study_subject_even_arm_1,nomi_tracking_data,HXHFC,2021-01-29 22:30:35,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-M-002,558,93-6,event:56317,study_subject_even_arm_1,nomi_tracking_data,HXHFC,2021-01-30 13:59:52,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-M-002,558,93-6,event:56318,study_subject_even_arm_1,nomi_tracking_data,MSSBM,2021-01-30 13:59:53,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-M-002,558,93-6,event:56321,study_subject_even_arm_1,nomi_tracking_data,HXHFC,2021-01-30 19:15:39,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-M-002,558,93-6,event:56320,study_subject_even_arm_1,nomi_tracking_data,MSSBM,2021-01-30 19:15:40,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-M-002,558,93-6,event:56329,study_subject_even_arm_1,nomi_tracking_data,HXHFC,2021-01-31 04:08:23,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-M-002,558,93-6,event:56330,study_subject_even_arm_1,nomi_tracking_data,MSSBM,2021-01-31 04:08:38,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-M-002,558,93-6,event:56337,study_subject_even_arm_1,nomi_tracking_data,MSSBM,2021-01-31 12:44:53,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-M-002,558,93-6,event:56338,study_subject_even_arm_1,nomi_tracking_data,HXHFC,2021-01-31 12:44:53,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-M-002,558,93-6,event:56344,study_subject_even_arm_1,nomi_tracking_data,HXHFC,2021-01-31 21:18:31,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-M-002,558,93-6,event:56345,study_subject_even_arm_1,nomi_tracking_data,MSSBM,2021-01-31 21:18:33,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-M-002,558,93-6,event:56346,study_subject_even_arm_1,nomi_tracking_data,MSSBM,2021-02-01 04:44:26,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-M-002,558,93-6,event:56347,study_subject_even_arm_1,nomi_tracking_data,HXHFC,2021-02-01 04:44:46,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-M-002,558,93-6,event:56365,study_subject_even_arm_1,nomi_tracking_data,HXHFC,2021-02-01 17:12:09,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-M-002,558,93-6,event:56366,study_subject_even_arm_1,nomi_tracking_data,MSSBM,2021-02-01 17:12:20,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-M-002,558,93-6,event:56374,study_subject_even_arm_1,nomi_tracking_data,MSSBM,2021-02-01 23:23:28,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-M-002,558,93-6,event:56375,study_subject_even_arm_1,nomi_tracking_data,HXHFC,2021-02-01 23:23:32,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-M-002,558,93-6,event:56381,study_subject_even_arm_1,nomi_tracking_data,MSSBM,2021-02-02 09:31:52,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-M-002,558,93-6,event:56382,study_subject_even_arm_1,nomi_tracking_data,HXHFC,2021-02-02 09:31:55,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-M-002,558,93-6,event:56415,study_subject_even_arm_1,nomi_tracking_data,HXHFC,2021-02-02 18:06:04,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-M-002,558,93-6,event:56430,study_subject_even_arm_1,nomi_tracking_data,HXHFC,2021-02-03 14:31:29,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-M-002,558,93-6,event:56431,study_subject_even_arm_1,nomi_tracking_data,MSSBM,2021-02-03 14:31:34,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-M-002,558,93-6,event:56453,study_subject_even_arm_1,nomi_tracking_data,MSSBM,2021-02-04 14:02:21,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-M-002,558,93-6,event:56454,study_subject_even_arm_1,nomi_tracking_data,HXHFC,2021-02-04 14:02:46,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-M-002,558,93-6,event:56461,study_subject_even_arm_1,nomi_tracking_data,MSSBM,2021-02-04 17:00:10,America/New_York,0,1,1,End date adjustment for handling at site after the device was returned,2,OARS EDC - Multi-Site Pilot
+FNT-F-001,528,92-4,event:56274,study_subject_even_arm_1,nomi_tracking_data,ZZCVX,2021-01-29 14:34:37,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-F-002,529,92-5,event:56275,study_subject_even_arm_1,nomi_tracking_data,CGHLJ,2021-01-29 15:19:30,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-F-002,529,92-5,event:56276,study_subject_even_arm_1,nomi_tracking_data,CGHLJ,2021-01-29 15:21:28,America/New_York,1,1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-F-002,529,92-5,event:56277,study_subject_even_arm_1,nomi_tracking_data,CGHLJ,2021-01-29 16:49:39,America/New_York,-2,-2,0,,2,OARS EDC - Multi-Site Pilot
+FNT-F-001,528,92-4,event:56281,study_subject_even_arm_1,nomi_tracking_data,ZZCVX,2021-01-29 18:48:55,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-F-002,529,92-5,event:56286,study_subject_even_arm_1,nomi_tracking_data,CGHLJ,2021-01-29 20:20:26,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-F-002,529,92-5,event:56289,study_subject_even_arm_1,nomi_tracking_data,CGHLJ,2021-01-29 21:54:48,America/New_York,1,1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-F-002,529,92-5,event:56290,study_subject_even_arm_1,nomi_tracking_data,CGHLJ,2021-01-29 22:06:57,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-F-001,528,92-4,event:56305,study_subject_even_arm_1,nomi_tracking_data,ZZCVX,2021-01-30 08:23:47,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-F-001,528,92-4,event:56323,study_subject_even_arm_1,nomi_tracking_data,ZZCVX,2021-01-30 19:50:44,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-F-001,528,92-4,event:56495,study_subject_even_arm_1,nomi_tracking_data,ZZCVX,2021-02-05 13:30:52,America/New_York,0,-6,1,End date adjustment for handling at site after the device was returned,2,OARS EDC - Multi-Site Pilot
+FNT-F-001,528,92-4,event:56496,study_subject_even_arm_1,nomi_tracking_data,ZZCVX,2021-02-05 13:31:58,America/New_York,0,6,1,End date adjustment for handling at site after the device was returned,2,OARS EDC - Multi-Site Pilot
+FNT-F-001,528,92-4,event:56501,study_subject_even_arm_1,nomi_tracking_data,ZZCVX,2021-02-05 13:33:18,America/New_York,0,-16,1,End date adjustment for handling at site after the device was returned,2,OARS EDC - Multi-Site Pilot
+FNT-F-002,529,92-5,event:56502,study_subject_even_arm_1,nomi_tracking_data,CGHLJ,2021-02-05 13:51:42,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-F-002,529,92-5,event:56503,study_subject_even_arm_1,nomi_tracking_data,CGHLJ,2021-02-05 13:54:20,America/New_York,-16,-16,0,,2,OARS EDC - Multi-Site Pilot
+FNT-F-002,529,92-5,event:56507,study_subject_even_arm_1,nomi_tracking_data,CGHLJ,2021-02-05 14:04:37,America/New_York,16,16,0,,2,OARS EDC - Multi-Site Pilot
+FNT-F-002,529,92-5,event:56508,study_subject_even_arm_1,nomi_tracking_data,CGHLJ,2021-02-05 14:06:03,America/New_York,1,1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-M-004,560,93-8,event:56451,study_subject_even_arm_1,nomi_tracking_data,VDBXZ,2021-02-04 13:29:23,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+BUF-M-004,560,93-8,event:56472,study_subject_even_arm_1,nomi_tracking_data,VDBXZ,2021-02-04 23:51:53,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-F-003,530,92-7,event:57071,study_subject_even_arm_1,nomi_tracking_data,WFCNM,2021-02-19 19:36:18,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-F-003,530,92-7,event:57072,study_subject_even_arm_1,nomi_tracking_data,WFCNM,2021-02-19 19:37:45,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-F-003,530,92-7,event:57084,study_subject_even_arm_1,nomi_tracking_data,WFCNM,2021-02-19 21:48:27,America/New_York,-2,-2,0,,2,OARS EDC - Multi-Site Pilot
+FNT-F-003,530,92-7,event:57086,study_subject_even_arm_1,nomi_tracking_data,WFCNM,2021-02-20 01:51:56,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-F-003,530,92-7,event:57088,study_subject_even_arm_1,nomi_tracking_data,WFCNM,2021-02-20 03:43:12,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-F-003,530,92-7,event:57092,study_subject_even_arm_1,nomi_tracking_data,WFCNM,2021-02-20 09:28:19,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-F-003,530,92-7,event:57102,study_subject_even_arm_1,nomi_tracking_data,WFCNM,2021-02-20 13:02:25,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-F-003,530,92-7,event:57105,study_subject_even_arm_1,nomi_tracking_data,WFCNM,2021-02-20 15:21:50,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-F-003,530,92-7,event:57110,study_subject_even_arm_1,nomi_tracking_data,WFCNM,2021-02-20 19:18:00,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-F-003,530,92-7,event:57116,study_subject_even_arm_1,nomi_tracking_data,WFCNM,2021-02-20 21:56:36,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-F-003,530,92-7,event:57118,study_subject_even_arm_1,nomi_tracking_data,WFCNM,2021-02-20 22:10:04,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-F-003,530,92-7,event:57119,study_subject_even_arm_1,nomi_tracking_data,WFCNM,2021-02-20 23:20:11,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-F-003,530,92-7,event:57120,study_subject_even_arm_1,nomi_tracking_data,WFCNM,2021-02-21 00:45:57,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-F-003,530,92-7,event:57126,study_subject_even_arm_1,nomi_tracking_data,WFCNM,2021-02-21 08:50:43,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-F-003,530,92-7,event:57139,study_subject_even_arm_1,nomi_tracking_data,WFCNM,2021-02-21 14:09:47,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-F-003,530,92-7,event:57142,study_subject_even_arm_1,nomi_tracking_data,WFCNM,2021-02-21 18:14:13,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-F-003,530,92-7,event:57154,study_subject_even_arm_1,nomi_tracking_data,WFCNM,2021-02-21 21:15:42,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-F-003,530,92-7,event:57162,study_subject_even_arm_1,nomi_tracking_data,WFCNM,2021-02-22 07:12:18,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot
+FNT-F-003,530,92-7,event:57188,study_subject_even_arm_1,nomi_tracking_data,WFCNM,2021-02-22 12:22:51,America/New_York,-1,-1,0,,2,OARS EDC - Multi-Site Pilot

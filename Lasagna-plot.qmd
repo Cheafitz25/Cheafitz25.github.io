@@ -1,0 +1,186 @@
+---
+title: "Final Lasagna Plot"
+author: "Camden Heafitz"
+format: pdf
+date: "2023-07-05"
+---
+
+```{r}
+#| label: setup
+#| include: false
+
+require(mosaic)   
+require (haven)
+require (sas7bdat)
+require(ggplot2)
+
+# Load additional packages here 
+knitr::opts_chunk$set(
+  tidy=FALSE,     # Display code as typed
+  size="small")   # Slightly smaller font for code
+```
+
+```{r}
+#| include: false
+
+library(devtools)              
+install_github("swihart/lasagnar")  
+library(fields)
+library(lasagnar)   
+library(ggplot2)
+library(reshape2)
+library(RColorBrewer)
+#library(colorspace)
+library(zoom)
+library(tidyverse)
+library(reprex)
+library(dplyr)
+```
+
+
+```{r}
+#| message: false
+
+# Getting sleep and drug files
+
+sleepday <- read_sas("sleepfin.sas7bdat")
+
+sleepevents <- read_sas("sleepevents2.sas7bdat")
+
+Pill_data <- read_csv("Pill_Data2.csv")
+```
+
+```{r}
+#| message: false
+
+# Wrangling pill data, imported as a csv from excel.
+
+# This code makes the time stamp the correct format so we can use it. 
+
+Pill_data$smrxt_bottle_datetime <- as.POSIXct(Pill_data$smrxt_bottle_datetime)
+
+# Making the pill session type and renamed alias to mpid. 
+pills <- Pill_data  |> 
+  select(alias, smrxt_bottle_datetime) |>
+  mutate(session_type = "Pill",
+         start = smrxt_bottle_datetime) |>
+  rename('mpid' = alias) |>
+  select(-smrxt_bottle_datetime)
+
+# Getting Surgery Data
+
+surgery <- sleepevents|>
+  select(mpid, surgdatetime, Opioid_or_Non_Opioid)
+surg <-  distinct(surgery)
+
+# Adding surgery to pills abd making it hours after surgery. 
+# Chose .05 so it would be noticeable on the graph. This is roughly 3 minutes.
+pillevents <- pills |> 
+  left_join(surg)|>
+  mutate(start_session = start - surgdatetime,
+         end_session = start_session + 3)|>
+  select(-start, -surgdatetime) |> 
+  filter(start_session >=0, start_session <= 6120)
+# Some mpids do not show up in the original sleepevents data set and have NA values here. 
+```
+
+```{r}
+# This code creates the desired awake intervals for each patient
+
+lasagnatest <- sleepevents
+lasagnatest <- mutate(sleepevents)
+lasagnatest <- select(lasagnatest, study_id, mpid, onsetdatetime,
+                      outbeddatetime, ID_Link_datetime, Opioid_or_Non_Opioid)
+awake_time <- lasagnatest |>
+  group_by(mpid)|>
+  mutate(
+    awake_start_datetime = outbeddatetime,
+    awake_end_datetime = lead(onsetdatetime),
+    session_type = "Awake",
+  ) |>
+  select(-onsetdatetime, -outbeddatetime)
+# This code has the desired asleep intervals for each patient
+sleepeventsTest <- sleepevents |>
+  mutate(session_type = "Asleep") |>
+  select(study_id, mpid, onsetdatetime, outbeddatetime, session_type,
+         ID_Link_datetime, Opioid_or_Non_Opioid)
+```
+
+
+```{r}
+# This code converts the time to 'hours after surgery' and combines them with pill events. 
+
+new_sleep_set <- sleepeventsTest|>
+  mutate(hrs_onset_since_surg = onsetdatetime - ID_Link_datetime,
+         hrs_outbed_since_surg = outbeddatetime - ID_Link_datetime)|>
+  select(-ID_Link_datetime)
+# The variables in this code now give us measures of time from the surgery. 
+new_awake_set <- awake_time|>
+  mutate(hrs_awake_start_since_surg = awake_start_datetime - ID_Link_datetime,
+         hrs_awake_end_since_surg = awake_end_datetime - ID_Link_datetime) |>
+  select(-ID_Link_datetime)
+# Combing all of the data sets
+data1 <- new_sleep_set|>
+  mutate(start_session = hrs_onset_since_surg,
+         end_session = hrs_outbed_since_surg)|>
+  select(-hrs_onset_since_surg, -hrs_outbed_since_surg, 
+         -study_id, -onsetdatetime, -outbeddatetime)
+data2 <- new_awake_set|>
+  mutate(start_session = hrs_awake_start_since_surg,
+         end_session = hrs_awake_end_since_surg)|>
+  select(-study_id, -hrs_awake_start_since_surg, -hrs_awake_end_since_surg, 
+         -awake_start_datetime, -awake_end_datetime)
+data3 <- rbind(data1, data2)|>
+  mutate(end_session = end_session-.000001)
+data4<-rbind(data3, pillevents)
+```
+
+
+## Creating Lasagna Plot
+```{r}
+#| fig-height: 6
+#| fig-width: 8
+#| echo: false
+#| warning: false
+
+# Data5 adds an ID variable as a way to get mpid on the y-axis numerically. 
+data5 <- data4|>
+ # group_by(mpid, Opioid_or_Non_Opioid) |> 
+  arrange(Opioid_or_Non_Opioid) |> 
+  mutate(ID = match(mpid,unique(mpid))) |> 
+  ungroup()
+  #head(data5)
+
+# Switch_point is the patient that swtiches from non-opioids to opioids is located.
+switch_point <- data5 |> 
+  filter(Opioid_or_Non_Opioid == "Opioid") |> 
+  pull(ID) |> 
+  min()
+
+# Using ID rather to mpid to declassify the data
+
+rect_df <- tibble(ymin = c(0.5, 22.45), ymax = c(22.55, 41.5),
+                  labs = c("Non-Opioid", "Opioid"))
+data5|>
+    mutate(start_session = as.numeric(start_session),
+         end_session = as.numeric(end_session)) |>
+  ggplot(aes(xmin = start_session, xmax = end_session, 
+             ymin = ID - .5, ymax = ID +.5,
+             fill=session_type)) +
+  geom_rect() + 
+  scale_fill_manual(values = c("Asleep" = "yellow", "Awake" = "green", "Pill" = "black")) +
+labs(x = "Hours After Surgery", y = "Participant ID", title = "Sleep and Awake Sessions", fill = "Session Type") +
+  scale_y_continuous(labels = data5$ID |> unique(), breaks=1:41, limits=c(0.5,41.5)) +
+  theme_bw() +
+  theme(panel.grid.minor.y = element_blank(), axis.title.x = element_text(size = 20), axis.title.y = element_text(size = 20), plot.title = element_text(size = 25), legend.title = element_text(size = 15)) +
+  scale_x_continuous(breaks = seq(0,102, 12)) +
+  geom_rect(data = rect_df,
+            aes(ymin = ymin, ymax = ymax,
+                xmin = 0, xmax = 102,
+                color = labs),
+            alpha = 0.05, inherit.aes = F) +
+  scale_color_manual(name = "Pill Class",
+                     values = c("Opioid" = "blue", "Non-Opioid" = "red"))
+
+
+```

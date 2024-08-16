@@ -1,0 +1,297 @@
+---
+title: "Data Preparation for Randomized Cluster Trials"
+eval: false
+---
+
+In my most recent position with Professor Bailey of the Statistics Department at Amherst College, I was tasked with cleaning data from randomized cluster trials. Professor Bailey’s research focused on theoretically simulating the results of a type of clinical study, randomized cluster trials when there is missing data. Since there are relatively few randomized cluster trials with public data files, my task was to find and prepare the data for my professor's research. This process consisted of conducting exploratory data analysis (EDA) for continuous variable outcomes, summarizing study parameters (such as the number of clusters, number of clusters per treatment, etc.), and finally, creating correlation matrices for the outcome variables.
+Overall, this process helped fine-tune my EDA and data-wrangling skills. It was a pleasure to assist Professor with her research, and I hope to tackle more projects soon. Look through the code below to see the data preparation process for one study’s data.
+
+
+## Data Preparation
+
+```{r}
+#| label: setup
+#| include: false
+
+# Load packages
+library(tidyverse)
+library(haven)
+library(tidyverse)
+library(kableExtra)
+library(lme4) # for fitting mixed models with `lmer()`
+library(broom.mixed)
+
+# Read in datasets
+
+caring_raw <- read_dta("Caring_Trial_Open_Acess_Dataset_22Feb2021.dta")
+
+```
+
+# About
+Background: Around 30% of the world's stunted children live in India. The Government of India has proposed a new cadre of community-based workers to improve nutrition in 200 districts. We aimed to find out the effect of such a worker carrying out home visits and participatory group meetings on children's linear growth.
+
+Methods: We did a cluster-randomized controlled trial in two adjoining districts of Jharkhand and Odisha, India. 120 clusters (around 1000 people each) were randomly allocated to intervention or control using a lottery. Randomization took place in July, 2013, and was stratified by district and number of hamlets per cluster (0, 1-2, or ≥3), resulting in six strata. In each intervention cluster, a worker carried out one home visit in the third trimester of pregnancy, monthly visits to children younger than 2 years to support feeding, hygiene, care, and stimulation, as well as monthly women's group meetings to promote individual and community action for nutrition. Participants were pregnant women identified and recruited in the study clusters and their children. We excluded stillbirths and neonatal deaths, infants whose mothers died, those with congenital abnormalities, multiple births, and mother and infant pairs who migrated out of the study area permanently during the trial period. Data collectors visited each woman in pregnancy, within 72 h of her baby's birth, and at 3, 6, 9, 12, and 18 months after birth. 
+
+# Primary Outcomes
+The primary outcome was children's length-for-age Z score at 18 months of age.
+
+# Secondary Outcomes
+The trial's primary outcome was children's mean length-for-age Z scores at 18 months. Secondary outcomes included wasting and underweight at all timepoints, birthweight, growth velocity, feeding, hygiene, and care practices. Outcomes were published in the trial protocol.The number of secondary outcomes was later reduced in the online trial registration form after feedback from the data monitoring committee (DMC) in September, 2015.
+
+# Data Cleaning
+```{r}
+#| label: data-cleaning
+
+caring <- caring_raw |> 
+  filter(eligibility_birth == 1) |> 
+  select(case_id, village_unit, alloc, haz06_delivery, haz06_three, haz06_six, haz06_nine, haz06_twelve, haz06_eighteen, waz06_delivery, waz06_three, waz06_six, waz06_nine, waz06_twelve, waz06_eighteen, whz06_delivery, whz06_three, whz06_six, whz06_nine, whz06_twelve, whz06_eighteen, diff_laz_birth_eighteen, mean_birth_weight, mean_muac_eighteen, mean_muac_twelve, mean_muac_nine, mean_muac_six, mean_mat_muac_preg, mat_bmi) |> 
+  rename(participant_id = case_id,
+         cluster_id = village_unit,
+         group = alloc) |> 
+  mutate(group = factor(group,
+                       levels = c(0, 1),
+                       labels = c("Control", "Intervention"))) 
+```
+
+# Analysis
+```{r}
+#| label: analysis
+
+# Number of clusters
+caring |> 
+  summarize(num_clusters = n_distinct(cluster_id))
+
+# Number of clusters in each group
+caring |> 
+  group_by(group) |> 
+  summarize(num_clusters = n_distinct(cluster_id))
+  
+# Summary of cluster size
+cluster_sizes <- caring |> 
+  group_by(cluster_id) |> 
+  summarize(cluster_size = n()) 
+  glimpse(cluster_sizes)
+
+# Summarize the cluster sizes to get min, max, mean, and median
+cluster_size_summary <- cluster_sizes |> 
+  summarize(
+    min_size = min(cluster_size),
+    max_size = max(cluster_size),
+    mean_size = mean(cluster_size),
+    median_size = median(cluster_size)
+  )
+
+# Number of people
+caring |> 
+  summarize(num_people = n_distinct(participant_id))
+
+# Number of people per treatment arm
+caring |> 
+  group_by(group) |> 
+  summarize(num_people = n_distinct(participant_id))
+```
+
+# Timepoint Variable Analysis
+```{r}
+#| label: outcome-variables-analysis-timepoints
+
+# Overall mean for continuous variables (all time points)
+caring |> 
+  summarize(
+    mean_haz_3 = mean(haz06_three, na.rm = TRUE),
+    var_haz_3 = var(haz06_three, na.rm = TRUE),
+    mean_haz_6 = mean(haz06_six, na.rm = TRUE),
+    var_haz_6 = var(haz06_six, na.rm = TRUE),
+    mean_haz_9 = mean(haz06_nine, na.rm = TRUE),
+    var_haz_9 = var(haz06_nine, na.rm = TRUE),
+    mean_haz_12 = mean(haz06_twelve, na.rm = TRUE),
+    var_haz_12 = var(haz06_twelve, na.rm = TRUE),
+    mean_haz_18 = mean(haz06_eighteen, na.rm = TRUE),
+    var_haz_18 = var(haz06_eighteen, na.rm = TRUE),
+    mean_waz_3 = mean(waz06_three, na.rm = TRUE),
+    var_waz_3 = var(waz06_three, na.rm = TRUE),
+    mean_waz_6 = mean(waz06_six, na.rm = TRUE),
+    var_waz_6 = var(waz06_six, na.rm = TRUE),
+    mean_waz_9 = mean(waz06_nine, na.rm = TRUE),
+    var_waz_9 = var(waz06_nine, na.rm = TRUE),
+    mean_waz_12 = mean(waz06_twelve, na.rm = TRUE),
+    var_waz_12 = var(waz06_twelve, na.rm = TRUE),
+    mean_waz_18 = mean(waz06_eighteen, na.rm = TRUE),
+    var_waz_18 = var(waz06_eighteen, na.rm = TRUE),
+    mean_whz_3 = mean(whz06_three, na.rm = TRUE),
+    var_whz_3 = var(whz06_three, na.rm = TRUE),
+    mean_whz_6 = mean(whz06_six, na.rm = TRUE),
+    var_whz_6 = var(whz06_six, na.rm = TRUE),
+    mean_whz_9 = mean(whz06_nine, na.rm = TRUE),
+    var_whz_9 = var(whz06_nine, na.rm = TRUE),
+    mean_whz_12 = mean(whz06_twelve, na.rm = TRUE),
+    var_whz_12 = var(whz06_twelve, na.rm = TRUE),
+    mean_whz_18 = mean(whz06_eighteen, na.rm = TRUE),
+    var_whz_18 = var(whz06_eighteen, na.rm = TRUE),
+    mean_muac_6 = mean(mean_muac_six, na.rm = TRUE),
+    var_muac_6 = var(mean_muac_six, na.rm = TRUE),
+    mean_muac_9 = mean(mean_muac_nine, na.rm = TRUE),
+    var_muac_9 = var(mean_muac_nine, na.rm = TRUE),
+    mean_muac_12 = mean(mean_muac_twelve, na.rm = TRUE),
+    var_muac_12 = var(mean_muac_twelve, na.rm = TRUE),
+    mean_muac_18 = mean(mean_muac_eighteen, na.rm = TRUE),
+    var_muac_18 = var(mean_muac_eighteen, na.rm = TRUE),
+    mean_diff_laz = mean(diff_laz_birth_eighteen, nar.rm = TRUE),
+    var_diff_laz = var(diff_laz_birth_eighteen, na.rm = TRUE)
+  )
+```
+
+# Random Effect and Unadj ICC
+```{r}
+#| label: random-effects-and-unadj-icc
+
+# Function to iterate unadjusted linear mixed mode, random effects and variances through each variable
+
+calculate_icc <- function(outcome_vars, cluster_var, data) {
+  results <- data.frame(
+    outcome = character(),
+    cluster_var = numeric(),
+    residual_var = numeric(),
+    ICC_unadj = numeric(),
+    stringsAsFactors = FALSE
+  )
+  
+  for (outcome in outcome_vars) {
+    # Fit unadjusted linear mixed model
+    formula <- as.formula(paste(outcome, "~ 1 + (1 |", cluster_var, ")"))
+    fit_unadj <- lmer(formula, data = data)
+    
+    # Grab random effects and calculate variances
+    ran_effs <- tidy(fit_unadj, effects = "ran_pars") |>
+      mutate(var = estimate^2) |>
+      pivot_wider(id_cols = "effect", names_from = group, values_from = var) |>
+      mutate(outcome = outcome) |>
+      select(-effect) |>
+      rename(cluster_var = `cluster_id`,
+             residual_var = `Residual`)
+    
+    # Calculate ICC
+    ran_effs <- ran_effs |>
+      mutate(ICC_unadj = cluster_var / (cluster_var + residual_var))
+    
+    # Append the results to the final data frame
+    results <- bind_rows(results, ran_effs)
+  }
+  
+  return(results)
+}
+
+outcome_vars <- c("haz06_three", "haz06_six", "haz06_nine",  "haz06_twelve", "haz06_eighteen", "waz06_three", "waz06_six",   "waz06_nine", "waz06_twelve", "waz06_eighteen", "whz06_three",   "whz06_six", "whz06_nine", "whz06_twelve", "whz06_eighteen", "diff_laz_birth_eighteen", "mean_muac_eighteen", "mean_muac_twelve", "mean_muac_nine",  "mean_muac_six")
+cluster_var <- "cluster_id"
+icc_results <- calculate_icc(outcome_vars, cluster_var, caring)
+
+# Display the ICC results table with kable
+kable(icc_results, col.names = c("Outcome", "Cluster Variance", "Residual Variance", "ICC (Unadjusted)"), digits = 3)
+```
+
+# Baseline Analysis
+```{r}
+#| label: outcome-variables-analysis-baseline
+
+# Overall mean for continuous variables (baseline)
+
+caring |> 
+  summarize(
+    mean_birth_weight = mean(mean_birth_weight, nar.rm = TRUE),
+    var_birth_weight = var(mean_birth_weight, na.rm = TRUE),
+    mean_mat_muac = mean(mean_mat_muac_preg, na.rm = TRUE),
+    var_mat_muac = var(mean_mat_muac_preg, na.rm = TRUE),
+    mean_mat_bmi = mean(mat_bmi, na.rm = TRUE),
+    var_mat_bmi = var(mat_bmi, na.rm = TRUE),
+    mean_haz06_del = mean(haz06_delivery, na.rm = TRUE),
+    var_haz06_del = var(haz06_delivery, na.rm = TRUE),
+    mean_waz06_del = mean(waz06_delivery, na.rm = TRUE),
+    var_waz06_del = var(waz06_delivery, na.rm = TRUE),
+    mean_whz06_del = mean(whz06_delivery, na.rm = TRUE),
+    var_whz06_del = var(whz06_delivery, na.rm = TRUE),
+  )
+```
+
+
+# Correlation matrix 
+
+```{r}
+#| label: correlation-matrix
+
+# All variables
+filtered_data <- caring |> 
+  filter(na.rm = TRUE) |> 
+  select(haz06_delivery, haz06_three, haz06_six, haz06_nine, haz06_twelve, haz06_eighteen, waz06_delivery, waz06_three, waz06_six, waz06_nine, waz06_twelve, waz06_eighteen, whz06_delivery, whz06_three, whz06_six, whz06_nine, whz06_twelve, whz06_eighteen, diff_laz_birth_eighteen, mean_birth_weight, mean_muac_eighteen, mean_muac_twelve, mean_muac_nine, mean_muac_six, mean_mat_muac_preg, mat_bmi)
+correlation_matrix <- cor(filtered_data, use = "pairwise.complete.obs") |> 
+  round(2)
+print(correlation_matrix)
+
+# Baseline variables
+baseline_data <- caring |> 
+  filter(nar.rm = TRUE) |> 
+  select(mean_birth_weight, mat_bmi, mean_mat_muac_preg)
+baseline_correlation_matrix <- cor(baseline_data, use = "pairwise.complete.obs") |> 
+  round(2)
+print(baseline_correlation_matrix)
+
+# Timepoint months variables
+timepoint_data <- caring |> 
+  filter(nar.rm = TRUE) |> 
+  select(haz06_delivery, haz06_three, haz06_six, haz06_nine, haz06_twelve, haz06_eighteen, waz06_delivery, waz06_three, waz06_six, waz06_nine, waz06_twelve, waz06_eighteen, whz06_delivery, whz06_three, whz06_six, whz06_nine, whz06_twelve, whz06_eighteen, diff_laz_birth_eighteen, mean_muac_eighteen, mean_muac_twelve, mean_muac_nine, mean_muac_six)
+timepoint_correlation_matrix <- cor(timepoint_data, use = "pairwise.complete.obs") |> 
+  round(2)
+print(timepoint_correlation_matrix)
+```
+
+# Graphical Analysis
+```{r}
+#| label: graphs
+#| warning: false
+
+GGally::ggpairs(filtered_data)
+```
+
+# Categorical Variable Dataset Creation
+```{r}
+#| label: categorical-variable-dataset
+ 
+categorical <- caring_raw |> 
+  filter(eligibility_birth == 1) |>
+  select(case_id, tribe_caste, village_or_hamlet, parity, land_ownership, literacy, maternal_education, drinking_water_source, district, toilet_type, mother_age) |>
+  mutate(caste_status = factor(tribe_caste,
+                       levels = c(1, 2,3, 4),
+                       labels = c("Scheduled Tribe", "Scheduled Caste", "Other Backward Class", "Other")),
+         residence = factor(village_or_hamlet,
+                                     levels = c(1,2),
+                                     labels = c("Main Village", "Hamlet")),
+         land_ownership_status = factor(land_ownership,
+                                 levels = c(0, 1, 2, 3, 4),
+                                 labels = c("No Land", "Less than 2 Bighas", "Between 2 and 4 Bighas", "More than 4 Bighas", "Land Mortgaged")),
+         literacy_status = factor(literacy,
+                           levels = c(0,1),
+                           labels = c("Cannot read easily", "Can read easily")),
+         education = factor(maternal_education,
+                                     levels = c(1, 2,3,4),
+                                     labels = c("None or less than 3 years", "Primary",
+                                                "Lower secondary", "Higher secondary and above")),
+         water_source = factor(drinking_water_source,
+                                        levels = c(1, 2, 3, 4,5),
+                                        labels = c("Tap", "Hand pump or tubewell", "Covered dug well", "Uncovered dug well", "River, canal or spring")),
+         state = factor(district,
+                           levels = c(1,2),
+                           labels = c("Jharkhand", "Odisha")),
+         toilet_status = factor(toilet_type,
+                              levels = c(0,1,2),
+                              labels = c("Yes (open latrine)", "Yes (flush or cover latrine)", "No toilet"))) |> 
+  select(-tribe_caste, -village_or_hamlet, -land_ownership, -literacy, -maternal_education, -drinking_water_source, -district, -toilet_type,) |> 
+  rename(participant_id = case_id)
+  
+```
+
+# Master Dataset Creation
+```{r}
+#| label: master-dataset-creation
+
+master_data <- right_join(categorical, caring, by = "participant_id")
+```
+

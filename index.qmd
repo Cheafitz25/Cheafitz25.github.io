@@ -5,6 +5,8 @@ listing:
   contents:
     - aatrack.qmd
     - bbholyoke.qmd
+    - ccopioids.qmd
+    - ddbailey.qmd
   fields: [title]
 ---
 ## About Me

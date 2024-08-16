@@ -2,8 +2,6 @@
 title: "Contact Information"
 ---
 
-Phone Number: 781-513-6789
-
 Email: Camdenj43@gmail.com
 
 [LinkedIn](https://www.linkedin.com/in/camden-heafitz-398b67277/)
